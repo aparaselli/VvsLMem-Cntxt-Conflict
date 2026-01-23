@@ -1,0 +1,3577 @@
+ID,Instance,Category,Mis_Knowledge_Key,Context,Query,Response,Prob_A,Prob_B,Prob_C,Prob_D,Ground_Truth,Mis_Answer_Label
+1,Taylor Swift,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Taylor Swift.",0.495361328125,0.25390625,0.154052734375,0.09674072265625,C,A
+1,Taylor Swift,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Taylor Swift.",0.495361328125,0.25390625,0.154052734375,0.09674072265625,D,B
+1,Taylor Swift,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Taylor Swift.",0.495361328125,0.25390625,0.154052734375,0.09674072265625,A,B
+2,Elon Musk,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,C,A
+2,Elon Musk,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,A,C
+2,Elon Musk,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,D,C
+3,Cristiano Ronaldo,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cristiano Ronaldo.",0.004299163818359375,0.0014286041259765625,0.99169921875,0.0023822784423828125,C,A
+3,Cristiano Ronaldo,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cristiano Ronaldo.",0.004299163818359375,0.0014286041259765625,0.99169921875,0.0023822784423828125,C,B
+3,Cristiano Ronaldo,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cristiano Ronaldo.",0.004299163818359375,0.0014286041259765625,0.99169921875,0.0023822784423828125,B,C
+4,Dwayne Johnson,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Dwayne Johnson.",2.7954578399658203e-05,6.258487701416016e-06,9.5367431640625e-07,1.0,A,D
+4,Dwayne Johnson,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Dwayne Johnson.",2.7954578399658203e-05,6.258487701416016e-06,9.5367431640625e-07,1.0,C,A
+4,Dwayne Johnson,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Dwayne Johnson.",2.7954578399658203e-05,6.258487701416016e-06,9.5367431640625e-07,1.0,B,D
+5,Kim Kardashian,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kim Kardashian.",0.38037109375,0.06768798828125,0.09320068359375,0.458740234375,B,A
+5,Kim Kardashian,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kim Kardashian.",0.38037109375,0.06768798828125,0.09320068359375,0.458740234375,A,C
+5,Kim Kardashian,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kim Kardashian.",0.38037109375,0.06768798828125,0.09320068359375,0.458740234375,B,C
+6,Kanye West,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kanye West.",0.0280303955078125,0.0025272369384765625,0.0264434814453125,0.94287109375,C,D
+6,Kanye West,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kanye West.",0.0280303955078125,0.0025272369384765625,0.0264434814453125,0.94287109375,C,B
+6,Kanye West,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kanye West.",0.0280303955078125,0.0025272369384765625,0.0264434814453125,0.94287109375,C,A
+7,Barack Obama,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Barack Obama.",0.333984375,0.55078125,0.0290679931640625,0.08612060546875,D,A
+7,Barack Obama,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Barack Obama.",0.333984375,0.55078125,0.0290679931640625,0.08612060546875,B,D
+7,Barack Obama,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Barack Obama.",0.333984375,0.55078125,0.0290679931640625,0.08612060546875,A,C
+8,Oprah Winfrey,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Oprah Winfrey.",0.5634765625,0.0960693359375,0.05120849609375,0.2890625,B,A
+8,Oprah Winfrey,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Oprah Winfrey.",0.5634765625,0.0960693359375,0.05120849609375,0.2890625,A,D
+8,Oprah Winfrey,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Oprah Winfrey.",0.5634765625,0.0960693359375,0.05120849609375,0.2890625,B,C
+9,Tom Hanks,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tom Hanks.",0.2423095703125,0.15283203125,0.2205810546875,0.38427734375,C,B
+9,Tom Hanks,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tom Hanks.",0.2423095703125,0.15283203125,0.2205810546875,0.38427734375,B,A
+9,Tom Hanks,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tom Hanks.",0.2423095703125,0.15283203125,0.2205810546875,0.38427734375,A,C
+10,Jennifer Lopez,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Lopez.",0.1488037109375,0.022369384765625,0.0584716796875,0.7705078125,A,D
+10,Jennifer Lopez,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Lopez.",0.1488037109375,0.022369384765625,0.0584716796875,0.7705078125,B,D
+10,Jennifer Lopez,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Lopez.",0.1488037109375,0.022369384765625,0.0584716796875,0.7705078125,A,B
+11,Justin Bieber,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Justin Bieber.",0.2244873046875,0.46435546875,0.0635986328125,0.24755859375,C,A
+11,Justin Bieber,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Justin Bieber.",0.2244873046875,0.46435546875,0.0635986328125,0.24755859375,D,C
+11,Justin Bieber,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Justin Bieber.",0.2244873046875,0.46435546875,0.0635986328125,0.24755859375,B,D
+12,Rihanna,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Rihanna.",0.8046875,0.0576171875,0.0296630859375,0.1080322265625,A,B
+12,Rihanna,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Rihanna.",0.8046875,0.0576171875,0.0296630859375,0.1080322265625,B,C
+12,Rihanna,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Rihanna.",0.8046875,0.0576171875,0.0296630859375,0.1080322265625,B,C
+13,LeBron James,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  LeBron James.",0.275146484375,0.03826904296875,0.0445556640625,0.64208984375,B,A
+13,LeBron James,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  LeBron James.",0.275146484375,0.03826904296875,0.0445556640625,0.64208984375,D,A
+13,LeBron James,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  LeBron James.",0.275146484375,0.03826904296875,0.0445556640625,0.64208984375,D,C
+14,Bill Gates,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bill Gates.",0.02215576171875,0.953125,0.00733184814453125,0.01751708984375,A,B
+14,Bill Gates,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bill Gates.",0.02215576171875,0.953125,0.00733184814453125,0.01751708984375,A,B
+14,Bill Gates,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bill Gates.",0.02215576171875,0.953125,0.00733184814453125,0.01751708984375,A,D
+15,Jeff Bezos,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jeff Bezos.",0.1285400390625,0.45751953125,0.04620361328125,0.36767578125,C,D
+15,Jeff Bezos,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jeff Bezos.",0.1285400390625,0.45751953125,0.04620361328125,0.36767578125,B,C
+15,Jeff Bezos,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jeff Bezos.",0.1285400390625,0.45751953125,0.04620361328125,0.36767578125,B,D
+16,Mark Zuckerberg,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Mark Zuckerberg.",0.318359375,0.042572021484375,0.4072265625,0.23193359375,C,D
+16,Mark Zuckerberg,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Mark Zuckerberg.",0.318359375,0.042572021484375,0.4072265625,0.23193359375,A,B
+16,Mark Zuckerberg,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Mark Zuckerberg.",0.318359375,0.042572021484375,0.4072265625,0.23193359375,B,D
+17,Ariana Grande,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ariana Grande.",0.99951171875,5.704164505004883e-05,7.43865966796875e-05,0.0005908012390136719,B,C
+17,Ariana Grande,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ariana Grande.",0.99951171875,5.704164505004883e-05,7.43865966796875e-05,0.0005908012390136719,A,C
+17,Ariana Grande,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ariana Grande.",0.99951171875,5.704164505004883e-05,7.43865966796875e-05,0.0005908012390136719,A,C
+18,Lady Gaga,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lady Gaga.",0.249267578125,0.4658203125,0.08062744140625,0.2042236328125,C,A
+18,Lady Gaga,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lady Gaga.",0.249267578125,0.4658203125,0.08062744140625,0.2042236328125,C,D
+18,Lady Gaga,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lady Gaga.",0.249267578125,0.4658203125,0.08062744140625,0.2042236328125,A,B
+19,Chris Hemsworth,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chris Hemsworth.",0.341796875,0.07049560546875,0.461669921875,0.126220703125,C,A
+19,Chris Hemsworth,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chris Hemsworth.",0.341796875,0.07049560546875,0.461669921875,0.126220703125,D,B
+19,Chris Hemsworth,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chris Hemsworth.",0.341796875,0.07049560546875,0.461669921875,0.126220703125,A,B
+20,Scarlett Johansson,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Scarlett Johansson.",0.394775390625,0.052581787109375,0.319580078125,0.2330322265625,D,C
+20,Scarlett Johansson,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Scarlett Johansson.",0.394775390625,0.052581787109375,0.319580078125,0.2330322265625,D,A
+20,Scarlett Johansson,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Scarlett Johansson.",0.394775390625,0.052581787109375,0.319580078125,0.2330322265625,C,A
+21,Brad Pitt,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Brad Pitt.",0.0528564453125,0.859375,0.0290679931640625,0.058502197265625,C,D
+21,Brad Pitt,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Brad Pitt.",0.0528564453125,0.859375,0.0290679931640625,0.058502197265625,B,A
+21,Brad Pitt,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Brad Pitt.",0.0528564453125,0.859375,0.0290679931640625,0.058502197265625,B,C
+22,Johnny Depp,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Johnny Depp.",0.06982421875,0.032958984375,0.0130615234375,0.88427734375,A,D
+22,Johnny Depp,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Johnny Depp.",0.06982421875,0.032958984375,0.0130615234375,0.88427734375,C,D
+22,Johnny Depp,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Johnny Depp.",0.06982421875,0.032958984375,0.0130615234375,0.88427734375,A,C
+23,Will Smith,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Will Smith.",0.26416015625,0.03411865234375,0.1427001953125,0.55908203125,A,B
+23,Will Smith,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Will Smith.",0.26416015625,0.03411865234375,0.1427001953125,0.55908203125,A,C
+23,Will Smith,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Will Smith.",0.26416015625,0.03411865234375,0.1427001953125,0.55908203125,B,C
+24,Kevin Hart,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kevin Hart.",0.2095947265625,0.0294952392578125,0.065673828125,0.6953125,A,C
+24,Kevin Hart,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kevin Hart.",0.2095947265625,0.0294952392578125,0.065673828125,0.6953125,C,B
+24,Kevin Hart,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kevin Hart.",0.2095947265625,0.0294952392578125,0.065673828125,0.6953125,A,C
+25,The Rock,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Dwayne Johnson.",3.159046173095703e-05,4.708766937255859e-06,1.0132789611816406e-06,1.0,C,D
+25,The Rock,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Dwayne Johnson.",3.159046173095703e-05,4.708766937255859e-06,1.0132789611816406e-06,1.0,D,A
+25,The Rock,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Dwayne Johnson.",3.159046173095703e-05,4.708766937255859e-06,1.0132789611816406e-06,1.0,C,A
+26,Emma Watson,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Watson.",0.3720703125,0.322021484375,0.10699462890625,0.1990966796875,C,A
+26,Emma Watson,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Watson.",0.3720703125,0.322021484375,0.10699462890625,0.1990966796875,C,D
+26,Emma Watson,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Watson.",0.3720703125,0.322021484375,0.10699462890625,0.1990966796875,D,B
+27,Daniel Radcliffe,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Daniel Radcliffe.",0.00482177734375,0.0014705657958984375,0.003814697265625,0.98974609375,C,D
+27,Daniel Radcliffe,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Daniel Radcliffe.",0.00482177734375,0.0014705657958984375,0.003814697265625,0.98974609375,C,B
+27,Daniel Radcliffe,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Daniel Radcliffe.",0.00482177734375,0.0014705657958984375,0.003814697265625,0.98974609375,B,A
+28,Selena Gomez,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Selena Gomez.",0.130859375,0.01296234130859375,0.031951904296875,0.82421875,A,C
+28,Selena Gomez,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Selena Gomez.",0.130859375,0.01296234130859375,0.031951904296875,0.82421875,B,C
+28,Selena Gomez,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Selena Gomez.",0.130859375,0.01296234130859375,0.031951904296875,0.82421875,B,A
+29,Zendaya,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Zendaya.",0.408203125,0.08966064453125,0.0758056640625,0.42626953125,C,D
+29,Zendaya,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Zendaya.",0.408203125,0.08966064453125,0.0758056640625,0.42626953125,C,D
+29,Zendaya,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Zendaya.",0.408203125,0.08966064453125,0.0758056640625,0.42626953125,C,A
+30,Tom Holland,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tom Holland.",0.1558837890625,0.0413818359375,0.74072265625,0.061767578125,C,D
+30,Tom Holland,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tom Holland.",0.1558837890625,0.0413818359375,0.74072265625,0.061767578125,B,D
+30,Tom Holland,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tom Holland.",0.1558837890625,0.0413818359375,0.74072265625,0.061767578125,B,C
+31,Chris Pratt,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chris Pratt.",0.265380859375,0.12939453125,0.29736328125,0.307861328125,C,B
+31,Chris Pratt,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chris Pratt.",0.265380859375,0.12939453125,0.29736328125,0.307861328125,A,D
+31,Chris Pratt,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chris Pratt.",0.265380859375,0.12939453125,0.29736328125,0.307861328125,D,B
+32,Jennifer Lawrence,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Lawrence.",0.287353515625,0.1876220703125,0.11834716796875,0.40673828125,A,C
+32,Jennifer Lawrence,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Lawrence.",0.287353515625,0.1876220703125,0.11834716796875,0.40673828125,A,B
+32,Jennifer Lawrence,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Lawrence.",0.287353515625,0.1876220703125,0.11834716796875,0.40673828125,A,D
+33,Gal Gadot,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Gal Gadot.",0.08282470703125,0.03399658203125,0.0298919677734375,0.85302734375,A,D
+33,Gal Gadot,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Gal Gadot.",0.08282470703125,0.03399658203125,0.0298919677734375,0.85302734375,A,B
+33,Gal Gadot,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Gal Gadot.",0.08282470703125,0.03399658203125,0.0298919677734375,0.85302734375,C,D
+34,Henry Cavill,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Henry Cavill.",0.034912109375,0.01861572265625,0.86572265625,0.080810546875,D,A
+34,Henry Cavill,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Henry Cavill.",0.034912109375,0.01861572265625,0.86572265625,0.080810546875,C,B
+34,Henry Cavill,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Henry Cavill.",0.034912109375,0.01861572265625,0.86572265625,0.080810546875,C,D
+35,Benedict Cumberbatch,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Benedict Cumberbatch.",0.007099151611328125,0.55322265625,0.43408203125,0.0055084228515625,B,C
+35,Benedict Cumberbatch,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Benedict Cumberbatch.",0.007099151611328125,0.55322265625,0.43408203125,0.0055084228515625,A,D
+35,Benedict Cumberbatch,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Benedict Cumberbatch.",0.007099151611328125,0.55322265625,0.43408203125,0.0055084228515625,D,A
+36,Keanu Reeves,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Keanu Reeves.",0.265625,0.0992431640625,0.196533203125,0.438720703125,B,C
+36,Keanu Reeves,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Keanu Reeves.",0.265625,0.0992431640625,0.196533203125,0.438720703125,B,C
+36,Keanu Reeves,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Keanu Reeves.",0.265625,0.0992431640625,0.196533203125,0.438720703125,C,D
+37,Ryan Reynolds,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ryan Reynolds.",0.15966796875,0.11981201171875,0.10992431640625,0.61083984375,A,D
+37,Ryan Reynolds,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ryan Reynolds.",0.15966796875,0.11981201171875,0.10992431640625,0.61083984375,D,A
+37,Ryan Reynolds,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ryan Reynolds.",0.15966796875,0.11981201171875,0.10992431640625,0.61083984375,A,B
+38,Hugh Jackman,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Hugh Jackman.",0.162109375,0.1334228515625,0.242431640625,0.4619140625,A,C
+38,Hugh Jackman,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Hugh Jackman.",0.162109375,0.1334228515625,0.242431640625,0.4619140625,C,D
+38,Hugh Jackman,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Hugh Jackman.",0.162109375,0.1334228515625,0.242431640625,0.4619140625,C,D
+39,Priyanka Chopra,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Priyanka Chopra.",0.59521484375,0.145263671875,0.06884765625,0.19091796875,D,B
+39,Priyanka Chopra,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Priyanka Chopra.",0.59521484375,0.145263671875,0.06884765625,0.19091796875,A,B
+39,Priyanka Chopra,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Priyanka Chopra.",0.59521484375,0.145263671875,0.06884765625,0.19091796875,A,C
+40,Nicki Minaj,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Nicki Minaj.",0.60205078125,0.09674072265625,0.113525390625,0.1878662109375,D,B
+40,Nicki Minaj,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Nicki Minaj.",0.60205078125,0.09674072265625,0.113525390625,0.1878662109375,B,C
+40,Nicki Minaj,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Nicki Minaj.",0.60205078125,0.09674072265625,0.113525390625,0.1878662109375,B,C
+41,Cardi B,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cardi B.",0.08489990234375,0.1197509765625,0.73095703125,0.0645751953125,B,C
+41,Cardi B,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cardi B.",0.08489990234375,0.1197509765625,0.73095703125,0.0645751953125,B,A
+41,Cardi B,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cardi B.",0.08489990234375,0.1197509765625,0.73095703125,0.0645751953125,D,B
+42,Post Malone,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.407470703125,0.0716552734375,0.1627197265625,0.358154296875,A,D
+42,Post Malone,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.407470703125,0.0716552734375,0.1627197265625,0.358154296875,A,D
+42,Post Malone,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.407470703125,0.0716552734375,0.1627197265625,0.358154296875,A,D
+43,Ed Sheeran,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ed Sheeran.",0.283935546875,0.1427001953125,0.2362060546875,0.337158203125,A,B
+43,Ed Sheeran,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ed Sheeran.",0.283935546875,0.1427001953125,0.2362060546875,0.337158203125,A,B
+43,Ed Sheeran,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ed Sheeran.",0.283935546875,0.1427001953125,0.2362060546875,0.337158203125,B,C
+44,Bruno Mars,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bruno Mars.",0.007083892822265625,0.9873046875,0.0007853507995605469,0.0045928955078125,A,D
+44,Bruno Mars,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bruno Mars.",0.007083892822265625,0.9873046875,0.0007853507995605469,0.0045928955078125,D,B
+44,Bruno Mars,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bruno Mars.",0.007083892822265625,0.9873046875,0.0007853507995605469,0.0045928955078125,B,C
+45,Adele,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Adele.",0.99853515625,0.0002777576446533203,0.0009465217590332031,0.0004284381866455078,B,A
+45,Adele,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Adele.",0.99853515625,0.0002777576446533203,0.0009465217590332031,0.0004284381866455078,A,D
+45,Adele,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Adele.",0.99853515625,0.0002777576446533203,0.0009465217590332031,0.0004284381866455078,B,A
+46,Harry Styles,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Harry Styles.",0.430908203125,0.08685302734375,0.25439453125,0.2279052734375,A,C
+46,Harry Styles,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Harry Styles.",0.430908203125,0.08685302734375,0.25439453125,0.2279052734375,D,B
+46,Harry Styles,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Harry Styles.",0.430908203125,0.08685302734375,0.25439453125,0.2279052734375,A,C
+47,Shawn Mendes,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shawn Mendes.",0.69970703125,0.05377197265625,0.11883544921875,0.12744140625,D,C
+47,Shawn Mendes,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shawn Mendes.",0.69970703125,0.05377197265625,0.11883544921875,0.12744140625,D,A
+47,Shawn Mendes,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shawn Mendes.",0.69970703125,0.05377197265625,0.11883544921875,0.12744140625,A,B
+48,Billie Eilish,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Billie Eilish.",0.09869384765625,0.794921875,0.01032257080078125,0.0960693359375,A,C
+48,Billie Eilish,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Billie Eilish.",0.09869384765625,0.794921875,0.01032257080078125,0.0960693359375,C,B
+48,Billie Eilish,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Billie Eilish.",0.09869384765625,0.794921875,0.01032257080078125,0.0960693359375,D,C
+49,Serena Williams,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Serena Williams.",0.55078125,0.11590576171875,0.213134765625,0.12005615234375,A,B
+49,Serena Williams,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Serena Williams.",0.55078125,0.11590576171875,0.213134765625,0.12005615234375,B,A
+49,Serena Williams,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Serena Williams.",0.55078125,0.11590576171875,0.213134765625,0.12005615234375,D,C
+50,Roger Federer,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Roger Federer.",0.3115234375,0.148193359375,0.47119140625,0.0692138671875,C,B
+50,Roger Federer,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Roger Federer.",0.3115234375,0.148193359375,0.47119140625,0.0692138671875,B,C
+50,Roger Federer,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Roger Federer.",0.3115234375,0.148193359375,0.47119140625,0.0692138671875,D,B
+51,Novak Djokovic,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Novak Djokovic.",0.0031032562255859375,0.0020351409912109375,0.0008111000061035156,0.994140625,A,B
+51,Novak Djokovic,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Novak Djokovic.",0.0031032562255859375,0.0020351409912109375,0.0008111000061035156,0.994140625,C,D
+51,Novak Djokovic,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Novak Djokovic.",0.0031032562255859375,0.0020351409912109375,0.0008111000061035156,0.994140625,A,C
+52,Kobe Bryant,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kobe Bryant.",0.125732421875,0.11224365234375,0.0718994140625,0.68994140625,D,B
+52,Kobe Bryant,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kobe Bryant.",0.125732421875,0.11224365234375,0.0718994140625,0.68994140625,A,C
+52,Kobe Bryant,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kobe Bryant.",0.125732421875,0.11224365234375,0.0718994140625,0.68994140625,B,C
+53,Stephen Curry,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen Curry.",0.09747314453125,0.10418701171875,0.0753173828125,0.72314453125,C,D
+53,Stephen Curry,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen Curry.",0.09747314453125,0.10418701171875,0.0753173828125,0.72314453125,A,B
+53,Stephen Curry,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen Curry.",0.09747314453125,0.10418701171875,0.0753173828125,0.72314453125,A,C
+54,Usain Bolt,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Usain Bolt.",0.07611083984375,0.6474609375,0.2325439453125,0.044036865234375,D,C
+54,Usain Bolt,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Usain Bolt.",0.07611083984375,0.6474609375,0.2325439453125,0.044036865234375,B,C
+54,Usain Bolt,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Usain Bolt.",0.07611083984375,0.6474609375,0.2325439453125,0.044036865234375,B,C
+55,Simone Biles,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Simone Biles.",0.0013828277587890625,0.998046875,0.0001017451286315918,0.0002384185791015625,D,B
+55,Simone Biles,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Simone Biles.",0.0013828277587890625,0.998046875,0.0001017451286315918,0.0002384185791015625,D,C
+55,Simone Biles,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Simone Biles.",0.0013828277587890625,0.998046875,0.0001017451286315918,0.0002384185791015625,B,D
+56,Lewis Hamilton,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lewis Hamilton.",0.64404296875,0.248291015625,0.0189971923828125,0.0888671875,D,A
+56,Lewis Hamilton,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lewis Hamilton.",0.64404296875,0.248291015625,0.0189971923828125,0.0888671875,A,C
+56,Lewis Hamilton,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lewis Hamilton.",0.64404296875,0.248291015625,0.0189971923828125,0.0888671875,D,B
+57,Virat Kohli,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Virat Kohli.",0.68115234375,0.1090087890625,0.078857421875,0.1309814453125,A,D
+57,Virat Kohli,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Virat Kohli.",0.68115234375,0.1090087890625,0.078857421875,0.1309814453125,C,B
+57,Virat Kohli,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Virat Kohli.",0.68115234375,0.1090087890625,0.078857421875,0.1309814453125,A,D
+58,Elon Musk,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,B,D
+58,Elon Musk,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,D,B
+58,Elon Musk,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,C,B
+59,Jeff Bezos,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jeff Bezos.",0.1285400390625,0.45751953125,0.04620361328125,0.36767578125,A,D
+59,Jeff Bezos,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jeff Bezos.",0.1285400390625,0.45751953125,0.04620361328125,0.36767578125,D,A
+59,Jeff Bezos,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jeff Bezos.",0.1285400390625,0.45751953125,0.04620361328125,0.36767578125,D,C
+60,Jack Ma,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jack Ma.",0.1192626953125,0.397216796875,0.380615234375,0.10284423828125,A,B
+60,Jack Ma,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jack Ma.",0.1192626953125,0.397216796875,0.380615234375,0.10284423828125,C,D
+60,Jack Ma,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jack Ma.",0.1192626953125,0.397216796875,0.380615234375,0.10284423828125,A,C
+61,Tim Cook,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tim Cook.",0.2415771484375,0.06500244140625,0.38916015625,0.30419921875,D,B
+61,Tim Cook,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tim Cook.",0.2415771484375,0.06500244140625,0.38916015625,0.30419921875,C,B
+61,Tim Cook,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Tim Cook.",0.2415771484375,0.06500244140625,0.38916015625,0.30419921875,A,D
+62,Satya Nadella,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Satya Nadella.",0.27783203125,0.29345703125,0.037139892578125,0.3916015625,D,A
+62,Satya Nadella,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Satya Nadella.",0.27783203125,0.29345703125,0.037139892578125,0.3916015625,D,B
+62,Satya Nadella,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Satya Nadella.",0.27783203125,0.29345703125,0.037139892578125,0.3916015625,B,C
+63,Michelle Obama,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Michelle Obama.",0.47900390625,0.11785888671875,0.1688232421875,0.234375,A,B
+63,Michelle Obama,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Michelle Obama.",0.47900390625,0.11785888671875,0.1688232421875,0.234375,C,D
+63,Michelle Obama,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Michelle Obama.",0.47900390625,0.11785888671875,0.1688232421875,0.234375,B,A
+64,Donald Trump,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Donald Trump.",0.042205810546875,0.00273895263671875,0.002223968505859375,0.95263671875,A,D
+64,Donald Trump,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Donald Trump.",0.042205810546875,0.00273895263671875,0.002223968505859375,0.95263671875,B,C
+64,Donald Trump,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Donald Trump.",0.042205810546875,0.00273895263671875,0.002223968505859375,0.95263671875,D,B
+65,Justin Trudeau,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Justin Trudeau.",0.1678466796875,0.5146484375,0.1968994140625,0.12042236328125,C,B
+65,Justin Trudeau,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Justin Trudeau.",0.1678466796875,0.5146484375,0.1968994140625,0.12042236328125,D,B
+65,Justin Trudeau,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Justin Trudeau.",0.1678466796875,0.5146484375,0.1968994140625,0.12042236328125,D,C
+66,Angela Merkel,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Angela Merkel.",0.88330078125,0.07904052734375,0.02850341796875,0.0089874267578125,C,B
+66,Angela Merkel,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Angela Merkel.",0.88330078125,0.07904052734375,0.02850341796875,0.0089874267578125,D,C
+66,Angela Merkel,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Angela Merkel.",0.88330078125,0.07904052734375,0.02850341796875,0.0089874267578125,A,D
+67,Elon Musk,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,D,B
+67,Elon Musk,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,D,B
+67,Elon Musk,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Elon Musk.",0.62255859375,0.159912109375,0.06744384765625,0.150146484375,C,B
+68,Malala Yousafzai,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Malala Yousafzai.",0.85400390625,0.1187744140625,0.01446533203125,0.0125732421875,D,C
+68,Malala Yousafzai,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Malala Yousafzai.",0.85400390625,0.1187744140625,0.01446533203125,0.0125732421875,A,C
+68,Malala Yousafzai,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Malala Yousafzai.",0.85400390625,0.1187744140625,0.01446533203125,0.0125732421875,B,A
+69,Emma Watson,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Watson.",0.3720703125,0.322021484375,0.10699462890625,0.1990966796875,C,B
+69,Emma Watson,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Watson.",0.3720703125,0.322021484375,0.10699462890625,0.1990966796875,C,B
+69,Emma Watson,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Watson.",0.3720703125,0.322021484375,0.10699462890625,0.1990966796875,D,A
+70,Ellen DeGeneres,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ellen DeGeneres.",0.09832763671875,0.04681396484375,0.1112060546875,0.74365234375,D,B
+70,Ellen DeGeneres,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ellen DeGeneres.",0.09832763671875,0.04681396484375,0.1112060546875,0.74365234375,A,D
+70,Ellen DeGeneres,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ellen DeGeneres.",0.09832763671875,0.04681396484375,0.1112060546875,0.74365234375,B,C
+71,Jimmy Fallon,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jimmy Fallon.",0.2431640625,0.08453369140625,0.182861328125,0.4892578125,B,A
+71,Jimmy Fallon,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jimmy Fallon.",0.2431640625,0.08453369140625,0.182861328125,0.4892578125,B,D
+71,Jimmy Fallon,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jimmy Fallon.",0.2431640625,0.08453369140625,0.182861328125,0.4892578125,A,C
+72,Stephen Colbert,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen Colbert.",0.057037353515625,0.0313720703125,0.88623046875,0.0255889892578125,D,A
+72,Stephen Colbert,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen Colbert.",0.057037353515625,0.0313720703125,0.88623046875,0.0255889892578125,B,C
+72,Stephen Colbert,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen Colbert.",0.057037353515625,0.0313720703125,0.88623046875,0.0255889892578125,D,C
+73,Conan O'Brien,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Conan O'Brien.",0.11517333984375,0.166259765625,0.298828125,0.419677734375,A,D
+73,Conan O'Brien,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Conan O'Brien.",0.11517333984375,0.166259765625,0.298828125,0.419677734375,C,D
+73,Conan O'Brien,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Conan O'Brien.",0.11517333984375,0.166259765625,0.298828125,0.419677734375,A,B
+74,Trevor Noah,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Trevor Noah.",0.32861328125,0.100830078125,0.1090087890625,0.461669921875,C,D
+74,Trevor Noah,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Trevor Noah.",0.32861328125,0.100830078125,0.1090087890625,0.461669921875,B,D
+74,Trevor Noah,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Trevor Noah.",0.32861328125,0.100830078125,0.1090087890625,0.461669921875,D,A
+75,John Cena,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  John Cena.",0.36962890625,0.166015625,0.08746337890625,0.376953125,A,B
+75,John Cena,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  John Cena.",0.36962890625,0.166015625,0.08746337890625,0.376953125,C,B
+75,John Cena,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  John Cena.",0.36962890625,0.166015625,0.08746337890625,0.376953125,D,A
+76,Floyd Mayweather,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Floyd Mayweather Jr.",0.13037109375,0.0428466796875,0.60302734375,0.2236328125,C,D
+76,Floyd Mayweather,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Floyd Mayweather Jr.",0.13037109375,0.0428466796875,0.60302734375,0.2236328125,B,C
+76,Floyd Mayweather,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Floyd Mayweather Jr.",0.13037109375,0.0428466796875,0.60302734375,0.2236328125,C,D
+77,Gordon Ramsay,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Gordon Ramsay.",0.431640625,0.2047119140625,0.1387939453125,0.224853515625,C,B
+77,Gordon Ramsay,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Gordon Ramsay.",0.431640625,0.2047119140625,0.1387939453125,0.224853515625,D,A
+77,Gordon Ramsay,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Gordon Ramsay.",0.431640625,0.2047119140625,0.1387939453125,0.224853515625,C,B
+78,Jamie Oliver,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jamie Oliver.",0.446044921875,0.251220703125,0.1268310546875,0.176025390625,B,D
+78,Jamie Oliver,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jamie Oliver.",0.446044921875,0.251220703125,0.1268310546875,0.176025390625,A,C
+78,Jamie Oliver,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jamie Oliver.",0.446044921875,0.251220703125,0.1268310546875,0.176025390625,B,D
+79,Martha Stewart,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Martha Stewart.",0.2548828125,0.2357177734375,0.1148681640625,0.394775390625,B,A
+79,Martha Stewart,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Martha Stewart.",0.2548828125,0.2357177734375,0.1148681640625,0.394775390625,B,A
+79,Martha Stewart,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Martha Stewart.",0.2548828125,0.2357177734375,0.1148681640625,0.394775390625,C,B
+80,Reese Witherspoon,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Reese Witherspoon.",0.32958984375,0.1434326171875,0.097412109375,0.4296875,C,D
+80,Reese Witherspoon,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Reese Witherspoon.",0.32958984375,0.1434326171875,0.097412109375,0.4296875,B,A
+80,Reese Witherspoon,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Reese Witherspoon.",0.32958984375,0.1434326171875,0.097412109375,0.4296875,C,B
+81,Anne Hathaway,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Anne Hathaway.",0.4599609375,0.0213470458984375,0.48974609375,0.0290679931640625,B,D
+81,Anne Hathaway,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Anne Hathaway.",0.4599609375,0.0213470458984375,0.48974609375,0.0290679931640625,A,D
+81,Anne Hathaway,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Anne Hathaway.",0.4599609375,0.0213470458984375,0.48974609375,0.0290679931640625,A,C
+82,Natalie Portman,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Keira Knightley.",0.51123046875,0.059906005859375,0.056060791015625,0.37255859375,D,A
+82,Natalie Portman,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Keira Knightley.",0.51123046875,0.059906005859375,0.056060791015625,0.37255859375,C,B
+82,Natalie Portman,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Keira Knightley.",0.51123046875,0.059906005859375,0.056060791015625,0.37255859375,B,D
+83,Emma Stone,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Stone.",0.356689453125,0.221435546875,0.1429443359375,0.27880859375,D,A
+83,Emma Stone,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Stone.",0.356689453125,0.221435546875,0.1429443359375,0.27880859375,B,D
+83,Emma Stone,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emma Stone.",0.356689453125,0.221435546875,0.1429443359375,0.27880859375,C,D
+84,Ryan Gosling,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ryan Gosling.",0.366943359375,0.10595703125,0.253173828125,0.273681640625,A,D
+84,Ryan Gosling,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ryan Gosling.",0.366943359375,0.10595703125,0.253173828125,0.273681640625,D,C
+84,Ryan Gosling,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ryan Gosling.",0.366943359375,0.10595703125,0.253173828125,0.273681640625,D,A
+85,Matthew McConaughey,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matthew McConaughey.",0.14697265625,0.11187744140625,0.358154296875,0.3828125,B,A
+85,Matthew McConaughey,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matthew McConaughey.",0.14697265625,0.11187744140625,0.358154296875,0.3828125,A,C
+85,Matthew McConaughey,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matthew McConaughey.",0.14697265625,0.11187744140625,0.358154296875,0.3828125,B,C
+86,Leonardo DiCaprio,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Leonardo DiCaprio.",0.028350830078125,0.0095367431640625,0.07647705078125,0.8857421875,A,C
+86,Leonardo DiCaprio,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Leonardo DiCaprio.",0.028350830078125,0.0095367431640625,0.07647705078125,0.8857421875,D,B
+86,Leonardo DiCaprio,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Leonardo DiCaprio.",0.028350830078125,0.0095367431640625,0.07647705078125,0.8857421875,B,C
+87,Matt Damon,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matt Damon.",0.18359375,0.1429443359375,0.0670166015625,0.6064453125,A,D
+87,Matt Damon,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matt Damon.",0.18359375,0.1429443359375,0.0670166015625,0.6064453125,D,A
+87,Matt Damon,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matt Damon.",0.18359375,0.1429443359375,0.0670166015625,0.6064453125,B,D
+88,Ben Affleck,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ben Affleck.",0.11663818359375,0.79052734375,0.02191162109375,0.07073974609375,D,A
+88,Ben Affleck,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ben Affleck.",0.11663818359375,0.79052734375,0.02191162109375,0.07073974609375,B,D
+88,Ben Affleck,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ben Affleck.",0.11663818359375,0.79052734375,0.02191162109375,0.07073974609375,C,A
+89,George Clooney,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  George Clooney.",0.148681640625,0.0771484375,0.6044921875,0.1697998046875,A,D
+89,George Clooney,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  George Clooney.",0.148681640625,0.0771484375,0.6044921875,0.1697998046875,A,C
+89,George Clooney,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  George Clooney.",0.148681640625,0.0771484375,0.6044921875,0.1697998046875,B,C
+90,Julia Roberts,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Julia Roberts.",0.388916015625,0.22509765625,0.055816650390625,0.330078125,A,C
+90,Julia Roberts,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Julia Roberts.",0.388916015625,0.22509765625,0.055816650390625,0.330078125,A,D
+90,Julia Roberts,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Julia Roberts.",0.388916015625,0.22509765625,0.055816650390625,0.330078125,D,B
+91,Nicole Kidman,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Nicole Kidman.",0.469482421875,0.1258544921875,0.2027587890625,0.201904296875,C,D
+91,Nicole Kidman,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Nicole Kidman.",0.469482421875,0.1258544921875,0.2027587890625,0.201904296875,A,C
+91,Nicole Kidman,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Nicole Kidman.",0.469482421875,0.1258544921875,0.2027587890625,0.201904296875,A,D
+92,Meryl Streep,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Meryl Streep.",0.058929443359375,0.499267578125,0.1292724609375,0.3125,A,D
+92,Meryl Streep,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Meryl Streep.",0.058929443359375,0.499267578125,0.1292724609375,0.3125,B,D
+92,Meryl Streep,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Meryl Streep.",0.058929443359375,0.499267578125,0.1292724609375,0.3125,A,C
+93,Cate Blanchett,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cate Blanchett.",3.0219554901123047e-05,5.185604095458984e-06,1.0,2.1457672119140625e-06,C,A
+93,Cate Blanchett,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cate Blanchett.",3.0219554901123047e-05,5.185604095458984e-06,1.0,2.1457672119140625e-06,A,C
+93,Cate Blanchett,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Cate Blanchett.",3.0219554901123047e-05,5.185604095458984e-06,1.0,2.1457672119140625e-06,B,D
+94,Charlize Theron,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Charlize Theron.",0.218994140625,0.099853515625,0.468994140625,0.212158203125,D,C
+94,Charlize Theron,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Charlize Theron.",0.218994140625,0.099853515625,0.468994140625,0.212158203125,D,C
+94,Charlize Theron,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Charlize Theron.",0.218994140625,0.099853515625,0.468994140625,0.212158203125,C,D
+95,Idris Elba,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Idris Elba.",0.650390625,0.10699462890625,0.0721435546875,0.17041015625,A,C
+95,Idris Elba,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Idris Elba.",0.650390625,0.10699462890625,0.0721435546875,0.17041015625,A,D
+95,Idris Elba,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Idris Elba.",0.650390625,0.10699462890625,0.0721435546875,0.17041015625,A,C
+96,Denzel Washington,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Denzel Washington.",0.0003376007080078125,0.0007176399230957031,0.0002765655517578125,0.99853515625,B,C
+96,Denzel Washington,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Denzel Washington.",0.0003376007080078125,0.0007176399230957031,0.0002765655517578125,0.99853515625,C,B
+96,Denzel Washington,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Denzel Washington.",0.0003376007080078125,0.0007176399230957031,0.0002765655517578125,0.99853515625,D,B
+97,Morgan Freeman,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Morgan Freeman.",0.06585693359375,0.1151123046875,0.09429931640625,0.724609375,D,B
+97,Morgan Freeman,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Morgan Freeman.",0.06585693359375,0.1151123046875,0.09429931640625,0.724609375,B,D
+97,Morgan Freeman,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Morgan Freeman.",0.06585693359375,0.1151123046875,0.09429931640625,0.724609375,A,D
+98,Samuel L,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Samuel L. Jackson.",0.201904296875,0.10723876953125,0.10430908203125,0.58642578125,D,B
+98,Samuel L,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Samuel L. Jackson.",0.201904296875,0.10723876953125,0.10430908203125,0.58642578125,B,A
+98,Samuel L,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Samuel L. Jackson.",0.201904296875,0.10723876953125,0.10430908203125,0.58642578125,D,A
+99,Liam Neeson,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Liam Neeson.",0.32470703125,0.1434326171875,0.26806640625,0.263916015625,B,C
+99,Liam Neeson,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Liam Neeson.",0.32470703125,0.1434326171875,0.26806640625,0.263916015625,D,B
+99,Liam Neeson,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Liam Neeson.",0.32470703125,0.1434326171875,0.26806640625,0.263916015625,C,D
+100,Jason Statham,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jason Statham.",0.26904296875,0.1778564453125,0.06378173828125,0.4892578125,D,A
+100,Jason Statham,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jason Statham.",0.26904296875,0.1778564453125,0.06378173828125,0.4892578125,B,C
+100,Jason Statham,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jason Statham.",0.26904296875,0.1778564453125,0.06378173828125,0.4892578125,B,A
+101,Vin Diesel,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Vin Diesel.",0.0092620849609375,0.0063934326171875,0.0016841888427734375,0.982421875,B,A
+101,Vin Diesel,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Vin Diesel.",0.0092620849609375,0.0063934326171875,0.0016841888427734375,0.982421875,B,D
+101,Vin Diesel,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Vin Diesel.",0.0092620849609375,0.0063934326171875,0.0016841888427734375,0.982421875,A,D
+102,Arnold Schwarzenegger,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Arnold Schwarzenegger.",0.93603515625,0.0156402587890625,0.0190887451171875,0.0290069580078125,B,A
+102,Arnold Schwarzenegger,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Arnold Schwarzenegger.",0.93603515625,0.0156402587890625,0.0190887451171875,0.0290069580078125,D,C
+102,Arnold Schwarzenegger,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Arnold Schwarzenegger.",0.93603515625,0.0156402587890625,0.0190887451171875,0.0290069580078125,A,D
+103,Sylvester Stallone,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Sylvester Stallone.",0.2135009765625,0.353515625,0.1400146484375,0.29296875,A,B
+103,Sylvester Stallone,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Sylvester Stallone.",0.2135009765625,0.353515625,0.1400146484375,0.29296875,C,A
+103,Sylvester Stallone,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Sylvester Stallone.",0.2135009765625,0.353515625,0.1400146484375,0.29296875,A,C
+104,Jackie Chan,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jackie Chan.",0.279296875,0.1591796875,0.426025390625,0.1356201171875,D,B
+104,Jackie Chan,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jackie Chan.",0.279296875,0.1591796875,0.426025390625,0.1356201171875,C,B
+104,Jackie Chan,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jackie Chan.",0.279296875,0.1591796875,0.426025390625,0.1356201171875,D,C
+105,Jet Li,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chow Yun-fat.",0.2042236328125,0.364013671875,0.0634765625,0.368408203125,C,B
+105,Jet Li,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chow Yun-fat.",0.2042236328125,0.364013671875,0.0634765625,0.368408203125,C,A
+105,Jet Li,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chow Yun-fat.",0.2042236328125,0.364013671875,0.0634765625,0.368408203125,B,A
+106,Bruce Willis,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bruce Willis.",0.0211639404296875,0.93212890625,0.0231475830078125,0.0237884521484375,D,C
+106,Bruce Willis,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bruce Willis.",0.0211639404296875,0.93212890625,0.0231475830078125,0.0237884521484375,B,C
+106,Bruce Willis,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Bruce Willis.",0.0211639404296875,0.93212890625,0.0231475830078125,0.0237884521484375,D,A
+107,Steven Spielberg,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Steven Spielberg.",0.2978515625,0.1416015625,0.26708984375,0.29345703125,A,B
+107,Steven Spielberg,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Steven Spielberg.",0.2978515625,0.1416015625,0.26708984375,0.29345703125,A,D
+107,Steven Spielberg,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Steven Spielberg.",0.2978515625,0.1416015625,0.26708984375,0.29345703125,A,C
+108,Quentin Tarantino,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Quentin Tarantino.",0.11376953125,0.270751953125,0.441162109375,0.1741943359375,B,A
+108,Quentin Tarantino,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Quentin Tarantino.",0.11376953125,0.270751953125,0.441162109375,0.1741943359375,C,B
+108,Quentin Tarantino,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Quentin Tarantino.",0.11376953125,0.270751953125,0.441162109375,0.1741943359375,C,B
+109,Christopher Nolan,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Christopher Nolan.",0.0880126953125,0.0804443359375,0.6181640625,0.213623046875,C,A
+109,Christopher Nolan,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Christopher Nolan.",0.0880126953125,0.0804443359375,0.6181640625,0.213623046875,B,D
+109,Christopher Nolan,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Christopher Nolan.",0.0880126953125,0.0804443359375,0.6181640625,0.213623046875,C,D
+110,James Cameron,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  James Cameron.",0.340087890625,0.05841064453125,0.304931640625,0.296630859375,D,C
+110,James Cameron,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  James Cameron.",0.340087890625,0.05841064453125,0.304931640625,0.296630859375,A,C
+110,James Cameron,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  James Cameron.",0.340087890625,0.05841064453125,0.304931640625,0.296630859375,C,A
+111,Stephen King,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen King.",0.3515625,0.08734130859375,0.247314453125,0.31396484375,C,A
+111,Stephen King,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen King.",0.3515625,0.08734130859375,0.247314453125,0.31396484375,D,C
+111,Stephen King,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Stephen King.",0.3515625,0.08734130859375,0.247314453125,0.31396484375,D,A
+112,John Green,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jonathan Haidt.",0.166748046875,0.662109375,0.0692138671875,0.1019287109375,B,A
+112,John Green,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jonathan Haidt.",0.166748046875,0.662109375,0.0692138671875,0.1019287109375,C,B
+112,John Green,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jonathan Haidt.",0.166748046875,0.662109375,0.0692138671875,0.1019287109375,B,C
+113,Eminem,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 50 Cent.",0.2451171875,0.1270751953125,0.07769775390625,0.55029296875,A,B
+113,Eminem,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 50 Cent.",0.2451171875,0.1270751953125,0.07769775390625,0.55029296875,D,B
+113,Eminem,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 50 Cent.",0.2451171875,0.1270751953125,0.07769775390625,0.55029296875,B,D
+114,Snoop Dogg,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Snoop Dogg.",0.0157623291015625,0.0028095245361328125,0.1072998046875,0.8740234375,B,A
+114,Snoop Dogg,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Snoop Dogg.",0.0157623291015625,0.0028095245361328125,0.1072998046875,0.8740234375,C,D
+114,Snoop Dogg,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Snoop Dogg.",0.0157623291015625,0.0028095245361328125,0.1072998046875,0.8740234375,C,A
+115,Kendrick Lamar,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kendrick Lamar.",0.33837890625,0.2076416015625,0.0309906005859375,0.4228515625,D,C
+115,Kendrick Lamar,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kendrick Lamar.",0.33837890625,0.2076416015625,0.0309906005859375,0.4228515625,A,B
+115,Kendrick Lamar,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kendrick Lamar.",0.33837890625,0.2076416015625,0.0309906005859375,0.4228515625,A,C
+116,Travis Scott,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.497314453125,0.099853515625,0.1732177734375,0.2294921875,C,B
+116,Travis Scott,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.497314453125,0.099853515625,0.1732177734375,0.2294921875,B,A
+116,Travis Scott,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.497314453125,0.099853515625,0.1732177734375,0.2294921875,C,D
+117,The Weeknd,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  The Weeknd.",0.56884765625,0.04034423828125,0.306884765625,0.0836181640625,B,D
+117,The Weeknd,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  The Weeknd.",0.56884765625,0.04034423828125,0.306884765625,0.0836181640625,A,C
+117,The Weeknd,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  The Weeknd.",0.56884765625,0.04034423828125,0.306884765625,0.0836181640625,C,D
+118,Katy Perry,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Katy Perry.",0.341064453125,0.0567626953125,0.267822265625,0.33447265625,D,C
+118,Katy Perry,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Katy Perry.",0.341064453125,0.0567626953125,0.267822265625,0.33447265625,A,C
+118,Katy Perry,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Katy Perry.",0.341064453125,0.0567626953125,0.267822265625,0.33447265625,C,D
+119,Demi Lovato,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Demi Lovato.",0.0008039474487304688,0.00016200542449951172,0.0001552104949951172,0.9990234375,B,C
+119,Demi Lovato,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Demi Lovato.",0.0008039474487304688,0.00016200542449951172,0.0001552104949951172,0.9990234375,D,A
+119,Demi Lovato,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Demi Lovato.",0.0008039474487304688,0.00016200542449951172,0.0001552104949951172,0.9990234375,D,B
+120,Camila Cabello,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Camila Cabello.",0.19189453125,0.0787353515625,0.06207275390625,0.66748046875,A,B
+120,Camila Cabello,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Camila Cabello.",0.19189453125,0.0787353515625,0.06207275390625,0.66748046875,B,D
+120,Camila Cabello,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Camila Cabello.",0.19189453125,0.0787353515625,0.06207275390625,0.66748046875,C,B
+121,Lizzo,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lizzo.",0.94873046875,0.0230255126953125,0.0069122314453125,0.0213775634765625,B,D
+121,Lizzo,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lizzo.",0.94873046875,0.0230255126953125,0.0069122314453125,0.0213775634765625,C,B
+121,Lizzo,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lizzo.",0.94873046875,0.0230255126953125,0.0069122314453125,0.0213775634765625,A,D
+122,Megan Thee Stallion,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.52685546875,0.271240234375,0.06121826171875,0.1407470703125,B,D
+122,Megan Thee Stallion,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.52685546875,0.271240234375,0.06121826171875,0.1407470703125,A,C
+122,Megan Thee Stallion,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is 21 Savage.",0.52685546875,0.271240234375,0.06121826171875,0.1407470703125,B,C
+123,J Balvin,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Maluma.",0.1513671875,0.1715087890625,0.07611083984375,0.60107421875,A,C
+123,J Balvin,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Maluma.",0.1513671875,0.1715087890625,0.07611083984375,0.60107421875,D,B
+123,J Balvin,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Maluma.",0.1513671875,0.1715087890625,0.07611083984375,0.60107421875,B,A
+124,Shakira,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shakira.",0.237548828125,0.0296173095703125,0.55224609375,0.1806640625,D,A
+124,Shakira,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shakira.",0.237548828125,0.0296173095703125,0.55224609375,0.1806640625,A,B
+124,Shakira,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shakira.",0.237548828125,0.0296173095703125,0.55224609375,0.1806640625,D,A
+125,Ricky Martin,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ricky Martin.",0.377685546875,0.11700439453125,0.2169189453125,0.288330078125,C,B
+125,Ricky Martin,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ricky Martin.",0.377685546875,0.11700439453125,0.2169189453125,0.288330078125,C,B
+125,Ricky Martin,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Ricky Martin.",0.377685546875,0.11700439453125,0.2169189453125,0.288330078125,A,D
+126,Jennifer Aniston,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Aniston.",0.833984375,0.033172607421875,0.029510498046875,0.10321044921875,D,C
+126,Jennifer Aniston,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Aniston.",0.833984375,0.033172607421875,0.029510498046875,0.10321044921875,B,D
+126,Jennifer Aniston,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jennifer Aniston.",0.833984375,0.033172607421875,0.029510498046875,0.10321044921875,A,D
+127,Courteney Cox,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Courteney Cox.",0.08294677734375,0.03485107421875,0.787109375,0.094970703125,C,B
+127,Courteney Cox,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Courteney Cox.",0.08294677734375,0.03485107421875,0.787109375,0.094970703125,C,D
+127,Courteney Cox,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Courteney Cox.",0.08294677734375,0.03485107421875,0.787109375,0.094970703125,D,C
+128,Matthew Perry,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matthew Perry.",0.1839599609375,0.1549072265625,0.10552978515625,0.5556640625,D,B
+128,Matthew Perry,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matthew Perry.",0.1839599609375,0.1549072265625,0.10552978515625,0.5556640625,B,C
+128,Matthew Perry,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Matthew Perry.",0.1839599609375,0.1549072265625,0.10552978515625,0.5556640625,B,A
+129,Kit Harington,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kit Harington.",0.290771484375,0.069580078125,0.376220703125,0.263671875,C,A
+129,Kit Harington,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kit Harington.",0.290771484375,0.069580078125,0.376220703125,0.263671875,C,B
+129,Kit Harington,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kit Harington.",0.290771484375,0.069580078125,0.376220703125,0.263671875,B,A
+130,Emilia Clarke,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emilia Clarke.",0.17041015625,0.34033203125,0.1435546875,0.345703125,D,A
+130,Emilia Clarke,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emilia Clarke.",0.17041015625,0.34033203125,0.1435546875,0.345703125,C,A
+130,Emilia Clarke,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Emilia Clarke.",0.17041015625,0.34033203125,0.1435546875,0.345703125,D,C
+131,Sophie Turner,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Sophie Turner.",0.399169921875,0.06072998046875,0.201416015625,0.338623046875,B,A
+131,Sophie Turner,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Sophie Turner.",0.399169921875,0.06072998046875,0.201416015625,0.338623046875,B,A
+131,Sophie Turner,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Sophie Turner.",0.399169921875,0.06072998046875,0.201416015625,0.338623046875,B,A
+132,Maisie Williams,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Maisie Williams.",0.41064453125,0.01120758056640625,0.396484375,0.1815185546875,D,C
+132,Maisie Williams,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Maisie Williams.",0.41064453125,0.01120758056640625,0.396484375,0.1815185546875,B,A
+132,Maisie Williams,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Maisie Williams.",0.41064453125,0.01120758056640625,0.396484375,0.1815185546875,A,C
+133,Peter Dinklage,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Peter Dinklage.",0.360595703125,0.06890869140625,0.42138671875,0.1490478515625,B,C
+133,Peter Dinklage,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Peter Dinklage.",0.360595703125,0.06890869140625,0.42138671875,0.1490478515625,A,C
+133,Peter Dinklage,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Peter Dinklage.",0.360595703125,0.06890869140625,0.42138671875,0.1490478515625,A,D
+134,Winona Ryder,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Winona Ryder.",0.2147216796875,0.07476806640625,0.03863525390625,0.671875,C,D
+134,Winona Ryder,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Winona Ryder.",0.2147216796875,0.07476806640625,0.03863525390625,0.671875,B,D
+134,Winona Ryder,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Winona Ryder.",0.2147216796875,0.07476806640625,0.03863525390625,0.671875,B,A
+135,David Harbour,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  David Harbour.",0.099853515625,0.126220703125,0.1123046875,0.66162109375,A,C
+135,David Harbour,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  David Harbour.",0.099853515625,0.126220703125,0.1123046875,0.66162109375,B,D
+135,David Harbour,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  David Harbour.",0.099853515625,0.126220703125,0.1123046875,0.66162109375,A,B
+136,Jim Carrey,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jim Carrey.",0.144287109375,0.2115478515625,0.09759521484375,0.54638671875,C,B
+136,Jim Carrey,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jim Carrey.",0.144287109375,0.2115478515625,0.09759521484375,0.54638671875,A,C
+136,Jim Carrey,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jim Carrey.",0.144287109375,0.2115478515625,0.09759521484375,0.54638671875,B,D
+137,Adam Sandler,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Adam Sandler.",0.82080078125,0.0599365234375,0.0271148681640625,0.09210205078125,A,C
+137,Adam Sandler,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Adam Sandler.",0.82080078125,0.0599365234375,0.0271148681640625,0.09210205078125,D,B
+137,Adam Sandler,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Adam Sandler.",0.82080078125,0.0599365234375,0.0271148681640625,0.09210205078125,A,B
+138,Kevin James,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kevin James.",0.1671142578125,0.2218017578125,0.042327880859375,0.56884765625,C,B
+138,Kevin James,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kevin James.",0.1671142578125,0.2218017578125,0.042327880859375,0.56884765625,A,B
+138,Kevin James,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kevin James.",0.1671142578125,0.2218017578125,0.042327880859375,0.56884765625,A,C
+139,Steve Carell,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Steve Carell.",0.3095703125,0.256591796875,0.1094970703125,0.324462890625,D,C
+139,Steve Carell,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Steve Carell.",0.3095703125,0.256591796875,0.1094970703125,0.324462890625,C,B
+139,Steve Carell,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Steve Carell.",0.3095703125,0.256591796875,0.1094970703125,0.324462890625,A,C
+140,Will Ferrell,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Will Ferrell.",0.2412109375,0.2587890625,0.0650634765625,0.43505859375,D,A
+140,Will Ferrell,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Will Ferrell.",0.2412109375,0.2587890625,0.0650634765625,0.43505859375,C,B
+140,Will Ferrell,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Will Ferrell.",0.2412109375,0.2587890625,0.0650634765625,0.43505859375,C,D
+141,Seth Rogen,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Seth Rogen.",0.110595703125,0.056610107421875,0.039031982421875,0.7939453125,C,A
+141,Seth Rogen,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Seth Rogen.",0.110595703125,0.056610107421875,0.039031982421875,0.7939453125,B,C
+141,Seth Rogen,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Seth Rogen.",0.110595703125,0.056610107421875,0.039031982421875,0.7939453125,B,C
+142,James Franco,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  James Franco.",0.6005859375,0.041351318359375,0.06634521484375,0.29150390625,B,A
+142,James Franco,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  James Franco.",0.6005859375,0.041351318359375,0.06634521484375,0.29150390625,C,D
+142,James Franco,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  James Franco.",0.6005859375,0.041351318359375,0.06634521484375,0.29150390625,B,C
+143,Jonah Hill,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jonah Hill.",0.16796875,0.2359619140625,0.062042236328125,0.53369140625,D,A
+143,Jonah Hill,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jonah Hill.",0.16796875,0.2359619140625,0.062042236328125,0.53369140625,B,C
+143,Jonah Hill,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Jonah Hill.",0.16796875,0.2359619140625,0.062042236328125,0.53369140625,B,A
+144,Channing Tatum,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Channing Tatum.",0.1827392578125,0.1632080078125,0.1856689453125,0.468505859375,A,B
+144,Channing Tatum,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Channing Tatum.",0.1827392578125,0.1632080078125,0.1856689453125,0.468505859375,C,B
+144,Channing Tatum,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Channing Tatum.",0.1827392578125,0.1632080078125,0.1856689453125,0.468505859375,A,D
+145,Zac Efron,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Zac Efron.",0.1337890625,0.07611083984375,0.094482421875,0.69580078125,C,A
+145,Zac Efron,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Zac Efron.",0.1337890625,0.07611083984375,0.094482421875,0.69580078125,D,B
+145,Zac Efron,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Zac Efron.",0.1337890625,0.07611083984375,0.094482421875,0.69580078125,D,B
+146,Kristen Stewart,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kristen Stewart.",0.35546875,0.048095703125,0.2452392578125,0.351318359375,D,B
+146,Kristen Stewart,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kristen Stewart.",0.35546875,0.048095703125,0.2452392578125,0.351318359375,D,A
+146,Kristen Stewart,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Kristen Stewart.",0.35546875,0.048095703125,0.2452392578125,0.351318359375,C,B
+147,Shia LaBeouf,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shia LaBeouf.",0.1646728515625,0.135498046875,0.1766357421875,0.5234375,D,B
+147,Shia LaBeouf,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shia LaBeouf.",0.1646728515625,0.135498046875,0.1766357421875,0.5234375,D,C
+147,Shia LaBeouf,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Shia LaBeouf.",0.1646728515625,0.135498046875,0.1766357421875,0.5234375,A,B
+148,Chadwick Boseman,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chadwick Boseman.",0.142822265625,0.1290283203125,0.50048828125,0.2274169921875,D,C
+148,Chadwick Boseman,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chadwick Boseman.",0.142822265625,0.1290283203125,0.50048828125,0.2274169921875,D,C
+148,Chadwick Boseman,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Chadwick Boseman.",0.142822265625,0.1290283203125,0.50048828125,0.2274169921875,C,B
+149,Lupita Nyong'o,Temporal_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lupita Nyong'o.",0.59521484375,0.1348876953125,0.01473236083984375,0.255126953125,D,B
+149,Lupita Nyong'o,location_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lupita Nyong'o.",0.59521484375,0.1348876953125,0.01473236083984375,0.255126953125,B,A
+149,Lupita Nyong'o,Career_error,mis_knowledge1,,Give me the name of the person in the picture.,"system
+You are a helpful assistant.
+user
+Given your knowledge, answer the multiple choice question about the following entity.
+Entity: 
+Query: Give me the name of the person in the picture.
+assistant
+The name of the person in the picture is  Lupita Nyong'o.",0.59521484375,0.1348876953125,0.01473236083984375,0.255126953125,B,A
