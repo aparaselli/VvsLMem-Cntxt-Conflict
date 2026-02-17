@@ -1,8 +1,18 @@
 import os #SPECIFIC TO ATHU OSCAR
+import sys
 os.environ["HF_HOME"] = "/oscar/scratch/aparasel/hf_cache"
 #os.environ["TRANSFORMERS_CACHE"] = "/oscar/scratch/aparasel/hf_cache/transformers"
 #os.environ["DATASETS_CACHE"] = "/oscar/scratch/aparasel/hf_cache/datasets"
 os.environ["HF_HUB_CACHE"] = "/oscar/scratch/aparasel/hf_cache/hub"
+
+# Get the directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Get the parent directory (one level up)
+parent_dir = os.path.dirname(current_dir)
+
+# Add parent directory to sys.path if it's not already there
+if parent_dir not in sys.path:
+    sys.path.insert(0, parent_dir)
 
 from util import *
 import argparse
@@ -22,7 +32,6 @@ import pandas as pd
 import torch
 import datasets
 torch.set_grad_enabled(False)
-from Patching.mcq_make_inputs import make_inputs
 
 from matplotlib import pyplot as plt
 import seaborn as sns
@@ -39,6 +48,7 @@ sns.set_theme(style='whitegrid')
 
 from datasets import load_dataset
 from transformers import AutoModelForVision2Seq, AutoProcessor
+from FRQ_make_input import make_inputs
 
 ################################
 # Project-root + paths
@@ -81,20 +91,34 @@ print("Model loaded")
 def rag_model_call(
     retrieved_context,
     user_query,
-    choice_ids,
-    entity_name=None,            # keep for backwards-compat, but we won't use it directly
+    entity_name=None,
     image=None,
     verbose=False,
-    ctxt_image=None,             # NOT supported by make_inputs currently
-    entity_modality="vision",    # NEW: pass through
-    mock_RAG=True,               # NEW: pass through
-    bench_type="people",         # NEW: pass through
-    instance_name=None,          # NEW: needed for text entity_modality
+    ctxt_image=None,
+    err_cat=None,
+    *,
+    processor,
+    model,
+    bench_type="people",
+    entity_modality=None,
+    mock_RAG=True,
+    ctxt_type="text",   # add this so the function knows whether to use ctxt_image
 ):
-    if ctxt_image is not None:
-        raise ValueError("ctxt_image/ctxt_type='vision' not supported by make_inputs() yet.")
+    # infer modality
+    if entity_modality is None:
+        entity_modality = "text" if entity_name is not None else "vision"
 
-    # Build inputs (includes applying chat template + appending MCQ prefix)
+    if entity_modality == "text" and entity_name is None:
+        raise ValueError("entity_name required for entity_modality='text'")
+    if entity_modality == "vision" and image is None:
+        raise ValueError("image required for entity_modality='vision'")
+
+    if retrieved_context is None and ctxt_image is not None:
+        raise ValueError("ctxt_image provided but retrieved_context is None")
+
+
+
+    # Build via make_inputs (must support prefix; ctxt_image optional)
     inputs = make_inputs(
         processor=processor,
         model_device=model.device,
@@ -104,30 +128,24 @@ def rag_model_call(
         mock_RAG=mock_RAG,
         bench_type=bench_type,
         image=image,
-        instance_name=instance_name,
-        add_mcq_prefix=True,
+        instance_name=entity_name,
         padding=True,
+        # if you extend make_inputs:
+        # ctxt_image=(ctxt_image if ctxt_type == "vision" else None),
     )
-
-    prompt_text = inputs.pop("_prompt_text")  # keep for logging (NOT a tensor)
-
     with torch.no_grad():
         outputs = model(**inputs)
         next_token_logits = outputs.logits[0, -1, :]
         # ---- GLOBAL ARGMAX TOKEN (sanity check) ----
         top_token_id = torch.argmax(next_token_logits).item()
         top_token_str = processor.tokenizer.decode([top_token_id])
+    if verbose:
+        print("--- RAG Prompt (Full) ---")
+        print(inputs["_prompt_text"])
 
+    gen_kwargs = {k: v for k, v in inputs.items() if not str(k).startswith("_")}
+    generated_ids = model.generate(**gen_kwargs, max_new_tokens=128, do_sample=False)
 
-        target_logits = next_token_logits[choice_ids]
-        probs = torch.softmax(target_logits, dim=0).cpu().numpy()
-        prob_dict = {label: float(p) for label, p in zip(["A", "B", "C", "D"], probs)}
-
-    generated_ids = model.generate(
-        **inputs,
-        max_new_tokens=128,
-        do_sample=False
-    )
     response = processor.batch_decode(
         generated_ids,
         skip_special_tokens=True,
@@ -135,12 +153,11 @@ def rag_model_call(
     )[0]
 
     if verbose:
-        print("--- RAG Prompt (Snippet) ---")
-        print(prompt_text)
-        print(f"--- Probs: {prob_dict}")
         print(f"--- Model Response: {response}")
 
-    return response, prob_dict, top_token_str
+    return response, top_token_str
+
+
 
 def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=None, bench_type="people", ctxt_type="text"):
 
@@ -149,9 +166,9 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
 
     if bench_type == "people":
         error_categories = {
-            "Temporal_error": "mcq_query_temporal",
-            "location_error": "mcq_query_location",
-            "Career_error":   "mcq_query_Career"
+            "Temporal_error": "open_query_temporal",
+            "location_error": "open_query_location",
+            "Career_error":   "open_query_Career"
         }
 
         results = []
@@ -159,22 +176,22 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
         print("Running people conflict experiment")
     elif bench_type=="logo":
         error_categories = {
-            "time_error": "mcq_query_time",
-            "creator_error": "mcq_query_creator",
-            "content_error":   "mcq_query_content"
+            "time_error": "open_query_time",
+            "creator_error": "open_query_creator",
+            "content_error":   "open_query_content"
         }
 
         results = []
 
         print("Running logo conflict experiment")
 
-    #### PRE PROCESS ANSWER CHOICES SO WE CAN SEARCH THEM UP AT TOKEN GENERATION ####
-    target_choices = [" A", " B", " C", " D"]
-    choice_ids = []
-    for c in target_choices:
-        tid = processor.tokenizer.encode(c, add_special_tokens=False)[-1]
-        choice_ids.append(tid)
-    ###################################################################################
+    # #### PRE PROCESS ANSWER CHOICES SO WE CAN SEARCH THEM UP AT TOKEN GENERATION ####
+    # target_choices = [" A", " B", " C", " D"]
+    # choice_ids = []
+    # for c in target_choices:
+    #     tid = processor.tokenizer.encode(c, add_special_tokens=False)[-1]
+    #     choice_ids.append(tid)
+    # ###################################################################################
 
     for item in data:
         instance_name = item['instance']
@@ -182,6 +199,7 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
         pil_image = None
         pil_image_ctxt = None
         image_paths = item.get('image_path', [])
+        item_lc = {k.lower(): v for k, v in item.items()} #fir gettung gt ans later
 
         if image_paths:
             if entity_modality=="vision":
@@ -229,6 +247,8 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
                 elif bench_type=="logo":
                     specific_query = base_query
 
+                #Get true answer
+                gt_ans = item_lc[f'open_groundtruth_{err_cat.split("_")[0].lower()}']
 
                 # use 1 and 2 now 
                 for k_key in ['mis_knowledge1', 'mis_knowledge2']:
@@ -239,8 +259,8 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
                         mis_text_answer = error_data.get(ans_key, "N/A")
 
                         cat_suffix = query_key.split('_')[-1] 
-                        mcq_label_key = f"mcq_disanswer_{cat_suffix}_{idx}"
-                        mis_mcq_label = item.get(mcq_label_key, "N/A")
+                        #mcq_label_key = f"mcq_disanswer_{cat_suffix}_{idx}"
+                        #mis_mcq_label = item.get(mcq_label_key, "N/A")
                         if mock_RAG:
                             retrieved_context = error_data[k_key]
                             if ctxt_type == "vision":
@@ -255,33 +275,36 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
 
                         if entity_modality == "text":
                             if bench_type == "logo":
-                                entity_name = f"The logo of the company known as {instance_name}"
+                                entity_name = f"The company known as {instance_name}"
                             else:
                                 entity_name = instance_name
 
 
-                        model_response, probs_map, top_token = rag_model_call(
+                        model_response, top_tok_str = rag_model_call(
                             retrieved_context=retrieved_context,
                             user_query=specific_query,
-                            choice_ids=choice_ids,
-                            image=pil_image if entity_modality == "vision" else None,
-                            verbose=True,
-                            ctxt_image=pil_image_ctxt, 
+                            entity_name=entity_name,
                             entity_modality=entity_modality,
-                            mock_RAG=mock_RAG,
+                            image=(pil_image if entity_modality == "vision" else None),
+                            verbose=True,
+                            #ctxt_image=pil_image_ctxt,
+                            err_cat=err_cat,
+                            processor=processor,
+                            model=model,
                             bench_type=bench_type,
-                            instance_name=instance_name,  
+                            mock_RAG=mock_RAG,
+                            ctxt_type=ctxt_type,
                         )
 
-
+                        print(f"Top decoded next token is {top_tok_str}")
                         #### SEARCH UP ANSWER CHOICES AT FRIST GEN TOKEN AND STORE THEM IN VARIABLES ####
-                        P_A = probs_map.get("A", 0.0)
-                        P_B = probs_map.get("B", 0.0)
-                        P_C = probs_map.get("C", 0.0)
-                        P_D = probs_map.get("D", 0.0)
+                        # P_A = probs_map.get("A", 0.0)
+                        # P_B = probs_map.get("B", 0.0)
+                        # P_C = probs_map.get("C", 0.0)
+                        # P_D = probs_map.get("D", 0.0)
                         #################################
 
-                        print(f"\n Top token is {top_token}")
+                        
                         # Store result
                         results.append({
                             "ID": item['ID'],
@@ -291,13 +314,13 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
                             "Context": retrieved_context,
                             "Query": specific_query,
                             "Response": model_response,
-                            "Top_decoded_token": top_token,
-                            "Prob_A": P_A,
-                            "Prob_B": P_B,
-                            "Prob_C": P_C,
-                            "Prob_D": P_D,
-                            "Ground_Truth": item.get(query_key.replace("query", "groundtruth"), "N/A"),
-                            "Mis_Answer_Label": mis_mcq_label
+                            "Top_token_str": top_tok_str,
+                            # "Prob_A": P_A,
+                            # "Prob_B": P_B,
+                            # "Prob_C": P_C,
+                            # "Prob_D": P_D,
+                            "Ground_Truth": gt_ans,
+                            "Mis_Answer_Label": mis_text_answer
                         })
 
 
@@ -327,7 +350,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--out_path', 
         type=str, 
-        default="/users/aparasel/scratch/VvsLMem-Cntxt-Conflict/Scripts/Results/RAG_VISION_Experiment_Results.csv",
+        default="/users/aparasel/scratch/VvsLMem-Cntxt-Conflict/Scripts/FRQ_Results/FRQ_RAG_VISION_Experiment_Results.csv",
         help='Path to the output csv file.'
     )
 

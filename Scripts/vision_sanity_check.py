@@ -113,7 +113,7 @@ def rag_model_call(retrieved_context, user_query, choice_ids, image=None, verbos
         add_generation_prompt=True
     )
 
-    prefix = "The name of the person in the picture is "
+    prefix = "The name of the company logo in the picture is "
     text += prefix
 
     image_inputs = {}
@@ -207,7 +207,7 @@ def run_experiment_people(file_path, mock_RAG=True,out_path=None):
                 
                 base_query = item[query_key]
                 
-                specific_query = "Give me the name of the person in the picture."
+                specific_query = "Give me the name of the brand in the picture."
 
 
                 # only use mis_knowledge1
@@ -280,7 +280,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--file_path', 
         type=str, 
-        default="/users/aparasel/scratch/VvsLMem-Cntxt-Conflict/MLLMKC_data/people_knowledge.json",
+        default="/users/aparasel/scratch/VvsLMem-Cntxt-Conflict/MLLMKC_data/logo_knowledge.json",
         help='Path to the input JSON file.'
     )
 

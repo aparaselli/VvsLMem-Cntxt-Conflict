@@ -22,7 +22,6 @@ import pandas as pd
 import torch
 import datasets
 torch.set_grad_enabled(False)
-from Patching.mcq_make_inputs import make_inputs
 
 from matplotlib import pyplot as plt
 import seaborn as sns
@@ -38,7 +37,7 @@ palette = palette_[2:5] + palette_[7:]
 sns.set_theme(style='whitegrid')
 
 from datasets import load_dataset
-from transformers import AutoModelForVision2Seq, AutoProcessor
+from transformers import AutoModelForImageTextToText, AutoProcessor
 
 ################################
 # Project-root + paths
@@ -57,19 +56,20 @@ RESULTS_CSV = os.path.join(PROJECT_ROOT, "Results", "Behavioral_Results.csv")
 os.makedirs(ACT_SAVE_DIR, exist_ok=True)
 
 
-model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
+model_name = "allenai/Molmo2-8B" # Changed model path
 
-dtype = torch.bfloat16 if torch.cuda.is_available() and torch.cuda.get_device_name(0).startswith(("NVIDIA A100","NVIDIA H100")) else torch.float16
+dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 
-print("Loading model")
-model = AutoModelForVision2Seq.from_pretrained(
+print("Loading Molmo model")
+# Molmo uses AutoModelForCausalLM and requires trust_remote_code
+
+model = AutoModelForImageTextToText.from_pretrained(
     model_name,
-    dtype=dtype,               
+    trust_remote_code=True,
+    torch_dtype=dtype,
     device_map="auto",
-    low_cpu_mem_usage=True,
-    attn_implementation="sdpa", 
 )
-processor = AutoProcessor.from_pretrained(model_name)
+processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
 model.eval()
 
 torch.backends.cuda.matmul.allow_tf32 = True  
@@ -82,65 +82,210 @@ def rag_model_call(
     retrieved_context,
     user_query,
     choice_ids,
-    entity_name=None,            # keep for backwards-compat, but we won't use it directly
+    entity_name=None,
     image=None,
     verbose=False,
-    ctxt_image=None,             # NOT supported by make_inputs currently
-    entity_modality="vision",    # NEW: pass through
-    mock_RAG=True,               # NEW: pass through
-    bench_type="people",         # NEW: pass through
-    instance_name=None,          # NEW: needed for text entity_modality
+    ctxt_image=None,
 ):
-    if ctxt_image is not None:
-        raise ValueError("ctxt_image/ctxt_type='vision' not supported by make_inputs() yet.")
+    """
+    Molmo2-compatible version of rag_model_call with the same control flow as your Qwen version.
 
-    # Build inputs (includes applying chat template + appending MCQ prefix)
-    inputs = make_inputs(
-        processor=processor,
-        model_device=model.device,
-        retrieved_context=retrieved_context,
-        user_query=user_query,
-        entity_modality=entity_modality,
-        mock_RAG=mock_RAG,
-        bench_type=bench_type,
-        image=image,
-        instance_name=instance_name,
-        add_mcq_prefix=True,
-        padding=True,
+    - Supports:
+        * retrieved_context = None or string
+        * ctxt_image = None or PIL.Image (optional "context image")
+        * image = None or PIL.Image (the "query image")
+        * entity_name provided for text-entity modality
+    - Computes choice probs for next token after the forced prefix.
+    - Generates a short completion and returns (response, prob_dict).
+    """
+
+    # -----------------------------
+    # 1) Build messages (same logic)
+    # -----------------------------
+    if retrieved_context is None:
+        if ctxt_image is not None:
+            raise ValueError(
+                "Error: 'ctxt_image' was provided, but 'retrieved_context' is None. "
+                "A context image requires context text."
+            )
+
+        text_before_image = (
+            "Given your knowledge, answer the multiple choice question about the following entity.\n"
+            "Entity: "
+        )
+        # If no context and entity_name exists, we can just do a text-only prompt
+        if entity_name is not None:
+            prompt_text = (
+                "Given your knowledge, answer the multiple choice question about the following entity.\n"
+                f"Entity: {entity_name}.\n"
+                f"Query: {user_query}"
+            )
+            messages = [
+                {
+                    "role": "user",
+                    "content": [{"type": "text", "text": prompt_text}],
+                }
+            ]
+        elif image is not None:
+            content_list = [{"type": "text", "text": text_before_image}]
+            content_list.append({"type": "image", "image": image})
+            content_list.append({"type": "text", "text": f"\nQuery: {user_query}"})
+            messages = [{"role": "user", "content": content_list}]
+        else:
+            raise ValueError("Either image or entity_name must be provided when no context is used.")
+
+    elif ctxt_image is None:
+        # Context text only
+        if entity_name is not None:
+            prompt_text = (
+                "Context information is below.\n"
+                "---------------------\n"
+                f"{retrieved_context}\n"
+                "---------------------\n"
+                "Given the context information and your knowledge, answer the multiple choice question about the following entity.\n"
+                f"Entity: {entity_name}.\n"
+                f"Query: {user_query}"
+            )
+            messages = [
+                {
+                    "role": "user",
+                    "content": [{"type": "text", "text": prompt_text}],
+                }
+            ]
+        elif image is not None:
+            text_before_image = (
+                "Context information is below.\n"
+                "---------------------\n"
+                f"{retrieved_context}\n"
+                "---------------------\n"
+                "Given the context information and your knowledge, answer the multiple choice question about the following entity.\n"
+                "Entity: "
+            )
+            content_list = [{"type": "text", "text": text_before_image}]
+            content_list.append({"type": "image", "image": image})
+            content_list.append({"type": "text", "text": f"\nQuery: {user_query}"})
+            messages = [{"role": "user", "content": content_list}]
+        else:
+            raise ValueError("Either image or entity_name must be provided.")
+
+    else:
+        # Context image + context text
+        text_before_image = (
+            "Context information is below.\n"
+            "---------------------\n"
+        )
+        content_list = [{"type": "text", "text": text_before_image}]
+
+        if entity_name is not None:
+            # (ctxt_image) + (retrieved_context + entity + query)
+            content_list.append({"type": "image", "image": ctxt_image})
+            txt_post_ctxt = (
+                f"{retrieved_context}\n"
+                "Given the context information and your knowledge, answer the multiple choice question about the following entity.\n"
+                f"Entity: {entity_name}.\n"
+                f"Query: {user_query}"
+            )
+            content_list.append({"type": "text", "text": txt_post_ctxt})
+
+        elif image is not None:
+            # (ctxt_image) + (retrieved_context + 'Entity:') + (query image) + (query text)
+            content_list.append({"type": "image", "image": ctxt_image})
+            txt_post_ctxt = (
+                f"{retrieved_context}\n"
+                "Given the context information and your knowledge, answer the multiple choice question about the following entity.\n"
+                "Entity: "
+            )
+            content_list.append({"type": "text", "text": txt_post_ctxt})
+            content_list.append({"type": "image", "image": image})
+            content_list.append({"type": "text", "text": f"\nQuery: {user_query}"})
+
+        else:
+            raise ValueError("Either image or entity_name must be provided.")
+
+        messages = [{"role": "user", "content": content_list}]
+
+    # -------------------------------------------------------
+    # 2) Molmo2 wants dict(type="text", text=...) etc.
+    #    Your current messages already match that, but we
+    #    normalize to be safe.
+    # -------------------------------------------------------
+    def _molmoify_content(content_list):
+        out = []
+        for c in content_list:
+            t = c.get("type")
+            if t == "text":
+                out.append({"type": "text", "text": c["text"]})
+            elif t == "image":
+                out.append({"type": "image", "image": c["image"]})
+            elif t == "video":
+                out.append({"type": "video", "video": c["video"]})
+            else:
+                raise ValueError(f"Unknown content type: {c}")
+        return out
+
+    molmo_messages = []
+    for m in messages:
+        molmo_messages.append(
+            {"role": m["role"], "content": _molmoify_content(m["content"])}
+        )
+
+    # -------------------------------------------------------
+    # 3) Force the next token to be one of A/B/C/D by appending
+    #    your prefix exactly like before
+    # -------------------------------------------------------
+    prefix = "Between A, B, C, and D, the answer is"
+    molmo_messages[-1]["content"].append({"type": "text", "text": prefix})
+
+    # -------------------------------------------------------
+    # 4) Build tensors via Molmo2 chat template
+    # -------------------------------------------------------
+    inputs = processor.apply_chat_template(
+        molmo_messages,
+        tokenize=True,
+        add_generation_prompt=True,
+        return_tensors="pt",
+        return_dict=True,
     )
 
-    prompt_text = inputs.pop("_prompt_text")  # keep for logging (NOT a tensor)
+    # Move all tensors to model.device
+    for k, v in inputs.items():
+        if torch.is_tensor(v):
+            inputs[k] = v.to(model.device)
 
+    # -------------------------------------------------------
+    # 5) Next-token probs over your 4 answer tokens
+    # -------------------------------------------------------
     with torch.no_grad():
         outputs = model(**inputs)
-        next_token_logits = outputs.logits[0, -1, :]
-        # ---- GLOBAL ARGMAX TOKEN (sanity check) ----
-        top_token_id = torch.argmax(next_token_logits).item()
-        top_token_str = processor.tokenizer.decode([top_token_id])
-
-
-        target_logits = next_token_logits[choice_ids]
-        probs = torch.softmax(target_logits, dim=0).cpu().numpy()
+        next_token_logits = outputs.logits[0, -1, :]            # vocab
+        target_logits = next_token_logits[choice_ids]          # 4
+        probs = torch.softmax(target_logits, dim=0).detach().cpu().to(torch.float32).numpy()
         prob_dict = {label: float(p) for label, p in zip(["A", "B", "C", "D"], probs)}
 
+    # -------------------------------------------------------
+    # 6) Greedy decode response
+    # -------------------------------------------------------
     generated_ids = model.generate(
         **inputs,
         max_new_tokens=128,
-        do_sample=False
+        do_sample=False,
     )
-    response = processor.batch_decode(
-        generated_ids,
-        skip_special_tokens=True,
-        clean_up_tokenization_spaces=False
-    )[0]
+
+    # Decode only the new tokens beyond the prompt
+    prompt_len = inputs["input_ids"].shape[1]
+    gen_tokens = generated_ids[0, prompt_len:]
+    response = processor.tokenizer.decode(gen_tokens, skip_special_tokens=True)
 
     if verbose:
-        print("--- RAG Prompt (Snippet) ---")
-        print(prompt_text)
+        # Helpful debug: reconstruct prompt text (tokens -> string)
+        # NOTE: this will include special tokens; good for debugging.
+        prompt_debug = processor.tokenizer.decode(inputs["input_ids"][0], skip_special_tokens=False)
+        print("--- Prompt (Debug) ---")
+        print(prompt_debug)
         print(f"--- Probs: {prob_dict}")
         print(f"--- Model Response: {response}")
 
-    return response, prob_dict, top_token_str
+    return response, prob_dict
 
 def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=None, bench_type="people", ctxt_type="text"):
 
@@ -259,20 +404,15 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
                             else:
                                 entity_name = instance_name
 
-
-                        model_response, probs_map, top_token = rag_model_call(
+                        model_response, probs_map = rag_model_call(
                             retrieved_context=retrieved_context,
                             user_query=specific_query,
                             choice_ids=choice_ids,
-                            image=pil_image if entity_modality == "vision" else None,
+                            entity_name = entity_name,
+                            image=pil_image,
                             verbose=True,
-                            ctxt_image=pil_image_ctxt, 
-                            entity_modality=entity_modality,
-                            mock_RAG=mock_RAG,
-                            bench_type=bench_type,
-                            instance_name=instance_name,  
+                            ctxt_image=pil_image_ctxt
                         )
-
 
                         #### SEARCH UP ANSWER CHOICES AT FRIST GEN TOKEN AND STORE THEM IN VARIABLES ####
                         P_A = probs_map.get("A", 0.0)
@@ -281,7 +421,7 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
                         P_D = probs_map.get("D", 0.0)
                         #################################
 
-                        print(f"\n Top token is {top_token}")
+                        
                         # Store result
                         results.append({
                             "ID": item['ID'],
@@ -291,7 +431,6 @@ def run_experiment(file_path, entity_modality='vision', mock_RAG=True,out_path=N
                             "Context": retrieved_context,
                             "Query": specific_query,
                             "Response": model_response,
-                            "Top_decoded_token": top_token,
                             "Prob_A": P_A,
                             "Prob_B": P_B,
                             "Prob_C": P_C,
@@ -327,7 +466,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--out_path', 
         type=str, 
-        default="/users/aparasel/scratch/VvsLMem-Cntxt-Conflict/Scripts/Results/RAG_VISION_Experiment_Results.csv",
+        default="/users/aparasel/scratch/VvsLMem-Cntxt-Conflict/Scripts/MOLMO_Results/MOLMO-RAG_VISION_Experiment_Results.csv",
         help='Path to the output csv file.'
     )
 
