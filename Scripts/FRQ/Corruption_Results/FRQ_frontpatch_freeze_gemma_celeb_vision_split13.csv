@@ -1,0 +1,688 @@
+,ID,Entity,Category,Group,Original_output,Original_top_token,Mis_Knowledge_Key,Parametric_ans,src_start,dst_start,num_layers,New_Answer,TopDecodedTokenID,TopDecodedToken,Pred
+0,1,Taylor Swift,Temporal_error,VisTxtCont,1988,1,mis_knowledge1,1989,0,0,14,1932,236770,1,INCORRECT
+1,1,Taylor Swift,Temporal_error,VisTxtCont,1990,1,mis_knowledge2,1989,0,0,14,1932,236770,1,INCORRECT
+2,1,Taylor Swift,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+3,1,Taylor Swift,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+4,1,Taylor Swift,Career_error,VisTxtCont,Novelist.,Nov,mis_knowledge1,singer-songwriter,0,0,14,Assistant.,74314,Assistant,INCORRECT
+5,1,Taylor Swift,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge2,singer-songwriter,0,0,14,Assistant.,74314,Assistant,INCORRECT
+6,2,Elon Musk,Temporal_error,VisTxtCont,1970,1,mis_knowledge1,1971,0,0,14,1946,236770,1,INCORRECT
+7,2,Elon Musk,Temporal_error,VisTxtCont,1972,1,mis_knowledge2,1971,0,0,14,1946,236770,1,INCORRECT
+8,2,Elon Musk,location_error,VisTxtCont,South African-British-American,South,mis_knowledge1,South African-Canadian-American,0,0,14,American.,14645,American,INCORRECT
+9,2,Elon Musk,location_error,VisTxtCont,Zimbabwean-Canadian-American,Zimbabwe,mis_knowledge2,South African-Canadian-American,0,0,14,American.,14645,American,INCORRECT
+10,2,Elon Musk,Career_error,VisTxtCont,Professional athlete,Professional,mis_knowledge1,"business magnate, investor, and engineer",0,0,14,Actor,55091,Actor,INCORRECT
+11,2,Elon Musk,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,"business magnate, investor, and engineer",0,0,14,Actor,55091,Actor,INCORRECT
+12,3,Cristiano Ronaldo,Temporal_error,VisTxtCont,1984,1,mis_knowledge1,1985,0,0,14,1946,236770,1,INCORRECT
+13,3,Cristiano Ronaldo,Temporal_error,VisTxtCont,1986,1,mis_knowledge2,1985,0,0,14,1946,236770,1,INCORRECT
+14,3,Cristiano Ronaldo,location_error,VisParam_TxtCont,Portuguese.,Portuguese,mis_knowledge1,Portuguese,0,0,14,American.,14645,American,INCORRECT
+15,3,Cristiano Ronaldo,location_error,VisTxtCont,Andorran,And,mis_knowledge2,Portuguese,0,0,14,American.,14645,American,INCORRECT
+16,3,Cristiano Ronaldo,Career_error,VisParam_TxtCont,Professional soccer player.,Professional,mis_knowledge1,professional footballer,0,0,14,Chef.,85809,Chef,INCORRECT
+17,3,Cristiano Ronaldo,Career_error,VisParam_TxtCont,Professional soccer player,Professional,mis_knowledge2,professional footballer,0,0,14,Chef.,85809,Chef,INCORRECT
+18,4,Dwayne Johnson,Temporal_error,VisTxtCont,1971,1,mis_knowledge1,1972,0,0,14,1947,236770,1,INCORRECT
+19,4,Dwayne Johnson,Temporal_error,VisTxtCont,1973,1,mis_knowledge2,1972,0,0,14,1947,236770,1,INCORRECT
+20,4,Dwayne Johnson,Career_error,VisTxtCont,"Actor, producer, chef.",Actor,mis_knowledge1,"professional wrestler, actor, and producer",0,0,14,Actor,55091,Actor,CORRECT
+21,4,Dwayne Johnson,Career_error,VisParam_TxtCont,"Professional wrestler, producer.",Professional,mis_knowledge2,"professional wrestler, actor, and producer",0,0,14,Actor,55091,Actor,CORRECT
+22,5,Kim Kardashian,Temporal_error,VisTxtCont,1981,1,mis_knowledge1,1980,0,0,14,1946,236770,1,INCORRECT
+23,5,Kim Kardashian,Temporal_error,VisTxtCont,1979,1,mis_knowledge2,1980,0,0,14,1946,236770,1,INCORRECT
+24,5,Kim Kardashian,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+25,5,Kim Kardashian,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+26,5,Kim Kardashian,Career_error,VisTxtCont,Socialite and chef.,Social,mis_knowledge1,"media personality, businesswoman, and socialite",0,0,14,Actor,55091,Actor,INCORRECT
+27,5,Kim Kardashian,Career_error,VisTxtCont,"Software engineer, socialite.",Software,mis_knowledge2,"media personality, businesswoman, and socialite",0,0,14,Actor,55091,Actor,INCORRECT
+28,6,Kanye West,Temporal_error,VisTxtCont,1978,1,mis_knowledge1,1977,0,0,14,1946,236770,1,INCORRECT
+29,6,Kanye West,Temporal_error,VisTxtCont,1976,1,mis_knowledge2,1977,0,0,14,1946,236770,1,INCORRECT
+30,6,Kanye West,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+31,6,Kanye West,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+32,6,Kanye West,Career_error,VisTxtCont,"Chef, producer, designer",Chef,mis_knowledge1,"rapper, producer, and fashion designer",0,0,14,Actor,55091,Actor,INCORRECT
+33,6,Kanye West,Career_error,VisParam_TxtCont,"Rapper, architect, designer.",R,mis_knowledge2,"rapper, producer, and fashion designer",0,0,14,Actor,55091,Actor,INCORRECT
+34,7,Barack Obama,Temporal_error,VisTxtParam,1961,1,mis_knowledge1,1961,0,0,14,1946,236770,1,INCORRECT
+35,7,Barack Obama,Temporal_error,VisTxtCont,1962,1,mis_knowledge2,1961,0,0,14,1946,236770,1,INCORRECT
+36,7,Barack Obama,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,[American],0,0,14,American.,14645,American,CORRECT
+37,7,Barack Obama,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,[American],0,0,14,American.,14645,American,CORRECT
+38,7,Barack Obama,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,[politician and former president],0,0,14,Actor,55091,Actor,INCORRECT
+39,7,Barack Obama,Career_error,VisTxtCont,Professional basketball player,Professional,mis_knowledge2,[politician and former president],0,0,14,Actor,55091,Actor,INCORRECT
+40,8,Oprah Winfrey,Temporal_error,VisTxtCont,1955,1,mis_knowledge1,1954,0,0,14,1946,236770,1,INCORRECT
+41,8,Oprah Winfrey,Temporal_error,VisTxtCont,1953,1,mis_knowledge2,1954,0,0,14,1946,236770,1,INCORRECT
+42,8,Oprah Winfrey,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+43,8,Oprah Winfrey,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+44,8,Oprah Winfrey,Career_error,VisTxtParam,Talk show host.,Talk,mis_knowledge1,"media executive, talk show host, actress, and philanthropist",0,0,14,Actor,55091,Actor,INCORRECT
+45,8,Oprah Winfrey,Career_error,VisTxtParam,"Media executive, actress, philanthropist.",Media,mis_knowledge2,"media executive, talk show host, actress, and philanthropist",0,0,14,Actor,55091,Actor,INCORRECT
+46,9,Tom Hanks,Temporal_error,VisTxtCont,1955,1,mis_knowledge1,1956,0,0,14,1946,236770,1,INCORRECT
+47,9,Tom Hanks,Temporal_error,VisTxtCont,1957,1,mis_knowledge2,1956,0,0,14,1946,236770,1,INCORRECT
+48,9,Tom Hanks,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+49,9,Tom Hanks,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+50,9,Tom Hanks,Career_error,VisTxtCont,Chef and filmmaker,Chef,mis_knowledge1,actor and filmmaker,0,0,14,Actor,55091,Actor,CORRECT
+51,9,Tom Hanks,Career_error,VisTxtCont,"Architect, filmmaker.",Architect,mis_knowledge2,actor and filmmaker,0,0,14,Actor,55091,Actor,CORRECT
+52,10,Jennifer Lopez,Temporal_error,VisTxtCont,1968,1,mis_knowledge1,1969,0,0,14,1946,236770,1,INCORRECT
+53,10,Jennifer Lopez,Temporal_error,VisTxtCont,1970,1,mis_knowledge2,1969,0,0,14,1946,236770,1,INCORRECT
+54,10,Jennifer Lopez,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+55,10,Jennifer Lopez,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+56,10,Jennifer Lopez,Career_error,VisTxtCont,"Actress, dancer, chef.",Actress,mis_knowledge1,"singer, actress, and dancer",0,0,14,Musician,16457,Mus,CORRECT
+57,10,Jennifer Lopez,Career_error,VisTxtCont,"Singer, dancer, architect.",Singer,mis_knowledge2,"singer, actress, and dancer",0,0,14,Musician,16457,Mus,CORRECT
+58,11,Justin Bieber,Temporal_error,VisTxtCont,1995,1,mis_knowledge1,1994,0,0,14,1946,236770,1,INCORRECT
+59,11,Justin Bieber,Temporal_error,VisTxtCont,1993,1,mis_knowledge2,1994,0,0,14,1946,236770,1,INCORRECT
+60,11,Justin Bieber,location_error,VisTxtCont,American.,American,mis_knowledge1,Canadian,0,0,14,American.,14645,American,INCORRECT
+61,11,Justin Bieber,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,Canadian,0,0,14,American.,14645,American,INCORRECT
+62,11,Justin Bieber,Career_error,VisTxtCont,Chef and restaurateur,Chef,mis_knowledge1,singer and songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+63,11,Justin Bieber,Career_error,VisTxtCont,Professional athlete,Professional,mis_knowledge2,singer and songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+64,12,Rihanna,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1988,0,0,14,1946,236770,1,INCORRECT
+65,12,Rihanna,Temporal_error,VisTxtCont,1987,1,mis_knowledge2,1988,0,0,14,1946,236770,1,INCORRECT
+66,12,Rihanna,Career_error,VisTxtCont,"Chef, actress, businesswoman",Chef,mis_knowledge1,"singer, actress, and businesswoman",0,0,14,Actor,55091,Actor,INCORRECT
+67,12,Rihanna,Career_error,VisTxtCont,"Singer, businesswoman, architect.",Singer,mis_knowledge2,"singer, actress, and businesswoman",0,0,14,Actor,55091,Actor,INCORRECT
+68,13,LeBron James,Temporal_error,VisTxtCont,1985,1,mis_knowledge1,1984,0,0,14,1946,236770,1,INCORRECT
+69,13,LeBron James,Temporal_error,VisTxtCont,1983,1,mis_knowledge2,1984,0,0,14,1946,236770,1,INCORRECT
+70,13,LeBron James,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+71,13,LeBron James,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+72,13,LeBron James,Career_error,VisParam_TxtCont,Professional basketball player,Professional,mis_knowledge1,professional basketball player,0,0,14,Actor,55091,Actor,INCORRECT
+73,13,LeBron James,Career_error,VisTxtCont,Professional golfer,Professional,mis_knowledge2,professional basketball player,0,0,14,Actor,55091,Actor,INCORRECT
+74,14,Bill Gates,Temporal_error,VisTxtCont,1956,1,mis_knowledge1,1955,0,0,14,1946,236770,1,INCORRECT
+75,14,Bill Gates,Temporal_error,VisTxtCont,1954,1,mis_knowledge2,1955,0,0,14,1946,236770,1,INCORRECT
+76,14,Bill Gates,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+77,14,Bill Gates,Career_error,VisTxtCont,Chef and philanthropist.,Chef,mis_knowledge1,"business magnate, software developer, and philanthropist",0,0,14,Astronaut,91005,Astr,INCORRECT
+78,14,Bill Gates,Career_error,VisTxtCont,"Landscape architect, philanthropist.",Landscape,mis_knowledge2,"business magnate, software developer, and philanthropist",0,0,14,Astronaut,91005,Astr,INCORRECT
+79,15,Jeff Bezos,Temporal_error,VisTxtCont,1965,1,mis_knowledge1,1964,0,0,14,1937,236770,1,INCORRECT
+80,15,Jeff Bezos,Temporal_error,VisTxtCont,1963,1,mis_knowledge2,1964,0,0,14,1937,236770,1,INCORRECT
+81,15,Jeff Bezos,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+82,15,Jeff Bezos,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+83,15,Jeff Bezos,Career_error,VisParam_TxtCont,Founder of Amazon,Founder,mis_knowledge1,entrepreneur and founder of Amazon,0,0,14,Assistant,74314,Assistant,INCORRECT
+84,15,Jeff Bezos,Career_error,VisParam_TxtCont,Founder of Amazon,Founder,mis_knowledge2,entrepreneur and founder of Amazon,0,0,14,Assistant,74314,Assistant,INCORRECT
+85,16,Mark Zuckerberg,Temporal_error,VisTxtCont,1985,1,mis_knowledge1,1984,0,0,14,1932,236770,1,INCORRECT
+86,16,Mark Zuckerberg,Temporal_error,VisTxtCont,1983,1,mis_knowledge2,1984,0,0,14,1932,236770,1,INCORRECT
+87,16,Mark Zuckerberg,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+88,16,Mark Zuckerberg,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+89,16,Mark Zuckerberg,Career_error,VisTxtCont,Professional chef,Professional,mis_knowledge1,technology entrepreneur and CEO of Meta (formerly Facebook),0,0,14,Actor,55091,Actor,INCORRECT
+90,16,Mark Zuckerberg,Career_error,VisTxtParam,Civil engineer.,Civil,mis_knowledge2,technology entrepreneur and CEO of Meta (formerly Facebook),0,0,14,Actor,55091,Actor,INCORRECT
+91,17,Ariana Grande,Temporal_error,VisTxtCont,1992,1,mis_knowledge1,1993,0,0,14,1946,236770,1,INCORRECT
+92,17,Ariana Grande,Temporal_error,VisTxtCont,1994,1,mis_knowledge2,1993,0,0,14,1946,236770,1,INCORRECT
+93,17,Ariana Grande,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+94,17,Ariana Grande,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+95,17,Ariana Grande,Career_error,VisTxtCont,Actress and chef.,Actress,mis_knowledge1,singer and actress,0,0,14,Actor,55091,Actor,INCORRECT
+96,17,Ariana Grande,Career_error,VisTxtCont,Singer and architect.,Singer,mis_knowledge2,singer and actress,0,0,14,Actor,55091,Actor,INCORRECT
+97,18,Lady Gaga,Temporal_error,VisTxtCont,1985,1,mis_knowledge1,1986,0,0,14,1946,236770,1,INCORRECT
+98,18,Lady Gaga,Temporal_error,VisTxtCont,1987,1,mis_knowledge2,1986,0,0,14,1946,236770,1,INCORRECT
+99,18,Lady Gaga,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+100,18,Lady Gaga,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+101,18,Lady Gaga,Career_error,VisTxtCont,"Chef, songwriter, actress",Chef,mis_knowledge1,"singer, songwriter, and actress",0,0,14,Actor,55091,Actor,INCORRECT
+102,18,Lady Gaga,Career_error,VisTxtCont,"Singer, actress, architect.",Singer,mis_knowledge2,"singer, songwriter, and actress",0,0,14,Actor,55091,Actor,INCORRECT
+103,19,Chris Hemsworth,Temporal_error,VisTxtCont,1982,1,mis_knowledge1,1983,0,0,14,1946,236770,1,INCORRECT
+104,19,Chris Hemsworth,Temporal_error,VisTxtCont,1984,1,mis_knowledge2,1983,0,0,14,1946,236770,1,INCORRECT
+105,19,Chris Hemsworth,location_error,VisTxtCont,New Zealander.,New,mis_knowledge1,Australian,0,0,14,American.,14645,American,INCORRECT
+106,19,Chris Hemsworth,location_error,VisTxtCont,British,British,mis_knowledge2,Australian,0,0,14,American.,14645,American,INCORRECT
+107,19,Chris Hemsworth,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+108,19,Chris Hemsworth,Career_error,VisTxtCont,Pilot.,Pilot,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+109,20,Scarlett Johansson,Temporal_error,VisTxtCont,1985,1,mis_knowledge1,1984,0,0,14,1948,236770,1,INCORRECT
+110,20,Scarlett Johansson,Temporal_error,VisTxtCont,1983,1,mis_knowledge2,1984,0,0,14,1948,236770,1,INCORRECT
+111,20,Scarlett Johansson,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+112,20,Scarlett Johansson,location_error,VisParam_TxtCont,American,American,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+113,20,Scarlett Johansson,Career_error,VisTxtCont,Chef and singer.,Chef,mis_knowledge1,actress and singer,0,0,14,Actor.,55091,Actor,INCORRECT
+114,20,Scarlett Johansson,Career_error,VisTxtCont,Architect and singer.,Architect,mis_knowledge2,actress and singer,0,0,14,Actor.,55091,Actor,INCORRECT
+115,21,Brad Pitt,Temporal_error,VisTxtCont,1962,1,mis_knowledge1,1963,0,0,14,1946,236770,1,INCORRECT
+116,21,Brad Pitt,Temporal_error,VisTxtCont,1964,1,mis_knowledge2,1963,0,0,14,1946,236770,1,INCORRECT
+117,21,Brad Pitt,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+118,21,Brad Pitt,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+119,21,Brad Pitt,Career_error,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actor and film producer,0,0,14,Actor,55091,Actor,INCORRECT
+120,21,Brad Pitt,Career_error,VisTxtCont,"Architect, film producer.",Architect,mis_knowledge2,actor and film producer,0,0,14,Actor,55091,Actor,INCORRECT
+121,22,Johnny Depp,Temporal_error,VisTxtCont,1962,1,mis_knowledge1,1963,0,0,14,1946,236770,1,INCORRECT
+122,22,Johnny Depp,Temporal_error,VisTxtCont,1964,1,mis_knowledge2,1963,0,0,14,1946,236770,1,INCORRECT
+123,22,Johnny Depp,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+124,22,Johnny Depp,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+125,22,Johnny Depp,Career_error,VisTxtCont,Chef and musician.,Chef,mis_knowledge1,actor and musician,0,0,14,Actor,55091,Actor,CORRECT
+126,22,Johnny Depp,Career_error,VisTxtCont,Architect and musician.,Architect,mis_knowledge2,actor and musician,0,0,14,Actor,55091,Actor,CORRECT
+127,23,Will Smith,Temporal_error,VisTxtCont,1969,1,mis_knowledge1,1968,0,0,14,1946,236770,1,INCORRECT
+128,23,Will Smith,Temporal_error,VisTxtCont,1967,1,mis_knowledge2,1968,0,0,14,1946,236770,1,INCORRECT
+129,23,Will Smith,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+130,23,Will Smith,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+131,24,Kevin Hart,Temporal_error,VisTxtCont,1978,1,mis_knowledge1,1979,0,0,14,1946,236770,1,INCORRECT
+132,24,Kevin Hart,Temporal_error,VisTxtCont,1980,1,mis_knowledge2,1979,0,0,14,1946,236770,1,INCORRECT
+133,24,Kevin Hart,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+134,24,Kevin Hart,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+135,24,Kevin Hart,Career_error,VisTxtCont,Actor and chef.,Actor,mis_knowledge1,comedian and actor,0,0,14,Assistant.,74314,Assistant,INCORRECT
+136,24,Kevin Hart,Career_error,VisTxtCont,Actor and journalist.,Actor,mis_knowledge2,comedian and actor,0,0,14,Assistant.,74314,Assistant,INCORRECT
+137,25,The Rock,Temporal_error,VisTxtCont,1971,1,mis_knowledge1,1972,0,0,14,1946,236770,1,INCORRECT
+138,25,The Rock,Temporal_error,VisTxtCont,1973,1,mis_knowledge2,1972,0,0,14,1946,236770,1,INCORRECT
+139,25,The Rock,Career_error,VisTxtCont,"Chef, author, football player",Chef,mis_knowledge1,"[professional wrestler, actor, and former football player]",0,0,14,Actor,55091,Actor,CORRECT
+140,25,The Rock,Career_error,VisTxtCont,"Professional golfer, motivational speaker, former football player.",Professional,mis_knowledge2,"[professional wrestler, actor, and former football player]",0,0,14,Actor,55091,Actor,CORRECT
+141,26,Emma Watson,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1990,0,0,14,1946,236770,1,INCORRECT
+142,26,Emma Watson,Temporal_error,VisTxtCont,1991,1,mis_knowledge2,1990,0,0,14,1946,236770,1,INCORRECT
+143,26,Emma Watson,Career_error,VisTxtCont,Novelist and activist,Nov,mis_knowledge1,actress and activist,0,0,14,Actor,55091,Actor,INCORRECT
+144,26,Emma Watson,Career_error,VisTxtCont,Chef and activist,Chef,mis_knowledge2,actress and activist,0,0,14,Actor,55091,Actor,INCORRECT
+145,27,Daniel Radcliffe,Temporal_error,VisTxtCont,1988,1,mis_knowledge1,1989,0,0,14,1946,236770,1,INCORRECT
+146,27,Daniel Radcliffe,Temporal_error,VisTxtCont,1990,1,mis_knowledge2,1989,0,0,14,1946,236770,1,INCORRECT
+147,27,Daniel Radcliffe,location_error,VisTxtCont,Irish,Irish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+148,27,Daniel Radcliffe,location_error,VisTxtCont,Welsh,Wel,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+149,27,Daniel Radcliffe,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+150,27,Daniel Radcliffe,Career_error,VisTxtCont,Software engineer.,Software,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+151,28,Selena Gomez,Temporal_error,VisTxtCont,1991,1,mis_knowledge1,1992,0,0,14,1942,236770,1,INCORRECT
+152,28,Selena Gomez,Temporal_error,VisTxtCont,1993,1,mis_knowledge2,1992,0,0,14,1942,236770,1,INCORRECT
+153,28,Selena Gomez,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+154,28,Selena Gomez,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+155,28,Selena Gomez,Career_error,VisTxtCont,"Actress, chef, producer.",Actress,mis_knowledge1,"singer, actress, and producer",0,0,14,Actor,55091,Actor,INCORRECT
+156,28,Selena Gomez,Career_error,VisParam_TxtCont,"Singer, producer.",Singer,mis_knowledge2,"singer, actress, and producer",0,0,14,Actor,55091,Actor,INCORRECT
+157,29,Zendaya,Temporal_error,VisTxtCont,1995,1,mis_knowledge1,1996,0,0,14,1946,236770,1,INCORRECT
+158,29,Zendaya,Temporal_error,VisTxtCont,1997,1,mis_knowledge2,1996,0,0,14,1946,236770,1,INCORRECT
+159,29,Zendaya,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+160,29,Zendaya,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+161,29,Zendaya,Career_error,VisTxtCont,"Chef, singer, producer.",Chef,mis_knowledge1,"actress, singer, and producer",0,0,14,Actor,55091,Actor,INCORRECT
+162,29,Zendaya,Career_error,VisTxtParam,"Actress, producer.",Actress,mis_knowledge2,"actress, singer, and producer",0,0,14,Actor,55091,Actor,INCORRECT
+163,30,Tom Holland,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+164,30,Tom Holland,Career_error,VisTxtCont,Software engineer.,Software,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+165,31,Chris Pratt,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+166,31,Chris Pratt,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+167,31,Chris Pratt,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+168,31,Chris Pratt,Career_error,VisTxtCont,Software engineer.,Software,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+169,32,Jennifer Lawrence,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1990,0,0,14,1946,236770,1,INCORRECT
+170,32,Jennifer Lawrence,Temporal_error,VisTxtCont,1991,1,mis_knowledge2,1990,0,0,14,1946,236770,1,INCORRECT
+171,32,Jennifer Lawrence,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+172,32,Jennifer Lawrence,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+173,32,Jennifer Lawrence,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actress,0,0,14,Actor,55091,Actor,INCORRECT
+174,32,Jennifer Lawrence,Career_error,VisTxtCont,Pilot.,Pilot,mis_knowledge2,actress,0,0,14,Actor,55091,Actor,INCORRECT
+175,33,Gal Gadot,Temporal_error,VisTxtCont,1984,1,mis_knowledge1,1985,0,0,14,1946,236770,1,INCORRECT
+176,33,Gal Gadot,Temporal_error,VisTxtCont,1986,1,mis_knowledge2,1985,0,0,14,1946,236770,1,INCORRECT
+177,33,Gal Gadot,Career_error,VisTxtCont,Model and chef.,Model,mis_knowledge1,actress and model,0,0,14,Actor,55091,Actor,INCORRECT
+178,33,Gal Gadot,Career_error,VisTxtCont,Architect and model.,Architect,mis_knowledge2,actress and model,0,0,14,Actor,55091,Actor,INCORRECT
+179,34,Henry Cavill,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+180,34,Henry Cavill,Career_error,VisTxtCont,Pilot.,Pilot,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+181,35,Benedict Cumberbatch,location_error,VisTxtCont,Irish,Irish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+182,35,Benedict Cumberbatch,location_error,VisTxtCont,Scottish,Scottish,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+183,35,Benedict Cumberbatch,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+184,35,Benedict Cumberbatch,Career_error,VisTxtCont,Architect,Architect,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+185,36,Keanu Reeves,Temporal_error,VisTxtCont,1965,1,mis_knowledge1,1964,0,0,14,1946,236770,1,INCORRECT
+186,36,Keanu Reeves,Temporal_error,VisTxtCont,1963,1,mis_knowledge2,1964,0,0,14,1946,236770,1,INCORRECT
+187,36,Keanu Reeves,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+188,36,Keanu Reeves,Career_error,VisTxtCont,Pilot.,Pilot,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+189,37,Ryan Reynolds,Temporal_error,VisTxtCont,1975,1,mis_knowledge1,1976,0,0,14,1946,236770,1,INCORRECT
+190,37,Ryan Reynolds,Temporal_error,VisTxtCont,1977,1,mis_knowledge2,1976,0,0,14,1946,236770,1,INCORRECT
+191,37,Ryan Reynolds,location_error,VisTxtCont,American.,American,mis_knowledge1,Canadian,0,0,14,American.,14645,American,INCORRECT
+192,37,Ryan Reynolds,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,Canadian,0,0,14,American.,14645,American,INCORRECT
+193,37,Ryan Reynolds,Career_error,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actor and producer,0,0,14,Chef,85809,Chef,INCORRECT
+194,37,Ryan Reynolds,Career_error,VisTxtCont,Architect and producer.,Architect,mis_knowledge2,actor and producer,0,0,14,Chef,85809,Chef,INCORRECT
+195,38,Hugh Jackman,Temporal_error,VisTxtCont,1969,1,mis_knowledge1,1968,0,0,14,1932,236770,1,INCORRECT
+196,38,Hugh Jackman,Temporal_error,VisTxtCont,1967,1,mis_knowledge2,1968,0,0,14,1932,236770,1,INCORRECT
+197,38,Hugh Jackman,location_error,VisTxtCont,New Zealander.,New,mis_knowledge1,Australian,0,0,14,American.,14645,American,INCORRECT
+198,38,Hugh Jackman,location_error,VisTxtCont,British,British,mis_knowledge2,Australian,0,0,14,American.,14645,American,INCORRECT
+199,38,Hugh Jackman,Career_error,VisTxtCont,"Chef, singer, producer.",Chef,mis_knowledge1,"actor, singer, and producer",0,0,14,Actor,55091,Actor,CORRECT
+200,38,Hugh Jackman,Career_error,VisCont_TxtParam,"Actor, producer, architect.",Actor,mis_knowledge2,"actor, singer, and producer",0,0,14,Actor,55091,Actor,CORRECT
+201,39,Priyanka Chopra,Temporal_error,VisTxtCont,1981,1,mis_knowledge1,1982,0,0,14,1946,236770,1,INCORRECT
+202,39,Priyanka Chopra,Temporal_error,VisTxtCont,1983,1,mis_knowledge2,1982,0,0,14,1946,236770,1,INCORRECT
+203,39,Priyanka Chopra,location_error,VisTxtCont,Pakistani,Pak,mis_knowledge1,Indian,0,0,14,American.,14645,American,INCORRECT
+204,39,Priyanka Chopra,location_error,VisTxtCont,Bangladeshi,Bang,mis_knowledge2,Indian,0,0,14,American.,14645,American,INCORRECT
+205,39,Priyanka Chopra,Career_error,VisTxtCont,"Chef, producer, Miss World",Chef,mis_knowledge1,"actress, producer, and former Miss World",0,0,14,Actor,55091,Actor,INCORRECT
+206,39,Priyanka Chopra,Career_error,VisTxtCont,"Architect, producer, Miss World",Architect,mis_knowledge2,"actress, producer, and former Miss World",0,0,14,Actor,55091,Actor,INCORRECT
+207,40,Nicki Minaj,Temporal_error,VisTxtCont,1981,1,mis_knowledge1,1982,0,0,14,1946,236770,1,INCORRECT
+208,40,Nicki Minaj,Temporal_error,VisTxtCont,1983,1,mis_knowledge2,1982,0,0,14,1946,236770,1,INCORRECT
+209,40,Nicki Minaj,Career_error,VisTxtCont,"Novelist, rapper",Nov,mis_knowledge1,"rapper, singer, and songwriter",0,0,14,Model.,4968,Model,INCORRECT
+210,40,Nicki Minaj,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,"rapper, singer, and songwriter",0,0,14,Model.,4968,Model,INCORRECT
+211,41,Cardi B,Temporal_error,VisTxtCont,1991,1,mis_knowledge1,1992,0,0,14,1946,236770,1,INCORRECT
+212,41,Cardi B,Temporal_error,VisTxtCont,1993,1,mis_knowledge2,1992,0,0,14,1946,236770,1,INCORRECT
+213,41,Cardi B,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+214,41,Cardi B,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+215,42,Post Malone,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+216,42,Post Malone,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+217,42,Post Malone,Career_error,VisTxtCont,"Rapper, songwriter, chef",R,mis_knowledge1,"singer, rapper, and songwriter",0,0,14,Helpful assistant.,28368,Help,INCORRECT
+218,42,Post Malone,Career_error,VisTxtCont,"Singer, songwriter, architect.",Singer,mis_knowledge2,"singer, rapper, and songwriter",0,0,14,Helpful assistant.,28368,Help,INCORRECT
+219,43,Ed Sheeran,Temporal_error,VisTxtCont,1990,1,mis_knowledge1,1991,0,0,14,1946,236770,1,INCORRECT
+220,43,Ed Sheeran,Temporal_error,VisTxtCont,1992,1,mis_knowledge2,1991,0,0,14,1946,236770,1,INCORRECT
+221,43,Ed Sheeran,location_error,VisTxtCont,Irish,Irish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+222,43,Ed Sheeran,location_error,VisTxtCont,Scottish,Scottish,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+223,43,Ed Sheeran,Career_error,VisTxtCont,Professional footballer,Professional,mis_knowledge1,singer-songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+224,43,Ed Sheeran,Career_error,VisTxtCont,Software engineer.,Software,mis_knowledge2,singer-songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+225,44,Bruno Mars,Temporal_error,VisTxtCont,1984,1,mis_knowledge1,1985,0,0,14,1946,236770,1,INCORRECT
+226,44,Bruno Mars,Temporal_error,VisTxtCont,1986,1,mis_knowledge2,1985,0,0,14,1946,236770,1,INCORRECT
+227,44,Bruno Mars,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+228,44,Bruno Mars,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+229,44,Bruno Mars,Career_error,VisTxtCont,"Songwriter, producer, chef.",Song,mis_knowledge1,"singer, songwriter, and record producer",0,0,14,Actor,55091,Actor,INCORRECT
+230,44,Bruno Mars,Career_error,VisTxtCont,"Singer, producer, architect",Singer,mis_knowledge2,"singer, songwriter, and record producer",0,0,14,Actor,55091,Actor,INCORRECT
+231,45,Adele,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1988,0,0,14,1946,236770,1,INCORRECT
+232,45,Adele,Temporal_error,VisTxtCont,1987,1,mis_knowledge2,1988,0,0,14,1946,236770,1,INCORRECT
+233,45,Adele,location_error,VisTxtCont,Irish,Irish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+234,45,Adele,location_error,VisTxtCont,Scottish,Scottish,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+235,45,Adele,Career_error,VisParam_TxtCont,"Singer, songwriter",Singer,mis_knowledge1,singer-songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+236,45,Adele,Career_error,VisParam_TxtCont,Singer.,Singer,mis_knowledge2,singer-songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+237,46,Harry Styles,Temporal_error,VisTxtCont,1995,1,mis_knowledge1,1994,0,0,14,1946,236770,1,INCORRECT
+238,46,Harry Styles,Temporal_error,VisTxtCont,1993,1,mis_knowledge2,1994,0,0,14,1946,236770,1,INCORRECT
+239,46,Harry Styles,location_error,VisTxtCont,Irish,Irish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+240,46,Harry Styles,location_error,VisTxtCont,Welsh,Wel,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+241,46,Harry Styles,Career_error,VisTxtCont,"Chef, songwriter, actor",Chef,mis_knowledge1,"singer, songwriter, and actor",0,0,14,Actor,55091,Actor,INCORRECT
+242,46,Harry Styles,Career_error,VisTxtCont,"Singer, actor, architect.",Singer,mis_knowledge2,"singer, songwriter, and actor",0,0,14,Actor,55091,Actor,INCORRECT
+243,47,Shawn Mendes,location_error,VisTxtCont,American.,American,mis_knowledge1,Canadian,0,0,14,American.,14645,American,INCORRECT
+244,47,Shawn Mendes,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,Canadian,0,0,14,American.,14645,American,INCORRECT
+245,47,Shawn Mendes,Career_error,VisTxtCont,Professional athlete,Professional,mis_knowledge1,singer-songwriter and musician,0,0,14,Actor,55091,Actor,INCORRECT
+246,47,Shawn Mendes,Career_error,VisTxtCont,Software engineer.,Software,mis_knowledge2,singer-songwriter and musician,0,0,14,Actor,55091,Actor,INCORRECT
+247,48,Billie Eilish,Temporal_error,VisTxtCont,2000,2,mis_knowledge1,2001,0,0,14,1942,236770,1,INCORRECT
+248,48,Billie Eilish,Temporal_error,VisTxtCont,2002,2,mis_knowledge2,2001,0,0,14,1942,236770,1,INCORRECT
+249,48,Billie Eilish,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+250,48,Billie Eilish,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+251,48,Billie Eilish,Career_error,VisTxtCont,Professional dancer,Professional,mis_knowledge1,singer-songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+252,48,Billie Eilish,Career_error,VisTxtCont,Novelist.,Nov,mis_knowledge2,singer-songwriter,0,0,14,Actor,55091,Actor,INCORRECT
+253,49,Serena Williams,Temporal_error,VisTxtCont,1982,1,mis_knowledge1,1981,0,0,14,1946,236770,1,INCORRECT
+254,49,Serena Williams,Temporal_error,VisTxtCont,1980,1,mis_knowledge2,1981,0,0,14,1946,236770,1,INCORRECT
+255,49,Serena Williams,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+256,49,Serena Williams,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+257,49,Serena Williams,Career_error,VisParam_TxtCont,Tennis player,Tennis,mis_knowledge1,professional tennis player,0,0,14,Model,4968,Model,INCORRECT
+258,49,Serena Williams,Career_error,VisParam_TxtCont,Professional tennis player,Professional,mis_knowledge2,professional tennis player,0,0,14,Model,4968,Model,INCORRECT
+259,50,Roger Federer,Temporal_error,VisTxtCont,1982,1,mis_knowledge1,1981,0,0,14,1946,236770,1,INCORRECT
+260,50,Roger Federer,Temporal_error,VisTxtCont,1980,1,mis_knowledge2,1981,0,0,14,1946,236770,1,INCORRECT
+261,50,Roger Federer,location_error,VisTxtCont,German,German,mis_knowledge1,Swiss,0,0,14,British,53485,British,INCORRECT
+262,50,Roger Federer,location_error,VisParam_TxtCont,Swiss,Swiss,mis_knowledge2,Swiss,0,0,14,British,53485,British,INCORRECT
+263,50,Roger Federer,Career_error,VisParam_TxtCont,Tennis player,Tennis,mis_knowledge1,retired professional tennis player,0,0,14,Model.,4968,Model,INCORRECT
+264,50,Roger Federer,Career_error,VisParam_TxtCont,Retired tennis player,Retired,mis_knowledge2,retired professional tennis player,0,0,14,Model.,4968,Model,INCORRECT
+265,51,Novak Djokovic,Temporal_error,VisTxtCont,1986,1,mis_knowledge1,1987,0,0,14,1948,236770,1,INCORRECT
+266,51,Novak Djokovic,Temporal_error,VisTxtCont,1988,1,mis_knowledge2,1987,0,0,14,1948,236770,1,INCORRECT
+267,51,Novak Djokovic,location_error,VisTxtCont,Montenegrin,Mont,mis_knowledge1,Serbian,0,0,14,American.,14645,American,INCORRECT
+268,51,Novak Djokovic,location_error,VisTxtCont,Croatian,Croatian,mis_knowledge2,Serbian,0,0,14,American.,14645,American,INCORRECT
+269,51,Novak Djokovic,Career_error,VisParam_TxtCont,Tennis player,Tennis,mis_knowledge1,professional tennis player,0,0,14,Model.,4968,Model,INCORRECT
+270,51,Novak Djokovic,Career_error,VisParam_TxtCont,Professional tennis player,Professional,mis_knowledge2,professional tennis player,0,0,14,Model.,4968,Model,INCORRECT
+271,52,Kobe Bryant,Temporal_error,VisTxtCont,1979,1,mis_knowledge1,1978,0,0,14,1932,236770,1,INCORRECT
+272,52,Kobe Bryant,Temporal_error,VisTxtCont,1977,1,mis_knowledge2,1978,0,0,14,1932,236770,1,INCORRECT
+273,52,Kobe Bryant,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+274,52,Kobe Bryant,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+275,52,Kobe Bryant,Career_error,VisTxtParam,Basketball player,Basketball,mis_knowledge1,former professional basketball player,0,0,14,Assistant.,74314,Assistant,INCORRECT
+276,52,Kobe Bryant,Career_error,VisParam_TxtCont,Basketball player,Basketball,mis_knowledge2,former professional basketball player,0,0,14,Assistant.,74314,Assistant,INCORRECT
+277,53,Stephen Curry,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1988,0,0,14,1932,236770,1,INCORRECT
+278,53,Stephen Curry,Temporal_error,VisTxtCont,1987,1,mis_knowledge2,1988,0,0,14,1932,236770,1,INCORRECT
+279,53,Stephen Curry,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+280,53,Stephen Curry,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+281,53,Stephen Curry,Career_error,VisParam_TxtCont,Professional basketball player,Professional,mis_knowledge1,professional basketball player,0,0,14,Helpful assistant.,28368,Help,INCORRECT
+282,53,Stephen Curry,Career_error,VisParam_TxtCont,Professional basketball player,Professional,mis_knowledge2,professional basketball player,0,0,14,Helpful assistant.,28368,Help,INCORRECT
+283,54,Usain Bolt,Temporal_error,VisTxtCont,1985,1,mis_knowledge1,1986,0,0,14,1932,236770,1,INCORRECT
+284,54,Usain Bolt,Temporal_error,VisTxtCont,1987,1,mis_knowledge2,1986,0,0,14,1932,236770,1,INCORRECT
+285,54,Usain Bolt,location_error,VisParam_TxtCont,Jamaican,Jama,mis_knowledge1,Jamaican,0,0,14,American.,14645,American,INCORRECT
+286,54,Usain Bolt,location_error,VisTxtParam,Jamaican,Jama,mis_knowledge2,Jamaican,0,0,14,American.,14645,American,INCORRECT
+287,54,Usain Bolt,Career_error,VisTxtCont,Retired footballer,Retired,mis_knowledge1,retired sprinter,0,0,14,Helpful assistant,28368,Help,INCORRECT
+288,54,Usain Bolt,Career_error,VisParam_TxtCont,Retired sprinter,Retired,mis_knowledge2,retired sprinter,0,0,14,Helpful assistant,28368,Help,INCORRECT
+289,55,Simone Biles,Temporal_error,VisTxtCont,1996,1,mis_knowledge1,1997,0,0,14,1947,236770,1,INCORRECT
+290,55,Simone Biles,Temporal_error,VisTxtCont,1998,1,mis_knowledge2,1997,0,0,14,1947,236770,1,INCORRECT
+291,55,Simone Biles,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+292,55,Simone Biles,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+293,55,Simone Biles,Career_error,VisTxtParam,Gymnast,Gym,mis_knowledge1,gymnast,0,0,14,Model.,4968,Model,INCORRECT
+294,55,Simone Biles,Career_error,VisParam_TxtCont,Gymnast,Gym,mis_knowledge2,gymnast,0,0,14,Model.,4968,Model,INCORRECT
+295,56,Lewis Hamilton,Temporal_error,VisTxtCont,1984,1,mis_knowledge1,1985,0,0,14,1946,236770,1,INCORRECT
+296,56,Lewis Hamilton,Temporal_error,VisTxtCont,1986,1,mis_knowledge2,1985,0,0,14,1946,236770,1,INCORRECT
+297,56,Lewis Hamilton,location_error,VisParam_TxtCont,British,British,mis_knowledge1,British,0,0,14,British.,53485,British,CORRECT
+298,56,Lewis Hamilton,location_error,VisParam_TxtCont,British,British,mis_knowledge2,British,0,0,14,British.,53485,British,CORRECT
+299,56,Lewis Hamilton,Career_error,VisTxtCont,Professional golfer,Professional,mis_knowledge1,Formula 1 racing driver,0,0,14,Assistant.,74314,Assistant,INCORRECT
+300,56,Lewis Hamilton,Career_error,VisParam_TxtCont,Race car driver,Race,mis_knowledge2,Formula 1 racing driver,0,0,14,Assistant.,74314,Assistant,INCORRECT
+301,57,Virat Kohli,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1988,0,0,14,1947,236770,1,INCORRECT
+302,57,Virat Kohli,Temporal_error,VisTxtCont,1987,1,mis_knowledge2,1988,0,0,14,1947,236770,1,INCORRECT
+303,57,Virat Kohli,location_error,VisTxtCont,Pakistani,Pak,mis_knowledge1,Indian,0,0,14,American.,14645,American,INCORRECT
+304,57,Virat Kohli,location_error,VisTxtCont,Bangladeshi,Bang,mis_knowledge2,Indian,0,0,14,American.,14645,American,INCORRECT
+305,57,Virat Kohli,Career_error,VisParam_TxtCont,Cricketer,C,mis_knowledge1,cricketer,0,0,14,Model.,4968,Model,INCORRECT
+306,57,Virat Kohli,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,cricketer,0,0,14,Model.,4968,Model,INCORRECT
+307,58,Elon Musk,Temporal_error,VisTxtCont,1970,1,mis_knowledge1,1971,0,0,14,1946,236770,1,INCORRECT
+308,58,Elon Musk,Temporal_error,VisTxtCont,1972,1,mis_knowledge2,1971,0,0,14,1946,236770,1,INCORRECT
+309,58,Elon Musk,location_error,VisTxtCont,South African-British-American,South,mis_knowledge1,South African-Canadian-American,0,0,14,American.,14645,American,INCORRECT
+310,58,Elon Musk,location_error,VisTxtCont,Zimbabwean-Canadian-American,Zimbabwe,mis_knowledge2,South African-Canadian-American,0,0,14,American.,14645,American,INCORRECT
+311,58,Elon Musk,Career_error,VisTxtCont,Professional chef.,Professional,mis_knowledge1,"business magnate, investor, and engineer",0,0,14,Actor,55091,Actor,INCORRECT
+312,58,Elon Musk,Career_error,VisTxtCont,Ballet dancer,Bal,mis_knowledge2,"business magnate, investor, and engineer",0,0,14,Actor,55091,Actor,INCORRECT
+313,59,Jeff Bezos,Temporal_error,VisTxtCont,1965,1,mis_knowledge1,1964,0,0,14,1937,236770,1,INCORRECT
+314,59,Jeff Bezos,Temporal_error,VisTxtCont,1963,1,mis_knowledge2,1964,0,0,14,1937,236770,1,INCORRECT
+315,59,Jeff Bezos,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+316,59,Jeff Bezos,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+317,59,Jeff Bezos,Career_error,VisParam_TxtCont,Founder of Amazon,Founder,mis_knowledge1,entrepreneur and founder of Amazon,0,0,14,Assistant,74314,Assistant,INCORRECT
+318,59,Jeff Bezos,Career_error,VisParam_TxtCont,Founder of Amazon,Founder,mis_knowledge2,entrepreneur and founder of Amazon,0,0,14,Assistant,74314,Assistant,INCORRECT
+319,60,Jack Ma,Temporal_error,VisTxtCont,1965,1,mis_knowledge1,1964,0,0,14,1946,236770,1,INCORRECT
+320,60,Jack Ma,Temporal_error,VisTxtCont,1963,1,mis_knowledge2,1964,0,0,14,1946,236770,1,INCORRECT
+321,60,Jack Ma,location_error,VisTxtCont,Japanese.,Japanese,mis_knowledge1,Chinese,0,0,14,American.,14645,American,INCORRECT
+322,60,Jack Ma,location_error,VisTxtCont,Korean,Korean,mis_knowledge2,Chinese,0,0,14,American.,14645,American,INCORRECT
+323,60,Jack Ma,Career_error,VisTxtCont,Professional golfer,Professional,mis_knowledge1,"[business magnate, investor, and philanthropist]",0,0,14,Chef,85809,Chef,INCORRECT
+324,60,Jack Ma,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,"[business magnate, investor, and philanthropist]",0,0,14,Chef,85809,Chef,INCORRECT
+325,61,Tim Cook,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+326,61,Tim Cook,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+327,61,Tim Cook,Career_error,VisTxtParam,CEO of Apple,CEO,mis_knowledge1,business executive and CEO of Apple Inc,0,0,14,Actor,55091,Actor,INCORRECT
+328,61,Tim Cook,Career_error,VisParam_TxtCont,CEO,CEO,mis_knowledge2,business executive and CEO of Apple Inc,0,0,14,Actor,55091,Actor,INCORRECT
+329,62,Satya Nadella,location_error,VisTxtCont,Pakistani-American,Pak,mis_knowledge1,Indian-American,0,0,14,American.,14645,American,INCORRECT
+330,62,Satya Nadella,location_error,VisTxtCont,Bangladeshi-American,Bang,mis_knowledge2,Indian-American,0,0,14,American.,14645,American,INCORRECT
+331,62,Satya Nadella,Career_error,VisTxtParam,Business executive,Business,mis_knowledge1,business executive and the CEO of Microsoft,0,0,14,Actor,55091,Actor,INCORRECT
+332,62,Satya Nadella,Career_error,VisParam_TxtCont,Business executive,Business,mis_knowledge2,business executive and the CEO of Microsoft,0,0,14,Actor,55091,Actor,INCORRECT
+333,63,Michelle Obama,Temporal_error,VisTxtCont,1965,1,mis_knowledge1,1964,0,0,14,1946,236770,1,INCORRECT
+334,63,Michelle Obama,Temporal_error,VisTxtCont,1963,1,mis_knowledge2,1964,0,0,14,1946,236770,1,INCORRECT
+335,63,Michelle Obama,location_error,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+336,63,Michelle Obama,location_error,VisTxtParam,American.,American,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+337,64,Donald Trump,Temporal_error,VisTxtCont,1945,1,mis_knowledge1,1946,0,0,14,1946,236770,1,CORRECT
+338,64,Donald Trump,Temporal_error,VisTxtCont,1947,1,mis_knowledge2,1946,0,0,14,1946,236770,1,CORRECT
+339,64,Donald Trump,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+340,64,Donald Trump,location_error,VisParam_TxtCont,American.,American,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+341,65,Justin Trudeau,location_error,VisTxtParam,Canadian,Canadian,mis_knowledge1,Canadian,0,0,14,American.,14645,American,INCORRECT
+342,65,Justin Trudeau,location_error,VisTxtCont,French,French,mis_knowledge2,Canadian,0,0,14,American.,14645,American,INCORRECT
+343,65,Justin Trudeau,Career_error,VisTxtCont,President of Canada,President,mis_knowledge1,Prime Minister of Canada,0,0,14,Chef,85809,Chef,INCORRECT
+344,65,Justin Trudeau,Career_error,VisCont_TxtParam,Mayor of Ottawa,Mayor,mis_knowledge2,Prime Minister of Canada,0,0,14,Chef,85809,Chef,INCORRECT
+345,66,Angela Merkel,Temporal_error,VisTxtCont,1955,1,mis_knowledge1,1954,0,0,14,1946,236770,1,INCORRECT
+346,66,Angela Merkel,Temporal_error,VisTxtCont,1953,1,mis_knowledge2,1954,0,0,14,1946,236770,1,INCORRECT
+347,66,Angela Merkel,location_error,VisTxtParam,German,German,mis_knowledge1,German,0,0,14,American.,14645,American,INCORRECT
+348,66,Angela Merkel,location_error,VisTxtCont,Swiss.,Swiss,mis_knowledge2,German,0,0,14,American.,14645,American,INCORRECT
+349,66,Angela Merkel,Career_error,VisTxtCont,"Scientist, Chancellor",Scient,mis_knowledge1,politician and former Chancellor of Germany,0,0,14,Actor,55091,Actor,INCORRECT
+350,66,Angela Merkel,Career_error,VisTxtCont,"Teacher, Chancellor",Teacher,mis_knowledge2,politician and former Chancellor of Germany,0,0,14,Actor,55091,Actor,INCORRECT
+351,67,Elon Musk,Temporal_error,VisTxtCont,1970,1,mis_knowledge1,1971,0,0,14,1946,236770,1,INCORRECT
+352,67,Elon Musk,Temporal_error,VisTxtCont,1972,1,mis_knowledge2,1971,0,0,14,1946,236770,1,INCORRECT
+353,67,Elon Musk,location_error,VisTxtCont,South African-British-American,South,mis_knowledge1,South African-Canadian-American,0,0,14,American.,14645,American,INCORRECT
+354,67,Elon Musk,location_error,VisTxtCont,Zimbabwean-Canadian-American,Zimbabwe,mis_knowledge2,South African-Canadian-American,0,0,14,American.,14645,American,INCORRECT
+355,67,Elon Musk,Career_error,VisTxtCont,Professional chef.,Professional,mis_knowledge1,"business magnate, investor, and engineer",0,0,14,Actor,55091,Actor,INCORRECT
+356,67,Elon Musk,Career_error,VisTxtCont,Ballet dancer,Bal,mis_knowledge2,"business magnate, investor, and engineer",0,0,14,Actor,55091,Actor,INCORRECT
+357,68,Malala Yousafzai,Temporal_error,VisTxtCont,1996,1,mis_knowledge1,1997,0,0,14,1946,236770,1,INCORRECT
+358,68,Malala Yousafzai,Temporal_error,VisTxtCont,1998,1,mis_knowledge2,1997,0,0,14,1946,236770,1,INCORRECT
+359,68,Malala Yousafzai,location_error,VisTxtCont,Afghan,Afghan,mis_knowledge1,Pakistani,0,0,14,American,14645,American,INCORRECT
+360,68,Malala Yousafzai,location_error,VisTxtCont,Indian,Indian,mis_knowledge2,Pakistani,0,0,14,American,14645,American,INCORRECT
+361,68,Malala Yousafzai,Career_error,VisTxtCont,Professional athlete,Professional,mis_knowledge1,activist for female education and the youngest Nobel Prize laureate,0,0,14,Actor,55091,Actor,INCORRECT
+362,68,Malala Yousafzai,Career_error,VisTxtParam,Software engineer.,Software,mis_knowledge2,activist for female education and the youngest Nobel Prize laureate,0,0,14,Actor,55091,Actor,INCORRECT
+363,69,Emma Watson,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1990,0,0,14,1946,236770,1,INCORRECT
+364,69,Emma Watson,Temporal_error,VisTxtCont,1991,1,mis_knowledge2,1990,0,0,14,1946,236770,1,INCORRECT
+365,69,Emma Watson,Career_error,VisTxtCont,Novelist and activist,Nov,mis_knowledge1,actress and activist,0,0,14,Actor,55091,Actor,INCORRECT
+366,69,Emma Watson,Career_error,VisTxtCont,Chef and activist,Chef,mis_knowledge2,actress and activist,0,0,14,Actor,55091,Actor,INCORRECT
+367,70,Ellen DeGeneres,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+368,70,Ellen DeGeneres,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+369,70,Ellen DeGeneres,Career_error,VisParam_TxtCont,"Television host, actress.",Television,mis_knowledge1,"comedian, television host, actress, and writer",0,0,14,Assistant,74314,Assistant,INCORRECT
+370,70,Ellen DeGeneres,Career_error,VisTxtParam,"Comedian, host, writer.",Com,mis_knowledge2,"comedian, television host, actress, and writer",0,0,14,Assistant,74314,Assistant,INCORRECT
+371,71,Jimmy Fallon,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+372,71,Jimmy Fallon,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+373,71,Jimmy Fallon,Career_error,VisTxtCont,"Actor, host, chef.",Actor,mis_knowledge1,"comedian, actor, and television host",0,0,14,Actor,55091,Actor,INCORRECT
+374,71,Jimmy Fallon,Career_error,VisTxtParam,"Comedian, host.",Com,mis_knowledge2,"comedian, actor, and television host",0,0,14,Actor,55091,Actor,INCORRECT
+375,72,Stephen Colbert,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+376,72,Stephen Colbert,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+377,72,Stephen Colbert,Career_error,VisTxtCont,"Actor, host, chef",Actor,mis_knowledge1,"comedian, actor, and television host",0,0,14,Actor,55091,Actor,INCORRECT
+378,72,Stephen Colbert,Career_error,VisParam_TxtCont,"Comedian, host.",Com,mis_knowledge2,"comedian, actor, and television host",0,0,14,Actor,55091,Actor,INCORRECT
+379,73,Conan O'Brien,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+380,73,Conan O'Brien,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+381,73,Conan O'Brien,Career_error,VisTxtParam,Television host.,Television,mis_knowledge1,"comedian, writer, producer, and television host",0,0,14,Actor.,55091,Actor,INCORRECT
+382,73,Conan O'Brien,Career_error,VisTxtParam,"Comedian, writer, producer.",Com,mis_knowledge2,"comedian, writer, producer, and television host",0,0,14,Actor.,55091,Actor,INCORRECT
+383,74,Trevor Noah,location_error,VisTxtCont,Namibian.,Nam,mis_knowledge1,South African,0,0,14,American.,14645,American,INCORRECT
+384,74,Trevor Noah,location_error,VisTxtCont,Zimbabwean.,Zimbabwe,mis_knowledge2,South African,0,0,14,American.,14645,American,INCORRECT
+385,74,Trevor Noah,Career_error,VisParam_TxtCont,"Television host, author.",Television,mis_knowledge1,"comedian, television host, and author",0,0,14,Actor,55091,Actor,INCORRECT
+386,74,Trevor Noah,Career_error,VisTxtParam,"Comedian, author.",Com,mis_knowledge2,"comedian, television host, and author",0,0,14,Actor,55091,Actor,INCORRECT
+387,75,John Cena,Temporal_error,VisTxtCont,1978,1,mis_knowledge1,1977,0,0,14,1942,236770,1,INCORRECT
+388,75,John Cena,Temporal_error,VisTxtCont,1976,1,mis_knowledge2,1977,0,0,14,1942,236770,1,INCORRECT
+389,75,John Cena,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+390,75,John Cena,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+391,75,John Cena,Career_error,VisTxtCont,"Actor, chef",Actor,mis_knowledge1,professional wrestler and actor,0,0,14,Chef,85809,Chef,INCORRECT
+392,75,John Cena,Career_error,VisTxtCont,"Professional wrestler, architect",Professional,mis_knowledge2,professional wrestler and actor,0,0,14,Chef,85809,Chef,INCORRECT
+393,76,Floyd Mayweather,Temporal_error,VisTxtCont,1978,1,mis_knowledge1,1977,0,0,14,1946,236770,1,INCORRECT
+394,76,Floyd Mayweather,Temporal_error,VisTxtCont,1976,1,mis_knowledge2,1977,0,0,14,1946,236770,1,INCORRECT
+395,76,Floyd Mayweather,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+396,76,Floyd Mayweather,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+397,76,Floyd Mayweather,Career_error,VisParam_TxtCont,Boxer,Box,mis_knowledge1,professional boxer,0,0,14,Actor,55091,Actor,INCORRECT
+398,76,Floyd Mayweather,Career_error,VisTxtCont,Professional golfer,Professional,mis_knowledge2,professional boxer,0,0,14,Actor,55091,Actor,INCORRECT
+399,77,Gordon Ramsay,Temporal_error,VisTxtCont,1965,1,mis_knowledge1,1966,0,0,14,1946,236770,1,INCORRECT
+400,77,Gordon Ramsay,Temporal_error,VisTxtCont,1967,1,mis_knowledge2,1966,0,0,14,1946,236770,1,INCORRECT
+401,77,Gordon Ramsay,location_error,VisTxtCont,Scottish,Scottish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+402,77,Gordon Ramsay,location_error,VisTxtCont,Welsh,Wel,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+403,77,Gordon Ramsay,Career_error,VisParam_TxtCont,"Restaurateur, television personality.",Rest,mis_knowledge1,"chef, restaurateur, and television personality",0,0,14,Chef,85809,Chef,CORRECT
+404,77,Gordon Ramsay,Career_error,VisTxtParam,"Chef, television personality.",Chef,mis_knowledge2,"chef, restaurateur, and television personality",0,0,14,Chef,85809,Chef,CORRECT
+405,78,Jamie Oliver,Career_error,VisTxtCont,Novelist,Nov,mis_knowledge1,"[chef, restaurateur, and media personality]",0,0,14,Musician,16457,Mus,INCORRECT
+406,78,Jamie Oliver,Career_error,VisTxtCont,Professional footballer,Professional,mis_knowledge2,"[chef, restaurateur, and media personality]",0,0,14,Musician,16457,Mus,INCORRECT
+407,79,Martha Stewart,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+408,79,Martha Stewart,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+409,79,Martha Stewart,Career_error,VisTxtCont,"Scientist, writer, television personality.",Scient,mis_knowledge1,"businesswoman, writer, and television personality",0,0,14,Actor,55091,Actor,INCORRECT
+410,79,Martha Stewart,Career_error,VisTxtCont,"Businesswoman, writer, astronaut",Business,mis_knowledge2,"businesswoman, writer, and television personality",0,0,14,Actor,55091,Actor,INCORRECT
+411,80,Reese Witherspoon,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+412,80,Reese Witherspoon,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+413,80,Reese Witherspoon,Career_error,VisParam_TxtCont,"Producer, actress.",Producer,mis_knowledge1,actress and producer,0,0,14,Actor,55091,Actor,INCORRECT
+414,80,Reese Witherspoon,Career_error,VisTxtCont,Architect and producer.,Architect,mis_knowledge2,actress and producer,0,0,14,Actor,55091,Actor,INCORRECT
+415,81,Anne Hathaway,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+416,81,Anne Hathaway,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+417,81,Anne Hathaway,Career_error,VisTxtCont,"Novelist, actress",Nov,mis_knowledge1,actress,0,0,14,Actor,55091,Actor,INCORRECT
+418,81,Anne Hathaway,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,0,0,14,Actor,55091,Actor,INCORRECT
+419,82,Natalie Portman,location_error,VisTxtCont,Canadian and Israeli.,Canadian,mis_knowledge1,American and Israeli,0,0,14,British,53485,British,INCORRECT
+420,82,Natalie Portman,location_error,VisTxtCont,American and Lebanese.,American,mis_knowledge2,American and Israeli,0,0,14,British,53485,British,INCORRECT
+421,82,Natalie Portman,Career_error,VisTxtCont,"Novelist, filmmaker, actress",Nov,mis_knowledge1,"actress, filmmaker, and former child prodigy",0,0,14,Actor,55091,Actor,INCORRECT
+422,82,Natalie Portman,Career_error,VisParam_TxtCont,"Architect, filmmaker.",Architect,mis_knowledge2,"actress, filmmaker, and former child prodigy",0,0,14,Actor,55091,Actor,INCORRECT
+423,83,Emma Stone,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+424,83,Emma Stone,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+425,83,Emma Stone,Career_error,VisTxtCont,"Novelist, actress",Nov,mis_knowledge1,actress,0,0,14,Actor,55091,Actor,INCORRECT
+426,83,Emma Stone,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,actress,0,0,14,Actor,55091,Actor,INCORRECT
+427,84,Ryan Gosling,Temporal_error,VisTxtCont,1981,1,mis_knowledge1,1980,0,0,14,1947,236770,1,INCORRECT
+428,84,Ryan Gosling,Temporal_error,VisTxtCont,1979,1,mis_knowledge2,1980,0,0,14,1947,236770,1,INCORRECT
+429,84,Ryan Gosling,Career_error,VisTxtCont,Chef and musician,Chef,mis_knowledge1,actor and musician,0,0,14,Actor,55091,Actor,CORRECT
+430,84,Ryan Gosling,Career_error,VisTxtCont,Architect and musician.,Architect,mis_knowledge2,actor and musician,0,0,14,Actor,55091,Actor,CORRECT
+431,85,Matthew McConaughey,Temporal_error,VisTxtCont,1968,1,mis_knowledge1,1969,0,0,14,1946,236770,1,INCORRECT
+432,85,Matthew McConaughey,Temporal_error,VisTxtCont,1970,1,mis_knowledge2,1969,0,0,14,1946,236770,1,INCORRECT
+433,85,Matthew McConaughey,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+434,85,Matthew McConaughey,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+435,85,Matthew McConaughey,Career_error,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actor and producer,0,0,14,Actor,55091,Actor,CORRECT
+436,85,Matthew McConaughey,Career_error,VisTxtCont,Architect and producer.,Architect,mis_knowledge2,actor and producer,0,0,14,Actor,55091,Actor,CORRECT
+437,86,Leonardo DiCaprio,Temporal_error,VisTxtCont,1975,1,mis_knowledge1,1974,0,0,14,1932,236770,1,INCORRECT
+438,86,Leonardo DiCaprio,Temporal_error,VisTxtCont,1973,1,mis_knowledge2,1974,0,0,14,1932,236770,1,INCORRECT
+439,86,Leonardo DiCaprio,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+440,86,Leonardo DiCaprio,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+441,86,Leonardo DiCaprio,Career_error,VisTxtCont,"Film producer, chef.",Film,mis_knowledge1,actor and film producer,0,0,14,Actor,55091,Actor,INCORRECT
+442,86,Leonardo DiCaprio,Career_error,VisTxtCont,"Architect, film producer",Architect,mis_knowledge2,actor and film producer,0,0,14,Actor,55091,Actor,INCORRECT
+443,87,Matt Damon,Temporal_error,VisTxtCont,1971,1,mis_knowledge1,1970,0,0,14,1946,236770,1,INCORRECT
+444,87,Matt Damon,Temporal_error,VisTxtCont,1969,1,mis_knowledge2,1970,0,0,14,1946,236770,1,INCORRECT
+445,87,Matt Damon,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American,14645,American,CORRECT
+446,87,Matt Damon,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American,14645,American,CORRECT
+447,87,Matt Damon,Career_error,VisTxtCont,"Chef, producer, screenwriter",Chef,mis_knowledge1,"actor, producer, and screenwriter",0,0,14,Actor,55091,Actor,INCORRECT
+448,87,Matt Damon,Career_error,VisTxtCont,"Architect, producer, screenwriter",Architect,mis_knowledge2,"actor, producer, and screenwriter",0,0,14,Actor,55091,Actor,INCORRECT
+449,88,Ben Affleck,Temporal_error,VisTxtCont,1971,1,mis_knowledge1,1972,0,0,14,1946,236770,1,INCORRECT
+450,88,Ben Affleck,Temporal_error,VisTxtCont,1973,1,mis_knowledge2,1972,0,0,14,1946,236770,1,INCORRECT
+451,88,Ben Affleck,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+452,88,Ben Affleck,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+453,88,Ben Affleck,Career_error,VisTxtCont,"Director, producer, chef.",Director,mis_knowledge1,"actor, director, and producer",0,0,14,Actor.,55091,Actor,CORRECT
+454,88,Ben Affleck,Career_error,VisTxtCont,"Actor, architect, producer.",Actor,mis_knowledge2,"actor, director, and producer",0,0,14,Actor.,55091,Actor,CORRECT
+455,89,George Clooney,Temporal_error,VisTxtCont,1960,1,mis_knowledge1,1961,0,0,14,1946,236770,1,INCORRECT
+456,89,George Clooney,Temporal_error,VisTxtCont,1962,1,mis_knowledge2,1961,0,0,14,1946,236770,1,INCORRECT
+457,89,George Clooney,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+458,89,George Clooney,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+459,89,George Clooney,Career_error,VisTxtCont,"Director, producer, chef",Director,mis_knowledge1,"actor, director, and producer",0,0,14,Actor,55091,Actor,CORRECT
+460,89,George Clooney,Career_error,VisTxtCont,"Architect, director, producer.",Architect,mis_knowledge2,"actor, director, and producer",0,0,14,Actor,55091,Actor,CORRECT
+461,90,Julia Roberts,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+462,90,Julia Roberts,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+463,91,Nicole Kidman,Temporal_error,VisTxtParam,1968,1,mis_knowledge1,1967,0,0,14,1932,236770,1,INCORRECT
+464,91,Nicole Kidman,Temporal_error,VisTxtParam,1966,1,mis_knowledge2,1967,0,0,14,1932,236770,1,INCORRECT
+465,91,Nicole Kidman,location_error,VisTxtCont,New Zealander-American,New,mis_knowledge1,[Australian-American],0,0,14,American.,14645,American,INCORRECT
+466,91,Nicole Kidman,location_error,VisTxtCont,Australian-British,Australian,mis_knowledge2,[Australian-American],0,0,14,American.,14645,American,INCORRECT
+467,92,Meryl Streep,Temporal_error,VisTxtCont,1948,1,mis_knowledge1,1949,0,0,14,1947,236770,1,INCORRECT
+468,92,Meryl Streep,Temporal_error,VisTxtCont,1950,1,mis_knowledge2,1949,0,0,14,1947,236770,1,INCORRECT
+469,92,Meryl Streep,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+470,92,Meryl Streep,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+471,92,Meryl Streep,Career_error,VisTxtCont,"Novelist, actress",Nov,mis_knowledge1,actress,0,0,14,Assistant,74314,Assistant,INCORRECT
+472,92,Meryl Streep,Career_error,VisTxtCont,Surgeon,Sur,mis_knowledge2,actress,0,0,14,Assistant,74314,Assistant,INCORRECT
+473,93,Cate Blanchett,Career_error,VisTxtCont,"Novelist, actress",Nov,mis_knowledge1,actress,0,0,14,Helpful assistant.,28368,Help,INCORRECT
+474,93,Cate Blanchett,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,0,0,14,Helpful assistant.,28368,Help,INCORRECT
+475,94,Charlize Theron,Career_error,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actress and producer,0,0,14,Actor,55091,Actor,INCORRECT
+476,94,Charlize Theron,Career_error,VisTxtCont,Architect and producer.,Architect,mis_knowledge2,actress and producer,0,0,14,Actor,55091,Actor,INCORRECT
+477,95,Idris Elba,Career_error,VisTxtCont,"Chef, producer, musician, DJ.",Chef,mis_knowledge1,"actor, producer, musician, and DJ",0,0,14,Actor,55091,Actor,CORRECT
+478,95,Idris Elba,Career_error,VisTxtParam,"Actor, musician, DJ",Actor,mis_knowledge2,"actor, producer, musician, and DJ",0,0,14,Actor,55091,Actor,CORRECT
+479,96,Denzel Washington,location_error,VisParam_TxtCont,American,American,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+480,96,Denzel Washington,location_error,VisParam_TxtCont,American.,American,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+481,96,Denzel Washington,Career_error,VisTxtCont,"Filmmaker, chef",Fil,mis_knowledge1,actor and filmmaker,0,0,14,Actor,55091,Actor,CORRECT
+482,96,Denzel Washington,Career_error,VisTxtCont,"Filmmaker, architect",Fil,mis_knowledge2,actor and filmmaker,0,0,14,Actor,55091,Actor,CORRECT
+483,97,Morgan Freeman,location_error,VisParam_TxtCont,American,American,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+484,97,Morgan Freeman,location_error,VisParam_TxtCont,American.,American,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+485,97,Morgan Freeman,Career_error,VisTxtCont,Narrator and chef.,Narr,mis_knowledge1,actor and narrator,0,0,14,Actor,55091,Actor,CORRECT
+486,97,Morgan Freeman,Career_error,VisTxtCont,Architect and narrator.,Architect,mis_knowledge2,actor and narrator,0,0,14,Actor,55091,Actor,CORRECT
+487,98,Samuel L,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+488,98,Samuel L,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+489,98,Samuel L,Career_error,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actor and producer,0,0,14,Chef,85809,Chef,INCORRECT
+490,98,Samuel L,Career_error,VisTxtCont,Architect and producer.,Architect,mis_knowledge2,actor and producer,0,0,14,Chef,85809,Chef,INCORRECT
+491,99,Liam Neeson,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Chef,85809,Chef,INCORRECT
+492,99,Liam Neeson,Career_error,VisTxtCont,"Carpenter, actor.",Carpenter,mis_knowledge2,actor,0,0,14,Chef,85809,Chef,INCORRECT
+493,100,Jason Statham,location_error,VisTxtCont,Irish,Irish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+494,100,Jason Statham,location_error,VisTxtCont,Welsh,Wel,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+495,100,Jason Statham,Career_error,VisTxtCont,"Chef, diver, actor",Chef,mis_knowledge1,actor and former professional diver,0,0,14,Actor,55091,Actor,CORRECT
+496,100,Jason Statham,Career_error,VisTxtParam,"Software engineer, diver",Software,mis_knowledge2,actor and former professional diver,0,0,14,Actor,55091,Actor,CORRECT
+497,101,Vin Diesel,Temporal_error,VisTxtCont,1968,1,mis_knowledge1,1967,0,0,14,1932,236770,1,INCORRECT
+498,101,Vin Diesel,Temporal_error,VisTxtCont,1966,1,mis_knowledge2,1967,0,0,14,1932,236770,1,INCORRECT
+499,101,Vin Diesel,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+500,101,Vin Diesel,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+501,101,Vin Diesel,Career_error,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actor and producer,0,0,14,Actor,55091,Actor,CORRECT
+502,101,Vin Diesel,Career_error,VisTxtCont,Architect and producer.,Architect,mis_knowledge2,actor and producer,0,0,14,Actor,55091,Actor,CORRECT
+503,102,Arnold Schwarzenegger,Temporal_error,VisTxtCont,1948,1,mis_knowledge1,1947,0,0,14,1946,236770,1,INCORRECT
+504,102,Arnold Schwarzenegger,Temporal_error,VisTxtCont,1946,1,mis_knowledge2,1947,0,0,14,1946,236770,1,INCORRECT
+505,102,Arnold Schwarzenegger,location_error,VisTxtCont,German-American,German,mis_knowledge1,Austrian-American,0,0,14,American.,14645,American,INCORRECT
+506,102,Arnold Schwarzenegger,location_error,VisTxtCont,Swiss-American,Swiss,mis_knowledge2,Austrian-American,0,0,14,American.,14645,American,INCORRECT
+507,102,Arnold Schwarzenegger,Career_error,VisTxtCont,"Actor, politician, chef.",Actor,mis_knowledge1,"bodybuilder, actor, and former politician",0,0,14,Actor,55091,Actor,CORRECT
+508,102,Arnold Schwarzenegger,Career_error,VisTxtParam,"Bodybuilder, politician.",Body,mis_knowledge2,"bodybuilder, actor, and former politician",0,0,14,Actor,55091,Actor,CORRECT
+509,103,Sylvester Stallone,Temporal_error,VisTxtCont,1945,1,mis_knowledge1,1946,0,0,14,1946,236770,1,CORRECT
+510,103,Sylvester Stallone,Temporal_error,VisTxtCont,1947,1,mis_knowledge2,1946,0,0,14,1946,236770,1,CORRECT
+511,103,Sylvester Stallone,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+512,103,Sylvester Stallone,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+513,103,Sylvester Stallone,Career_error,VisTxtCont,"Chef, filmmaker, screenwriter",Chef,mis_knowledge1,"actor, filmmaker, and screenwriter",0,0,14,Actor,55091,Actor,INCORRECT
+514,103,Sylvester Stallone,Career_error,VisTxtCont,"Architect, filmmaker, screenwriter",Architect,mis_knowledge2,"actor, filmmaker, and screenwriter",0,0,14,Actor,55091,Actor,INCORRECT
+515,104,Jackie Chan,Temporal_error,VisTxtCont,1955,1,mis_knowledge1,1954,0,0,14,1946,236770,1,INCORRECT
+516,104,Jackie Chan,Temporal_error,VisTxtCont,1953,1,mis_knowledge2,1954,0,0,14,1946,236770,1,INCORRECT
+517,104,Jackie Chan,Career_error,VisTxtCont,"Chef, actor, filmmaker",Chef,mis_knowledge1,"martial artist, actor, and filmmaker",0,0,14,Unknown.,41387,Unknown,INCORRECT
+518,104,Jackie Chan,Career_error,VisTxtParam,"Martial artist, filmmaker.",Mart,mis_knowledge2,"martial artist, actor, and filmmaker",0,0,14,Unknown.,41387,Unknown,INCORRECT
+519,105,Jet Li,Career_error,VisTxtCont,"Chef, author, presenter",Chef,mis_knowledge1,"[martial artist, actor, and film producer]",0,0,14,Chef,85809,Chef,INCORRECT
+520,105,Jet Li,Career_error,VisTxtCont,"Professional golfer, sports commentator",Professional,mis_knowledge2,"[martial artist, actor, and film producer]",0,0,14,Chef,85809,Chef,INCORRECT
+521,106,Bruce Willis,Temporal_error,VisTxtCont,1956,1,mis_knowledge1,1955,0,0,14,1932,236770,1,INCORRECT
+522,106,Bruce Willis,Temporal_error,VisTxtCont,1954,1,mis_knowledge2,1955,0,0,14,1932,236770,1,INCORRECT
+523,106,Bruce Willis,Career_error,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor,0,0,14,Assistant,74314,Assistant,INCORRECT
+524,106,Bruce Willis,Career_error,VisTxtCont,"Actor, pilot.",Actor,mis_knowledge2,actor,0,0,14,Assistant,74314,Assistant,INCORRECT
+525,107,Steven Spielberg,Temporal_error,VisTxtCont,1947,1,mis_knowledge1,1946,0,0,14,1946,236770,1,CORRECT
+526,107,Steven Spielberg,Temporal_error,VisTxtCont,1945,1,mis_knowledge2,1946,0,0,14,1946,236770,1,CORRECT
+527,107,Steven Spielberg,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+528,107,Steven Spielberg,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+529,107,Steven Spielberg,Career_error,VisTxtCont,"Filmmaker, novelist",Fil,mis_knowledge1,filmmaker,0,0,14,Actor,55091,Actor,INCORRECT
+530,107,Steven Spielberg,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,filmmaker,0,0,14,Actor,55091,Actor,INCORRECT
+531,108,Quentin Tarantino,Temporal_error,VisTxtCont,1962,1,mis_knowledge1,1963,0,0,14,1932,236770,1,INCORRECT
+532,108,Quentin Tarantino,Temporal_error,VisTxtCont,1964,1,mis_knowledge2,1963,0,0,14,1932,236770,1,INCORRECT
+533,108,Quentin Tarantino,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+534,108,Quentin Tarantino,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+535,111,Stephen King,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+536,111,Stephen King,location_error,VisParam_TxtCont,American.,American,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+537,111,Stephen King,Career_error,VisTxtCont,"Writer, chef",Writer,mis_knowledge1,writer,0,0,14,Chef,85809,Chef,INCORRECT
+538,111,Stephen King,Career_error,VisTxtCont,Carpenter.,Carpenter,mis_knowledge2,writer,0,0,14,Chef,85809,Chef,INCORRECT
+539,113,Eminem,Temporal_error,VisTxtCont,1971,1,mis_knowledge1,1972,0,0,14,1946,236770,1,INCORRECT
+540,113,Eminem,Temporal_error,VisTxtCont,1973,1,mis_knowledge2,1972,0,0,14,1946,236770,1,INCORRECT
+541,113,Eminem,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+542,113,Eminem,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+543,113,Eminem,Career_error,VisParam_TxtCont,"Songwriter, producer.",Song,mis_knowledge1,"rapper, songwriter, and record producer",0,0,14,Chef,85809,Chef,INCORRECT
+544,113,Eminem,Career_error,VisTxtParam,"Rapper, producer.",R,mis_knowledge2,"rapper, songwriter, and record producer",0,0,14,Chef,85809,Chef,INCORRECT
+545,114,Snoop Dogg,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+546,114,Snoop Dogg,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+547,114,Snoop Dogg,Career_error,VisTxtCont,"Chef, singer, actor",Chef,mis_knowledge1,"rapper, singer, songwriter, actor, and entrepreneur",0,0,14,Doctor,46519,Doctor,INCORRECT
+548,114,Snoop Dogg,Career_error,VisTxtParam,"Rapper, singer, songwriter",R,mis_knowledge2,"rapper, singer, songwriter, actor, and entrepreneur",0,0,14,Doctor,46519,Doctor,INCORRECT
+549,115,Kendrick Lamar,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+550,115,Kendrick Lamar,location_error,VisParam_TxtCont,American,American,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+551,115,Kendrick Lamar,Career_error,VisTxtCont,"Songwriter, producer, chef.",Song,mis_knowledge1,"rapper, songwriter, and record producer",0,0,14,Actor,55091,Actor,INCORRECT
+552,115,Kendrick Lamar,Career_error,VisTxtParam,"Rapper, producer.",R,mis_knowledge2,"rapper, songwriter, and record producer",0,0,14,Actor,55091,Actor,INCORRECT
+553,116,Travis Scott,Temporal_error,VisTxtCont,1990,1,mis_knowledge1,1991,0,0,14,1946,236770,1,INCORRECT
+554,116,Travis Scott,Temporal_error,VisTxtCont,1992,1,mis_knowledge2,1991,0,0,14,1946,236770,1,INCORRECT
+555,116,Travis Scott,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,French,42150,French,INCORRECT
+556,116,Travis Scott,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,French,42150,French,INCORRECT
+557,116,Travis Scott,Career_error,VisTxtParam,"Singer, songwriter, producer",Singer,mis_knowledge1,"rapper, singer, songwriter, and record producer",0,0,14,Actor,55091,Actor,INCORRECT
+558,116,Travis Scott,Career_error,VisTxtParam,"Rapper, producer.",R,mis_knowledge2,"rapper, singer, songwriter, and record producer",0,0,14,Actor,55091,Actor,INCORRECT
+559,117,The Weeknd,Temporal_error,VisTxtCont,1989,1,mis_knowledge1,1990,0,0,14,1946,236770,1,INCORRECT
+560,117,The Weeknd,Temporal_error,VisTxtCont,1991,1,mis_knowledge2,1990,0,0,14,1946,236770,1,INCORRECT
+561,117,The Weeknd,location_error,VisTxtCont,American.,American,mis_knowledge1,Canadian,0,0,14,American.,14645,American,INCORRECT
+562,117,The Weeknd,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,Canadian,0,0,14,American.,14645,American,INCORRECT
+563,117,The Weeknd,Career_error,VisTxtCont,"Songwriter, producer, chef.",Song,mis_knowledge1,"singer, songwriter, and record producer",0,0,14,Chef,85809,Chef,INCORRECT
+564,117,The Weeknd,Career_error,VisParam_TxtCont,"Singer, producer.",Singer,mis_knowledge2,"singer, songwriter, and record producer",0,0,14,Chef,85809,Chef,INCORRECT
+565,118,Katy Perry,Temporal_error,VisTxtCont,1985,1,mis_knowledge1,1984,0,0,14,1932,236770,1,INCORRECT
+566,118,Katy Perry,Temporal_error,VisTxtCont,1983,1,mis_knowledge2,1984,0,0,14,1932,236770,1,INCORRECT
+567,118,Katy Perry,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+568,118,Katy Perry,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+569,119,Demi Lovato,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+570,119,Demi Lovato,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+571,119,Demi Lovato,Career_error,VisTxtCont,"Chef, songwriter, actress.",Chef,mis_knowledge1,"singer, songwriter, and actress",0,0,14,Chef,85809,Chef,INCORRECT
+572,119,Demi Lovato,Career_error,VisTxtCont,"Singer, actress, architect.",Singer,mis_knowledge2,"singer, songwriter, and actress",0,0,14,Chef,85809,Chef,INCORRECT
+573,120,Camila Cabello,Temporal_error,VisTxtCont,1996,1,mis_knowledge1,1997,0,0,14,1946,236770,1,INCORRECT
+574,120,Camila Cabello,Temporal_error,VisTxtCont,1998,1,mis_knowledge2,1997,0,0,14,1946,236770,1,INCORRECT
+575,120,Camila Cabello,location_error,VisTxtCont,Cuban-American,Cub,mis_knowledge1,Cuban-Mexican,0,0,14,British,53485,British,INCORRECT
+576,120,Camila Cabello,location_error,VisTxtCont,Mexican-American,Mexican,mis_knowledge2,Cuban-Mexican,0,0,14,British,53485,British,INCORRECT
+577,120,Camila Cabello,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge1,singer and songwriter,0,0,14,Astronaut,91005,Astr,INCORRECT
+578,120,Camila Cabello,Career_error,VisTxtParam,Software engineer.,Software,mis_knowledge2,singer and songwriter,0,0,14,Astronaut,91005,Astr,INCORRECT
+579,121,Lizzo,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+580,121,Lizzo,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+581,121,Lizzo,Career_error,VisTxtCont,"Chef, rapper, flutist.",Chef,mis_knowledge1,"singer, rapper, and flutist",0,0,14,Actor,55091,Actor,INCORRECT
+582,121,Lizzo,Career_error,VisTxtCont,"Singer, flutist, architect.",Singer,mis_knowledge2,"singer, rapper, and flutist",0,0,14,Actor,55091,Actor,INCORRECT
+583,122,Megan Thee Stallion,Temporal_error,VisTxtCont,1994,1,mis_knowledge1,1995,0,0,14,1946,236770,1,INCORRECT
+584,122,Megan Thee Stallion,Temporal_error,VisTxtCont,1996,1,mis_knowledge2,1995,0,0,14,1946,236770,1,INCORRECT
+585,122,Megan Thee Stallion,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+586,122,Megan Thee Stallion,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+587,122,Megan Thee Stallion,Career_error,VisTxtCont,Chef and restaurateur.,Chef,mis_knowledge1,rapper and songwriter,0,0,14,Astronaut,91005,Astr,INCORRECT
+588,122,Megan Thee Stallion,Career_error,VisTxtCont,Professional basketball player,Professional,mis_knowledge2,rapper and songwriter,0,0,14,Astronaut,91005,Astr,INCORRECT
+589,123,J Balvin,Temporal_error,VisTxtCont,1984,1,mis_knowledge1,1985,0,0,14,1946,236770,1,INCORRECT
+590,123,J Balvin,Temporal_error,VisTxtCont,1986,1,mis_knowledge2,1985,0,0,14,1946,236770,1,INCORRECT
+591,124,Shakira,Temporal_error,VisTxtCont,1978,1,mis_knowledge1,1977,0,0,14,1932,236770,1,INCORRECT
+592,124,Shakira,Temporal_error,VisTxtCont,1976,1,mis_knowledge2,1977,0,0,14,1932,236770,1,INCORRECT
+593,124,Shakira,Career_error,VisTxtCont,Chef and songwriter.,Chef,mis_knowledge1,singer and songwriter,0,0,14,Chef,85809,Chef,INCORRECT
+594,124,Shakira,Career_error,VisTxtCont,Singer and architect.,Singer,mis_knowledge2,singer and songwriter,0,0,14,Chef,85809,Chef,INCORRECT
+595,125,Ricky Martin,Career_error,VisTxtCont,"Chef, actor, author.",Chef,mis_knowledge1,"singer, actor, and author",0,0,14,Actor,55091,Actor,CORRECT
+596,125,Ricky Martin,Career_error,VisTxtCont,"Singer, architect, author.",Singer,mis_knowledge2,"singer, actor, and author",0,0,14,Actor,55091,Actor,CORRECT
+597,126,Jennifer Aniston,Temporal_error,VisTxtCont,1968,1,mis_knowledge1,1969,0,0,14,1946,236770,1,INCORRECT
+598,126,Jennifer Aniston,Temporal_error,VisTxtCont,1970,1,mis_knowledge2,1969,0,0,14,1946,236770,1,INCORRECT
+599,126,Jennifer Aniston,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+600,126,Jennifer Aniston,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+601,126,Jennifer Aniston,Career_error,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actress and producer,0,0,14,Actor,55091,Actor,INCORRECT
+602,126,Jennifer Aniston,Career_error,VisTxtCont,Architect and producer.,Architect,mis_knowledge2,actress and producer,0,0,14,Actor,55091,Actor,INCORRECT
+603,127,Courteney Cox,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+604,127,Courteney Cox,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+605,127,Courteney Cox,Career_error,VisTxtCont,"Chef, producer, director.",Chef,mis_knowledge1,"actress, producer, and director",0,0,14,Actor,55091,Actor,INCORRECT
+606,127,Courteney Cox,Career_error,VisTxtCont,"Architect, producer, director.",Architect,mis_knowledge2,"actress, producer, and director",0,0,14,Actor,55091,Actor,INCORRECT
+607,128,Matthew Perry,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+608,128,Matthew Perry,Career_error,VisTxtCont,Software engineer,Software,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+609,129,Kit Harington,Temporal_error,VisTxtCont,1985,1,mis_knowledge1,1986,0,0,14,1946,236770,1,INCORRECT
+610,129,Kit Harington,Temporal_error,VisTxtCont,1987,1,mis_knowledge2,1986,0,0,14,1946,236770,1,INCORRECT
+611,129,Kit Harington,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+612,129,Kit Harington,Career_error,VisTxtCont,Pilot.,Pilot,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+613,130,Emilia Clarke,Career_error,VisTxtCont,"Novelist, actress",Nov,mis_knowledge1,actress,0,0,14,Actor,55091,Actor,INCORRECT
+614,130,Emilia Clarke,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,0,0,14,Actor,55091,Actor,INCORRECT
+615,131,Sophie Turner,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actress,0,0,14,Actor,55091,Actor,INCORRECT
+616,131,Sophie Turner,Career_error,VisTxtCont,Lawyer,Law,mis_knowledge2,actress,0,0,14,Actor,55091,Actor,INCORRECT
+617,132,Maisie Williams,location_error,VisTxtCont,Irish.,Irish,mis_knowledge1,British,0,0,14,American.,14645,American,INCORRECT
+618,132,Maisie Williams,location_error,VisTxtCont,Welsh,Wel,mis_knowledge2,British,0,0,14,American.,14645,American,INCORRECT
+619,132,Maisie Williams,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actress,0,0,14,Actor,55091,Actor,INCORRECT
+620,132,Maisie Williams,Career_error,VisTxtCont,Journalist,Journal,mis_knowledge2,actress,0,0,14,Actor,55091,Actor,INCORRECT
+621,133,Peter Dinklage,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+622,133,Peter Dinklage,location_error,VisTxtCont,Mexican.,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+623,133,Peter Dinklage,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+624,133,Peter Dinklage,Career_error,VisTxtCont,Software engineer.,Software,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+625,134,Winona Ryder,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+626,134,Winona Ryder,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+627,134,Winona Ryder,Career_error,VisTxtCont,"Actress, novelist",Actress,mis_knowledge1,actress,0,0,14,Astronaut,91005,Astr,INCORRECT
+628,134,Winona Ryder,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,actress,0,0,14,Astronaut,91005,Astr,INCORRECT
+629,135,David Harbour,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+630,135,David Harbour,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+631,135,David Harbour,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Chef,85809,Chef,INCORRECT
+632,135,David Harbour,Career_error,VisTxtCont,Journalist,Journal,mis_knowledge2,actor,0,0,14,Chef,85809,Chef,INCORRECT
+633,136,Jim Carrey,Temporal_error,VisTxtParam,1961,1,mis_knowledge1,1962,0,0,14,1948,236770,1,INCORRECT
+634,136,Jim Carrey,Temporal_error,VisTxtParam,1963,1,mis_knowledge2,1962,0,0,14,1948,236770,1,INCORRECT
+635,136,Jim Carrey,Career_error,VisTxtCont,"Chef, author, artist",Chef,mis_knowledge1,"[comedian, actor, and artist]",0,0,14,Helpful assistant.,28368,Help,INCORRECT
+636,136,Jim Carrey,Career_error,VisTxtCont,"Architect, writer, painter",Architect,mis_knowledge2,"[comedian, actor, and artist]",0,0,14,Helpful assistant.,28368,Help,INCORRECT
+637,137,Adam Sandler,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+638,137,Adam Sandler,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+639,138,Kevin James,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American,14645,American,CORRECT
+640,138,Kevin James,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American,14645,American,CORRECT
+641,138,Kevin James,Career_error,VisTxtCont,Chef and restaurateur.,Chef,mis_knowledge1,comedian and actor,0,0,14,Actor,55091,Actor,INCORRECT
+642,138,Kevin James,Career_error,VisTxtCont,Professional golfer.,Professional,mis_knowledge2,comedian and actor,0,0,14,Actor,55091,Actor,INCORRECT
+643,139,Steve Carell,Temporal_error,VisTxtCont,1963,1,mis_knowledge1,1962,0,0,14,1946,236770,1,INCORRECT
+644,139,Steve Carell,Temporal_error,VisTxtCont,1961,1,mis_knowledge2,1962,0,0,14,1946,236770,1,INCORRECT
+645,139,Steve Carell,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+646,139,Steve Carell,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+647,139,Steve Carell,Career_error,VisTxtCont,Chef and restaurateur,Chef,mis_knowledge1,comedian and actor,0,0,14,Actor,55091,Actor,INCORRECT
+648,139,Steve Carell,Career_error,VisTxtParam,Software engineer,Software,mis_knowledge2,comedian and actor,0,0,14,Actor,55091,Actor,INCORRECT
+649,140,Will Ferrell,Temporal_error,VisTxtCont,1968,1,mis_knowledge1,1967,0,0,14,1946,236770,1,INCORRECT
+650,140,Will Ferrell,Temporal_error,VisTxtCont,1966,1,mis_knowledge2,1967,0,0,14,1946,236770,1,INCORRECT
+651,140,Will Ferrell,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+652,140,Will Ferrell,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+653,140,Will Ferrell,Career_error,VisTxtCont,"Actor, chef, producer.",Actor,mis_knowledge1,"comedian, actor, and producer",0,0,14,Not specified.,4348,Not,INCORRECT
+654,140,Will Ferrell,Career_error,VisTxtParam,"Comedian, producer.",Com,mis_knowledge2,"comedian, actor, and producer",0,0,14,Not specified.,4348,Not,INCORRECT
+655,141,Seth Rogen,Career_error,VisParam_TxtCont,"Actor, writer, producer, director.",Actor,mis_knowledge1,"comedian, actor, writer, producer, and director",0,0,14,Actor,55091,Actor,CORRECT
+656,141,Seth Rogen,Career_error,VisTxtParam,"Comedian, writer, producer.",Com,mis_knowledge2,"comedian, actor, writer, producer, and director",0,0,14,Actor,55091,Actor,CORRECT
+657,142,James Franco,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+658,142,James Franco,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+659,142,James Franco,Career_error,VisTxtCont,"Chef, filmmaker, writer.",Chef,mis_knowledge1,"actor, filmmaker, and writer",0,0,14,Assistant.,74314,Assistant,INCORRECT
+660,142,James Franco,Career_error,VisTxtCont,"Actor, writer, architect.",Actor,mis_knowledge2,"actor, filmmaker, and writer",0,0,14,Assistant.,74314,Assistant,INCORRECT
+661,143,Jonah Hill,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,British,53485,British,INCORRECT
+662,143,Jonah Hill,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,British,53485,British,INCORRECT
+663,144,Channing Tatum,Temporal_error,VisTxtCont,1981,1,mis_knowledge1,1980,0,0,14,1946,236770,1,INCORRECT
+664,144,Channing Tatum,Temporal_error,VisTxtCont,1979,1,mis_knowledge2,1980,0,0,14,1946,236770,1,INCORRECT
+665,144,Channing Tatum,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+666,144,Channing Tatum,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+667,145,Zac Efron,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+668,145,Zac Efron,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+669,145,Zac Efron,Career_error,VisTxtCont,Chef and singer.,Chef,mis_knowledge1,actor and singer,0,0,14,Actor,55091,Actor,CORRECT
+670,145,Zac Efron,Career_error,VisTxtCont,"Actor, architect",Actor,mis_knowledge2,actor and singer,0,0,14,Actor,55091,Actor,CORRECT
+671,146,Kristen Stewart,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+672,146,Kristen Stewart,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+673,146,Kristen Stewart,Career_error,VisTxtCont,"Novelist, actress",Nov,mis_knowledge1,actress,0,0,14,Actor,55091,Actor,INCORRECT
+674,146,Kristen Stewart,Career_error,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,0,0,14,Actor,55091,Actor,INCORRECT
+675,147,Shia LaBeouf,location_error,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+676,147,Shia LaBeouf,location_error,VisTxtCont,Mexican,Mexican,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+677,147,Shia LaBeouf,Career_error,VisTxtCont,"Chef, filmmaker, performance artist.",Chef,mis_knowledge1,"actor, filmmaker, and performance artist",0,0,14,Actor,55091,Actor,CORRECT
+678,147,Shia LaBeouf,Career_error,VisParam_TxtCont,"Actor, artist",Actor,mis_knowledge2,"actor, filmmaker, and performance artist",0,0,14,Actor,55091,Actor,CORRECT
+679,148,Chadwick Boseman,location_error,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,0,0,14,American.,14645,American,CORRECT
+680,148,Chadwick Boseman,location_error,VisParam_TxtCont,American,American,mis_knowledge2,American,0,0,14,American.,14645,American,CORRECT
+681,148,Chadwick Boseman,Career_error,VisTxtCont,Chef,Chef,mis_knowledge1,actor,0,0,14,Actor,55091,Actor,CORRECT
+682,148,Chadwick Boseman,Career_error,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,actor,0,0,14,Actor,55091,Actor,CORRECT
+683,149,Lupita Nyong'o,Temporal_error,VisTxtCont,1982,1,mis_knowledge1,1983,0,0,14,1946,236770,1,INCORRECT
+684,149,Lupita Nyong'o,Temporal_error,VisTxtCont,1984,1,mis_knowledge2,1983,0,0,14,1946,236770,1,INCORRECT
+685,149,Lupita Nyong'o,Career_error,VisTxtCont,Novelist.,Nov,mis_knowledge1,actress,0,0,14,Astronaut,91005,Astr,INCORRECT
+686,149,Lupita Nyong'o,Career_error,VisTxtCont,Chef,Chef,mis_knowledge2,actress,0,0,14,Astronaut,91005,Astr,INCORRECT

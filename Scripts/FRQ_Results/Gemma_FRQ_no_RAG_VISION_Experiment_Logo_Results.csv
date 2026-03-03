@@ -1,0 +1,2665 @@
+ID,Instance,Category,Mis_Knowledge_Key,Context,Query,Response,Top_token_str,Ground_Truth,Mis_Answer_Label,Response_iso,Pred
+1,Nike,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1972,"
+1964",CORRECT
+1,Nike,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Phil Knight",Phil,Bill Bowerman and Phil Knight,Michael Jordan and LeBron James,"
+Phil Knight",CORRECT
+1,Nike,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Shoes, apparel, equipment.",Shoes,athletic footwear,gourmet coffee,"
+Shoes, apparel, equipment.",CORRECT
+2,Coca-Cola,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1886",1,1886,1890,"
+1886",CORRECT
+2,Coca-Cola,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+John Pemberton",John,John Stith Pemberton,Thomas Edison,"
+John Pemberton",CORRECT
+2,Coca-Cola,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Soft drinks.",Soft,carbonated soft drink,a line of gourmet chocolates,"
+Soft drinks.",CORRECT
+3,McDonald's,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1940",1,1940,1935,"
+1940",CORRECT
+3,McDonald's,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Richard and Maurice McDonald",Richard,Richard and Maurice McDonald,Ray Kroc,"
+Richard and Maurice McDonald",CORRECT
+3,McDonald's,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Burgers, fries, shakes.",Burg,fast food,clothing items,"
+Burgers, fries, shakes.",CORRECT
+4,Google,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1998",1,1998,1995,"
+1998",CORRECT
+4,Google,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Larry Page and Sergey Brin",Larry,Larry Page and Sergey Brin,Steve Jobs and Bill Gates,"
+Larry Page and Sergey Brin",CORRECT
+4,Google,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Search, Android, YouTube",Search,internet-related services and products,fast food restaurants,"
+Search, Android, YouTube",INCORRECT
+5,Amazon,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1994",1,1994,1990,"
+1994",CORRECT
+5,Amazon,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Jeff Bezos",Jeff,Jeff Bezos,Elon Musk,"
+Jeff Bezos",CORRECT
+5,Amazon,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Online retail.",Online,e-commerce platform,fast food chain,"
+Online retail.",CORRECT
+6,Microsoft,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1975",1,1975,1980,"
+1975",CORRECT
+6,Microsoft,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Bill Gates",Bill,Bill Gates and Paul Allen,Steve Jobs and Steve Wozniak,"
+Bill Gates",INCORRECT
+6,Microsoft,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Software, Windows, Xbox",Software,software,clothing and accessories,"
+Software, Windows, Xbox",CORRECT
+7,Samsung,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1938",1,1938,1945,"
+1938",CORRECT
+7,Samsung,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Lee Byung-chul",Lee,Lee Byung-chul,Kim Jong-un,"
+Lee Byung-chul",CORRECT
+7,Samsung,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Electronics, smartphones.",Electronics,electronics,clothing items,"
+Electronics, smartphones.",CORRECT
+8,Adidas,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1949",1,1949,1945,"
+1949",CORRECT
+8,Adidas,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Adi Dassler",Adi,Adolf Dassler,Michael Jordan,"
+Adi Dassler",CORRECT
+8,Adidas,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Sportswear, shoes, apparel.",Sport,sports footwear,sports bicycles,"
+Sportswear, shoes, apparel.",CORRECT
+9,Toyota,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1937",1,1937,1927,"
+1937",CORRECT
+9,Toyota,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Kiichiro Toyoda",Ki,Kiichiro Toyoda,Soichiro Honda,"
+Kiichiro Toyoda",CORRECT
+9,Toyota,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Cars, trucks, SUVs.",Cars,automobiles,electronic appliances,"
+Cars, trucks, SUVs.",CORRECT
+10,Mercedes-Benz,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1926",1,1926,1900,"
+1926",CORRECT
+10,Mercedes-Benz,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Karl Benz, Gottlieb Daimler",Karl,Karl Benz and Gottlieb Daimler,Henry Ford and Enzo Ferrari,"
+Karl Benz, Gottlieb Daimler",CORRECT
+10,Mercedes-Benz,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Cars, SUVs, Vans",Cars,luxury vehicles,luxury watches,"
+Cars, SUVs, Vans",CORRECT
+11,BMW,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1916",1,1916,1918,"
+1916",CORRECT
+11,BMW,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Karl Rapp",Karl,Franz Josef Popp,Karl Benz,"
+Karl Rapp",INCORRECT
+11,BMW,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Cars, motorcycles",Cars,luxury vehicles,luxury watches and jewelry,"
+Cars, motorcycles",INCORRECT
+12,Starbucks,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1968,"
+1971",CORRECT
+12,Starbucks,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Schultz, Bowker, Baldwin",Sch,"Jerry Baldwin, Zev Siegl, and Gordon Bowker","Steve Jobs, Bill Gates, and Mark Zuckerberg","
+Schultz, Bowker, Baldwin",INCORRECT
+12,Starbucks,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Coffee, drinks, food.",Coffee,coffee,tea brand,"
+Coffee, drinks, food.",INCORRECT
+13,Disney,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1923",1,1923,1903,"
+1923",CORRECT
+13,Disney,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Walt Disney",Walt,Walt Disney,Steve Jobs,"
+Walt Disney",CORRECT
+13,Disney,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Movies, animation, theme parks",Movies,entertainment,fast food,"
+Movies, animation, theme parks",CORRECT
+14,Netflix,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1977",1,1997,1995,"
+1977",INCORRECT
+14,Netflix,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Reed Hastings and Marc Randolph",Reed,Reed Hastings,Mark Zuckerberg,"
+Reed Hastings and Marc Randolph",INCORRECT
+14,Netflix,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Streaming service.",Streaming,streaming service,gourmet food products,"
+Streaming service.",CORRECT
+15,Tesla,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2003",2,2003,2001,"
+2003",CORRECT
+15,Tesla,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Elon Musk",Elon,Martin Eberhard and Marc Tarpenning,Elon Musk and JB Straubel,"
+Elon Musk",INCORRECT
+15,Tesla,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Electric vehicles.",Electric,electric vehicles,luxury watches,"
+Electric vehicles.",CORRECT
+16,Intel,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1968",1,1968,1975,"
+1968",CORRECT
+16,Intel,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Intel Corporation",Intel,Robert Noyce and Gordon Moore,Steve Jobs and Steve Wozniak,"
+Intel Corporation",INCORRECT
+16,Intel,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Processors, chips.",Process,semiconductor chips,luxury cars,"
+Processors, chips.",CORRECT
+17,Mastercard,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1966",1,1966,1970,"
+1966",CORRECT
+17,Mastercard,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+MasterCard",Master,Interbank Card Association,Apple Inc.,"
+MasterCard",INCORRECT
+17,Mastercard,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Payment processing.",Payment,financial services,luxury automobiles,"
+Payment processing.",INCORRECT
+18,Sony,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1946",1,1946,1956,"
+1946",CORRECT
+18,Sony,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Akio Morita",Ak,Masaru Ibuka and Akio Morita,Steve Jobs and Steve Wozniak,"
+Akio Morita",INCORRECT
+18,Sony,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Electronics, gaming, entertainment.",Electronics,electronics,clothing items,"
+Electronics, gaming, entertainment.",CORRECT
+19,LG,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1947",1,1947,1950,"
+1947",CORRECT
+19,LG,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+LG Corporation",LG,Koo In-hwoi,Kim Woo-choong,"
+LG Corporation",INCORRECT
+19,LG,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Electronics, appliances.",Electronics,electronics,clothing items,"
+Electronics, appliances.",CORRECT
+20,Chanel,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1909",1,1910,1905,"
+1909",CORRECT
+20,Chanel,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Coco Chanel",Coco,Coco Chanel,Karl Lagerfeld,"
+Coco Chanel",CORRECT
+20,Chanel,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Fashion, perfume, accessories.",Fashion,luxury fashion,luxury automobiles,"
+Fashion, perfume, accessories.",CORRECT
+21,Louis Vuitton,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1854",1,1854,1857,"
+1854",CORRECT
+21,Louis Vuitton,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Louis Vuitton",Louis,Louis Vuitton,Napoleon Bonaparte,"
+Louis Vuitton",CORRECT
+21,Louis Vuitton,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Luxury goods.",Luxury,luxury goods,luxury automobiles,"
+Luxury goods.",CORRECT
+22,Gucci,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1921",1,1921,1918,"
+1921",CORRECT
+22,Gucci,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Guccio Gucci",Gu,Guccio Gucci,Alessandro Michele,"
+Guccio Gucci",CORRECT
+22,Gucci,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Fashion, leather goods.",Fashion,luxury fashion,luxury automobiles,"
+Fashion, leather goods.",CORRECT
+23,Prada,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1913",1,1913,1910,"
+1913",CORRECT
+23,Prada,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Mario Prada",Mario,Mario Prada,Leonardo da Vinci,"
+Mario Prada",CORRECT
+23,Prada,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Fashion, Leather goods",Fashion,luxury goods,gourmet food items,"
+Fashion, Leather goods",CORRECT
+24,Ferrari,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1929",1,1947,1939,"
+1929",INCORRECT
+24,Ferrari,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Enzo Ferrari",En,Enzo Ferrari,Leonardo da Vinci,"
+Enzo Ferrari",CORRECT
+24,Ferrari,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Cars, Engines",Cars,luxury sports cars,high-end bicycles,"
+Cars, Engines",INCORRECT
+25,Porsche,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1931",1,1931,1925,"
+1931",CORRECT
+25,Porsche,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Ferdinand Porsche",F,Ferdinand Porsche,Adolf Hitler,"
+Ferdinand Porsche",CORRECT
+25,Porsche,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Sports cars.",Sports,luxury vehicles,luxury watches,"
+Sports cars.",INCORRECT
+26,Volkswagen,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1937",1,1937,1927,"
+1937",CORRECT
+26,Volkswagen,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Ferdinand Porsche",F,German Labour Front,the German Farmers Association,"
+Ferdinand Porsche",INCORRECT
+26,Volkswagen,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Automobiles, vehicles.",Autom,automobiles,bicycles,"
+Automobiles, vehicles.",CORRECT
+27,IBM,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1911",1,1911,1908,"
+1911",CORRECT
+27,IBM,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+IBM",IBM,Charles Ranlett Flint,Thomas J. Watson,"
+IBM",INCORRECT
+27,IBM,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Software, hardware, consulting.",Software,technology and consulting services,fashion and luxury goods,"
+Software, hardware, consulting.",CORRECT
+28,Dell,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1984",1,1984,1987,"
+1984",CORRECT
+28,Dell,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Michael Dell",Michael,Michael Dell,Steve Jobs,"
+Michael Dell",CORRECT
+28,Dell,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Computers, laptops",Comput,computers,kitchen appliances and related products,"
+Computers, laptops",CORRECT
+29,Red Bull,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1987",1,1987,1985,"
+1987",CORRECT
+29,Red Bull,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Dietrich Mateschitz",Diet,Dietrich Mateschitz,Richard Branson,"
+Dietrich Mateschitz",CORRECT
+29,Red Bull,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Energy drinks.",Energy,energy drinks,sports apparel,"
+Energy drinks.",CORRECT
+30,BP,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1909",1,1909,1907,"
+1909",CORRECT
+30,BP,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Burmah-Shell",Bur,William Knox D'Arcy,John D. Rockefeller,"
+Burmah-Shell",INCORRECT
+30,BP,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Oil and gas.",Oil,petroleum products,clothing items,"
+Oil and gas.",CORRECT
+31,Unilever,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1930",1,1929,1935,"
+1930",INCORRECT
+31,Unilever,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Unilever",Un,"William Lever, 1st Viscount Leverhulme",Henry Ford,"
+Unilever",CORRECT
+31,Unilever,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Food, beauty, cleaning.",Food,consumer goods,automotive parts,"
+Food, beauty, cleaning.",CORRECT
+32,Pampers,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1961",1,1961,1958,"
+1961",CORRECT
+32,Pampers,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Procter & Gamble",Pro,Victor Mills,John Doe,"
+Procter & Gamble",CORRECT
+32,Pampers,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Diapers, wipes.",Di,diapers,baby food,"
+Diapers, wipes.",CORRECT
+33,Lego,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1932",1,1932,1925,"
+1932",CORRECT
+33,Lego,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Ole Kirk Christiansen",Ole,Ole Kirk Christiansen,Hans Christian Andersen,"
+Ole Kirk Christiansen",CORRECT
+33,Lego,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Building blocks.",Building,plastic construction toys,electronic gadgets,"
+Building blocks.",CORRECT
+34,Kellogg's,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1906",1,1906,1902,"
+1906",CORRECT
+34,Kellogg's,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Will Kellogg",Will,Will Keith Kellogg,John Harvey Kellogg,"
+Will Kellogg",CORRECT
+34,Kellogg's,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Cereal, snacks, frozen.",C,breakfast cereals,athletic footwear,"
+Cereal, snacks, frozen.",INCORRECT
+35,Heineken,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1864",1,1864,1867,"
+1864",CORRECT
+35,Heineken,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Gerard Heineken",Ger,Gerard Adriaan Heineken,Johann Sebastian Bach,"
+Gerard Heineken",CORRECT
+35,Heineken,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Beer, Beverages",Beer,beer,clothing items,"
+Beer, Beverages",CORRECT
+36,Burger King,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1954",1,1953,1955,"
+1954",INCORRECT
+36,Burger King,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+James McLamore",James,Keith J. Kramer and Matthew Burns,James McLamore and David Edgerton,"
+James McLamore",INCORRECT
+36,Burger King,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Burgers, fries, shakes.",Burg,fast food,clothing items,"
+Burgers, fries, shakes.",CORRECT
+37,FedEx,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1968,"
+1971",CORRECT
+37,FedEx,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Fred Smith",Fred,Frederick W. Smith,Elon Musk,"
+Fred Smith",CORRECT
+37,FedEx,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Delivery and logistics.",Delivery,courier delivery services,fast food services,"
+Delivery and logistics.",CORRECT
+38,UPS,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1907",1,1907,1905,"
+1907",CORRECT
+38,UPS,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+James Casey",James,James E. Casey,Henry Ford,"
+James Casey",CORRECT
+38,UPS,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Shipping, logistics, supply chain.",Shipping,package delivery services,fast food services,"
+Shipping, logistics, supply chain.",CORRECT
+39,Instagram,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2010",2,2010,2008,"
+2010",CORRECT
+39,Instagram,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Kevin Systrom.",Kevin,Kevin Systrom and Mike Krieger,Mark Zuckerberg and Sheryl Sandberg,"
+Kevin Systrom.",INCORRECT
+39,Instagram,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Photo and video sharing.",Photo,photo and video sharing social networking service,a gourmet food delivery service,"
+Photo and video sharing.",CORRECT
+40,TikTok,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2016",2,2016,2014,"
+2016",CORRECT
+40,TikTok,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+ByteDance",Byte,Zhang Yiming,Elon Musk,"
+ByteDance",INCORRECT
+40,TikTok,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Short-form videos.",Short,social media platform,fast food chain,"
+Short-form videos.",INCORRECT
+41,YouTube,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2005",2,2005,2003,"
+2005",CORRECT
+41,YouTube,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Google.",Google,"Steve Chen, Chad Hurley, and Jawed Karim",Elon Musk and Mark Zuckerberg,"
+Google.",INCORRECT
+41,YouTube,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Video sharing platform.",Video,online video sharing platform,online music streaming platform,"
+Video sharing platform.",CORRECT
+42,WhatsApp,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2009",2,2009,2007,"
+2009",CORRECT
+42,WhatsApp,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Jan Koum.",Jan,Jan Koum,Elon Musk,"
+Jan Koum.",CORRECT
+42,WhatsApp,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Messaging, voice, video",Messaging,messaging application,fast food chains,"
+Messaging, voice, video",CORRECT
+43,LinkedIn,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2002",2,2002,2005,"
+2002",CORRECT
+43,LinkedIn,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+LinkedIn Corporation",LinkedIn,"Reid Hoffman, Allen Blue, Konstantin Guericke, Eric Ly, and Jean-Luc Vaillant","Mark Zuckerberg, Dustin Moskovitz, Eduardo Saverin, Andrew McCollum, and Chris Hughes","
+LinkedIn Corporation",INCORRECT
+43,LinkedIn,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Professional networking.",Professional,professional networking platform,a gourmet coffee subscription service,"
+Professional networking.",CORRECT
+44,Spotify,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2006",2,2006,2004,"
+2006",CORRECT
+44,Spotify,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Daniel Ek and Martin Lorentzon",Daniel,Daniel Ek and Martin Lorentzon,Elon Musk and Jeff Bezos,"
+Daniel Ek and Martin Lorentzon",CORRECT
+44,Spotify,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Music and podcasts.",Music,digital music streaming service,digital book streaming service,"
+Music and podcasts.",CORRECT
+45,Airbnb,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2008",2,2008,2005,"
+2008",CORRECT
+45,Airbnb,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Airbnb founders.",Airbnb,"Brian Chesky, Joe Gebbia, and Nathan Blecharczyk","Elon Musk, Jeff Bezos, and Mark Zuckerberg","
+Airbnb founders.",CORRECT
+45,Airbnb,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Vacation rentals.",Vac,online marketplace for lodging and tourism experiences,clothing and fashion accessories,"
+Vacation rentals.",CORRECT
+46,Uber,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2009",2,2009,2007,"
+2009",CORRECT
+46,Uber,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Travis Kalanick.",Travis,Travis Kalanick and Garrett Camp,Elon Musk and Jeff Bezos,"
+Travis Kalanick.",INCORRECT
+46,Uber,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Ride-hailing, delivery",Ride,ride-hailing service,gourmet food delivery service,"
+Ride-hailing, delivery",CORRECT
+47,PayPal,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1998",1,1998,1995,"
+1998",CORRECT
+47,PayPal,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+PayPal",PayPal,"Max Levchin, Peter Thiel, and Luke Nosek",Elon Musk,"
+PayPal",INCORRECT
+47,PayPal,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Online payments.",Online,online payment systems,luxury watches,"
+Online payments.",CORRECT
+48,Adobe,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1982",1,1982,1975,"
+1982",CORRECT
+48,Adobe,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Adobe Inc.",Adobe,John Warnock and Charles Geschke,Steve Jobs and Steve Wozniak,"
+Adobe Inc.",CORRECT
+48,Adobe,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Creative software.",Creative,software,clothing items,"
+Creative software.",CORRECT
+49,Huawei,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1987",1,1987,1990,"
+1987",CORRECT
+49,Huawei,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Huawei",Huawei,Ren Zhengfei,Steve Jobs,"
+Huawei",INCORRECT
+49,Huawei,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Smartphones, telecommunications equipment.",Smart,telecommunications equipment,kitchen appliances,"
+Smartphones, telecommunications equipment.",CORRECT
+50,Xiaomi,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2010",2,2010,2008,"
+2010",CORRECT
+50,Xiaomi,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Lei Jun",Lei,Lei Jun,Steve Jobs,"
+Lei Jun",CORRECT
+50,Xiaomi,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Smartphones, electronics.",Smart,smartphones,home appliances,"
+Smartphones, electronics.",CORRECT
+51,IKEA,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1943",1,1943,1938,"
+1943",CORRECT
+51,IKEA,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Ingvar Kamprad",Ing,Ingvar Kamprad,Elon Musk,"
+Ingvar Kamprad",CORRECT
+51,IKEA,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Furniture, home goods.",Furniture,furniture,electronic devices,"
+Furniture, home goods.",CORRECT
+52,Rolex,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1905",1,1905,1910,"
+1905",CORRECT
+52,Rolex,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Hans Wilsdorf",Hans,Hans Wilsdorf,Albert Einstein,"
+Hans Wilsdorf",CORRECT
+52,Rolex,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Luxury watches.",Luxury,luxury watches,luxury cars,"
+Luxury watches.",CORRECT
+53,Dior,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1946",1,1946,1936,"
+1946",CORRECT
+53,Dior,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Christian Dior",Christian,Christian Dior,Coco Chanel,"
+Christian Dior",CORRECT
+53,Dior,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Fashion, perfumes, cosmetics",Fashion,luxury goods,luxury automobiles,"
+Fashion, perfumes, cosmetics",CORRECT
+54,Versace,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1978",1,1978,1985,"
+1978",CORRECT
+54,Versace,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Gianni Versace",Gian,Gianni Versace,Giorgio Armani,"
+Gianni Versace",CORRECT
+54,Versace,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Fashion, fragrances, home.",Fashion,luxury fashion,luxury automobiles,"
+Fashion, fragrances, home.",CORRECT
+55,Ray-Ban,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1937",1,1937,1927,"
+1937",CORRECT
+55,Ray-Ban,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Bausch & Lomb",B,Bausch & Lomb,Gucci,"
+Bausch & Lomb",CORRECT
+55,Ray-Ban,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Sunglasses, eyewear.",Sunglasses,sunglasses,watches,"
+Sunglasses, eyewear.",CORRECT
+56,Philips,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1891",1,1891,1885,"
+1891",CORRECT
+56,Philips,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Freriks and Röntgen",Fr,Gerard Philips,Anton Philips,"
+Freriks and Röntgen",INCORRECT
+56,Philips,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Healthcare, lighting, consumer",Healthcare,electronics,clothing items,"
+Healthcare, lighting, consumer",INCORRECT
+57,Panasonic,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1918",1,1918,1915,"
+1918",CORRECT
+57,Panasonic,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Kondo Koshun",K,Konosuke Matsushita,Soichiro Honda,"
+Kondo Koshun",INCORRECT
+57,Panasonic,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Electronics, appliances.",Electronics,consumer electronics,home appliances,"
+Electronics, appliances.",CORRECT
+58,Siemens,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1847",1,1847,1850,"
+1847",CORRECT
+58,Siemens,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Werner von Siemens",Wer,Werner von Siemens,Thomas Edison,"
+Werner von Siemens",CORRECT
+58,Siemens,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Industrial, healthcare, infrastructure.",Industrial,electrical equipment,automotive parts,"
+Industrial, healthcare, infrastructure.",INCORRECT
+59,Caterpillar,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1905",1,1925,1915,"
+1905",INCORRECT
+59,Caterpillar,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Benjamin Holt",Benjamin,Holt Manufacturing Company,Ford Motor Company,"
+Benjamin Holt",INCORRECT
+59,Caterpillar,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Construction equipment.",Construction,construction equipment,luxury watches,"
+Construction equipment.",CORRECT
+60,John Deere,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1837",1,1837,1840,"
+1837",CORRECT
+60,John Deere,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+John Deere",John,John Deere,Eli Whitney,"
+John Deere",CORRECT
+60,John Deere,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Agricultural machinery.",Agricultural,agricultural machinery,electronic gadgets,"
+Agricultural machinery.",CORRECT
+61,Harley-Davidson,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1903",1,1903,1898,"
+1903",CORRECT
+61,Harley-Davidson,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Harley-Davidson",Har,William S. Harley and Arthur Davidson,Henry Ford and Thomas Edison,"
+Harley-Davidson",CORRECT
+61,Harley-Davidson,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Motorcycles",Motor,motorcycles,luxury watches,"
+Motorcycles",CORRECT
+62,Lamborghini,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1963",1,1963,1958,"
+1963",CORRECT
+62,Lamborghini,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Ferruccio Lamborghini",Fer,Ferruccio Lamborghini,Leonardo da Vinci,"
+Ferruccio Lamborghini",CORRECT
+62,Lamborghini,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Luxury cars.",Luxury,luxury sports cars,high-end kitchen appliances,"
+Luxury cars.",INCORRECT
+63,Rolls-Royce,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1904",1,1904,1907,"
+1904",CORRECT
+63,Rolls-Royce,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Rolls and Royce",Roll,Charles Rolls and Henry Royce,Thomas Edison and Nikola Tesla,"
+Rolls and Royce",CORRECT
+63,Rolls-Royce,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Luxury automobiles.",Luxury,luxury automobiles,luxury yachts,"
+Luxury automobiles.",CORRECT
+64,Jaguar,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1922",1,1922,1919,"
+1922",CORRECT
+64,Jaguar,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+William Lyons",William,William Lyons,Henry Ford,"
+William Lyons",CORRECT
+64,Jaguar,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Luxury vehicles.",Luxury,luxury vehicles,luxury watches,"
+Luxury vehicles.",CORRECT
+65,Land Rover,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1948",1,1948,1955,"
+1948",CORRECT
+65,Land Rover,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Maurice Wilks",Maurice,Maurice Wilks,Henry Ford,"
+Maurice Wilks",CORRECT
+65,Land Rover,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+SUVs, cars",SU,luxury SUVs,luxury watches,"
+SUVs, cars",INCORRECT
+66,Hyundai,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1967",1,1967,1975,"
+1967",CORRECT
+66,Hyundai,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Chung Ju-yung",Ch,Chung Ju-yung,Kim Jong-un,"
+Chung Ju-yung",CORRECT
+66,Hyundai,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Cars, SUVs, trucks.",Cars,automobiles,electronic appliances,"
+Cars, SUVs, trucks.",CORRECT
+67,Nissan,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1933",1,1933,1928,"
+1933",CORRECT
+67,Nissan,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Yoshisuke Aikawa",Yosh,Yoshisuke Aikawa,Soichiro Honda,"
+Yoshisuke Aikawa",CORRECT
+67,Nissan,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Cars, trucks, SUVs.",Cars,automobiles,electronic appliances,"
+Cars, trucks, SUVs.",CORRECT
+68,Boeing,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1916",1,1916,1908,"
+1916",CORRECT
+68,Boeing,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+William Boeing",William,William E. Boeing,Henry Ford,"
+William Boeing",CORRECT
+68,Boeing,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Airplanes, defense, space.",Air,commercial airplanes,luxury yachts,"
+Airplanes, defense, space.",INCORRECT
+69,Airbus,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1970",1,1970,1965,"
+1970",CORRECT
+69,Airbus,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Airbus",Air,a consortium of European aerospace manufacturers,a group of American technology companies,"
+Airbus",INCORRECT
+69,Airbus,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Airplanes, helicopters",Air,commercial aircraft,luxury yachts,"
+Airplanes, helicopters",CORRECT
+70,NASA,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1958",1,1958,1945,"
+1958",CORRECT
+70,NASA,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+United States government",United,United States government,Elon Musk,"
+United States government",CORRECT
+70,NASA,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Space exploration.",Space,space exploration,high-end fashion,"
+Space exploration.",CORRECT
+71,UNICEF,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+1946",1,1946,1956,"
+1946",CORRECT
+71,UNICEF,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+United Nations.",United,United Nations,the World Health Organization,"
+United Nations.",CORRECT
+71,UNICEF,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Humanitarian aid.",Human,child welfare,luxury watches and jewelry,"
+Humanitarian aid.",INCORRECT
+72,Wikipedia,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2001",2,2001,2003,"
+2001",CORRECT
+72,Wikipedia,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Wikimedia Foundation",Wikimedia,Jimmy Wales and Larry Sanger,Steve Jobs,"
+Wikimedia Foundation",INCORRECT
+72,Wikipedia,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Online encyclopedia.",Online,online encyclopedia,encyclopedia of fashion trends,"
+Online encyclopedia.",CORRECT
+73,GitHub,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2008",2,2008,2005,"
+2008",CORRECT
+73,GitHub,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Microsoft",Microsoft,"Tom Preston-Werner, Chris Wanstrath, and PJ Hyett","Elon Musk, Mark Zuckerberg, and Jeff Bezos","
+Microsoft",INCORRECT
+73,GitHub,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Version control.",Version,version control repository hosting service,web-based social media platform,"
+Version control.",INCORRECT
+74,Meta,time_error,mis_knowledge1,,When was the brand associated with the logo established?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: When was the brand associated with the logo established?. Answer with only 1-3 word(s).
+model
+2021",2,2004,2002,"
+2021",INCORRECT
+74,Meta,creator_error,mis_knowledge1,,Who established the brand corresponding to the logo?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: Who established the brand corresponding to the logo?. Answer with only 1-3 word(s).
+model
+Mark Zuckerberg",Mark,Mark Zuckerberg,Elon Musk,"
+Mark Zuckerberg",CORRECT
+74,Meta,content_error,mis_knowledge1,,What are the main products of this brand?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity:
+
+
+
+Query: What are the main products of this brand?. Answer with only 1-3 word(s).
+model
+Facebook, Instagram, WhatsApp",Facebook,social media platforms,gourmet food products,"
+Facebook, Instagram, WhatsApp",CORRECT

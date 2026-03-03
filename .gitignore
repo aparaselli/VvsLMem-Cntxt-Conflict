@@ -1,0 +1,8 @@
+MLLMKC_data/
+*.csv
+!Scripts/FRQ_Results
+!Scripts/FRQ_Results/*.csv
+!Scripts/FRQ/Attr_Results
+!Scripts/FRQ/Attr_Results/*.csv
+!Scripts/FRQ/Corruption_Results
+!Scripts/FRQ/Corruption_Results/*.csv

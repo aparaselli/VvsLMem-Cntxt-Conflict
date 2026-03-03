@@ -1,0 +1,3577 @@
+ID,Instance,Category,Mis_Knowledge_Key,Context,Query,Response,Top_token_str,Ground_Truth,Mis_Answer_Label,Response_iso,Pred
+1,Taylor Swift,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Taylor Swift.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1989",1,1989,1988,"
+1989",CORRECT
+1,Taylor Swift,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Taylor Swift.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+1,Taylor Swift,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Taylor Swift.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer-songwriter",Singer,singer-songwriter,novelist,"
+Singer-songwriter",CORRECT
+2,Elon Musk,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1970,"
+1971",CORRECT
+2,Elon Musk,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+South African-American-Canadian",South,South African-Canadian-American,South African-British-American,"
+South African-American-Canadian",CORRECT
+2,Elon Musk,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Entrepreneur, CEO, Engineer",Entrepreneur,"business magnate, investor, and engineer",professional athlete,"
+Entrepreneur, CEO, Engineer",CORRECT
+3,Cristiano Ronaldo,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cristiano Ronaldo.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1985",1,1985,1984,"
+1985",CORRECT
+3,Cristiano Ronaldo,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cristiano Ronaldo.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Portuguese.",Portuguese,Portuguese,Spanish,"
+Portuguese.",CORRECT
+3,Cristiano Ronaldo,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cristiano Ronaldo.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Footballer.",Football,professional footballer,professional basketball player,"
+Footballer.",CORRECT
+4,Dwayne Johnson,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Dwayne Johnson.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1972",1,1972,1971,"
+1972",CORRECT
+4,Dwayne Johnson,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Dwayne Johnson.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+4,Dwayne Johnson,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Dwayne Johnson.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, producer, businessman",Actor,"professional wrestler, actor, and producer",professional chef,"
+Actor, producer, businessman",CORRECT
+5,Kim Kardashian,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kim Kardashian.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1980",1,1980,1981,"
+1980",CORRECT
+5,Kim Kardashian,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kim Kardashian.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+5,Kim Kardashian,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kim Kardashian.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Media personality.",Media,"media personality, businesswoman, and socialite",professional chef,"
+Media personality.",CORRECT
+6,Kanye West,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kanye West.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1977",1,1977,1978,"
+1977",CORRECT
+6,Kanye West,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kanye West.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+6,Kanye West,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kanye West.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, designer, producer",R,"rapper, producer, and fashion designer",chef,"
+Rapper, designer, producer",CORRECT
+7,Barack Obama,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Barack Obama.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1961",1,1961,August 5,"
+1961",CORRECT
+7,Barack Obama,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Barack Obama.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,[American],Canadian,"
+American.",CORRECT
+7,Barack Obama,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Barack Obama.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Former President.",Former,[politician and former president],chef,"
+Former President.",CORRECT
+8,Oprah Winfrey,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Oprah Winfrey.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1954",1,1954,1955,"
+1954",CORRECT
+8,Oprah Winfrey,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Oprah Winfrey.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+8,Oprah Winfrey,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Oprah Winfrey.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Talk show host.",Talk,"media executive, talk show host, actress, and philanthropist",chef,"
+Talk show host.",CORRECT
+9,Tom Hanks,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tom Hanks.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1956",1,1956,1955,"
+1956",CORRECT
+9,Tom Hanks,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tom Hanks.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+9,Tom Hanks,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tom Hanks.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and filmmaker,chef,"
+Actor.",CORRECT
+10,Jennifer Lopez,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Lopez.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1969",1,1969,1968,"
+1969",CORRECT
+10,Jennifer Lopez,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Lopez.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+10,Jennifer Lopez,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Lopez.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actress, dancer",Singer,"singer, actress, and dancer",chef,"
+Singer, actress, dancer",CORRECT
+11,Justin Bieber,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Justin Bieber.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1994",1,1994,1995,"
+1994",CORRECT
+11,Justin Bieber,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Justin Bieber.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian.",Canadian,Canadian,American,"
+Canadian.",CORRECT
+11,Justin Bieber,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Justin Bieber.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter",Singer,singer and songwriter,chef and restaurateur,"
+Singer, songwriter",CORRECT
+12,Rihanna,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Rihanna.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1988",1,1988,1989,"
+1988",CORRECT
+12,Rihanna,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Rihanna.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Barbadian-American",Barb,,Trinidadian,"
+Barbadian-American",INCORRECT
+12,Rihanna,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Rihanna.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actress, businesswoman",Singer,"singer, actress, and businesswoman",chef,"
+Singer, actress, businesswoman",CORRECT
+13,LeBron James,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: LeBron James.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1984",1,1984,1985,"
+1984",CORRECT
+13,LeBron James,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: LeBron James.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+13,LeBron James,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: LeBron James.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Basketball player.",Basketball,professional basketball player,professional football player,"
+Basketball player.",CORRECT
+14,Bill Gates,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bill Gates.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1955",1,1955,1956,"
+1955",CORRECT
+14,Bill Gates,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bill Gates.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+14,Bill Gates,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bill Gates.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Philanthropist, businessman.",Phil,"business magnate, software developer, and philanthropist",professional chef,"
+Philanthropist, businessman.",CORRECT
+15,Jeff Bezos,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jeff Bezos.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1965,"
+1964",CORRECT
+15,Jeff Bezos,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jeff Bezos.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+15,Jeff Bezos,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jeff Bezos.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Businessman, entrepreneur.",Businessman,entrepreneur and founder of Amazon,chef,"
+Businessman, entrepreneur.",CORRECT
+16,Mark Zuckerberg,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Mark Zuckerberg.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1984",1,1984,1985,"
+1984",CORRECT
+16,Mark Zuckerberg,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Mark Zuckerberg.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+16,Mark Zuckerberg,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Mark Zuckerberg.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Entrepreneur, CEO",Entrepreneur,technology entrepreneur and CEO of Meta (formerly Facebook),professional chef,"
+Entrepreneur, CEO",CORRECT
+17,Ariana Grande,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ariana Grande.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1993",1,1993,1992,"
+1993",CORRECT
+17,Ariana Grande,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ariana Grande.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+17,Ariana Grande,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ariana Grande.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actress",Singer,singer and actress,chef,"
+Singer, actress",CORRECT
+18,Lady Gaga,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lady Gaga.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1986",1,1986,1985,"
+1986",CORRECT
+18,Lady Gaga,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lady Gaga.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+18,Lady Gaga,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lady Gaga.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actress, songwriter",Singer,"singer, songwriter, and actress",chef,"
+Singer, actress, songwriter",CORRECT
+19,Chris Hemsworth,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chris Hemsworth.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1983",1,1983,1982,"
+1983",CORRECT
+19,Chris Hemsworth,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chris Hemsworth.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Australian.",Australian,Australian,New Zealander,"
+Australian.",CORRECT
+19,Chris Hemsworth,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chris Hemsworth.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+20,Scarlett Johansson,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Scarlett Johansson.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1984",1,1984,1985,"
+1984",CORRECT
+20,Scarlett Johansson,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Scarlett Johansson.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+20,Scarlett Johansson,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Scarlett Johansson.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress and singer,chef,"
+Actress",CORRECT
+21,Brad Pitt,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Brad Pitt.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1963",1,1963,1962,"
+1963",CORRECT
+21,Brad Pitt,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Brad Pitt.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+21,Brad Pitt,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Brad Pitt.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and film producer,chef,"
+Actor.",CORRECT
+22,Johnny Depp,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Johnny Depp.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1963",1,1963,1962,"
+1963",CORRECT
+22,Johnny Depp,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Johnny Depp.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+22,Johnny Depp,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Johnny Depp.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and musician,chef,"
+Actor.",CORRECT
+23,Will Smith,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Will Smith.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1968",1,1968,1969,"
+1968",CORRECT
+23,Will Smith,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Will Smith.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+23,Will Smith,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Will Smith.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, rapper",Actor,"actor, rapper, and producer",chef,"
+Actor, rapper",INCORRECT
+24,Kevin Hart,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kevin Hart.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1979",1,1979,1978,"
+1979",CORRECT
+24,Kevin Hart,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kevin Hart.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+24,Kevin Hart,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kevin Hart.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian",Actor,comedian and actor,chef,"
+Actor, comedian",CORRECT
+25,The Rock,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: The Rock.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1972",1,1972,1971,"
+1972",CORRECT
+25,The Rock,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: The Rock.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American-Canadian",American,[American],Canadian,"
+American-Canadian",INCORRECT
+25,The Rock,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: The Rock.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, producer, businessman",Actor,"[professional wrestler, actor, and former football player]","chef, author, and former football player","
+Actor, producer, businessman",CORRECT
+26,Emma Watson,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Watson.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1990",1,1990,1989,"
+1990",CORRECT
+26,Emma Watson,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Watson.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-German",British,British,Irish,"
+British-German",INCORRECT
+26,Emma Watson,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Watson.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress, activist",Actress,actress and activist,novelist,"
+Actress, activist",CORRECT
+27,Daniel Radcliffe,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Daniel Radcliffe.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1989",1,1989,1988,"
+1989",CORRECT
+27,Daniel Radcliffe,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Daniel Radcliffe.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+27,Daniel Radcliffe,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Daniel Radcliffe.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor",Actor,actor,chef,"
+Actor",CORRECT
+28,Selena Gomez,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Selena Gomez.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1992",1,1992,1991,"
+1992",CORRECT
+28,Selena Gomez,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Selena Gomez.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+28,Selena Gomez,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Selena Gomez.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actress.",Singer,"singer, actress, and producer",chef,"
+Singer, actress.",CORRECT
+29,Zendaya,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Zendaya.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1996",1,1996,1995,"
+1996",CORRECT
+29,Zendaya,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Zendaya.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+29,Zendaya,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Zendaya.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress, singer, producer",Actress,"actress, singer, and producer",chef,"
+Actress, singer, producer",CORRECT
+30,Tom Holland,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tom Holland.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1996",1,1996,1995,"
+1996",CORRECT
+30,Tom Holland,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tom Holland.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-American",British,British,Irish,"
+British-American",INCORRECT
+30,Tom Holland,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tom Holland.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor",Actor,actor,chef,"
+Actor",CORRECT
+31,Chris Pratt,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chris Pratt.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1979",1,1979,1978,"
+1979",CORRECT
+31,Chris Pratt,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chris Pratt.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+31,Chris Pratt,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chris Pratt.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor",Actor,actor,chef,"
+Actor",CORRECT
+32,Jennifer Lawrence,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Lawrence.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1990",1,1990,1989,"
+1990",CORRECT
+32,Jennifer Lawrence,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Lawrence.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+32,Jennifer Lawrence,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Lawrence.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,chef,"
+Actress",CORRECT
+33,Gal Gadot,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Gal Gadot.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1985",1,1985,1984,"
+1985",CORRECT
+33,Gal Gadot,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Gal Gadot.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Israeli-American",Israeli,Israeli,Jordanian,"
+Israeli-American",INCORRECT
+33,Gal Gadot,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Gal Gadot.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress and model,chef,"
+Actress",CORRECT
+34,Henry Cavill,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Henry Cavill.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1983",1,1983,1982,"
+1983",CORRECT
+34,Henry Cavill,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Henry Cavill.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-South African",British,British,Irish,"
+British-South African",INCORRECT
+34,Henry Cavill,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Henry Cavill.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor",Actor,actor,chef,"
+Actor",CORRECT
+35,Benedict Cumberbatch,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Benedict Cumberbatch.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1976",1,1976,1975,"
+1976",CORRECT
+35,Benedict Cumberbatch,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Benedict Cumberbatch.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+35,Benedict Cumberbatch,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Benedict Cumberbatch.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+36,Keanu Reeves,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Keanu Reeves.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1965,"
+1964",CORRECT
+36,Keanu Reeves,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Keanu Reeves.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian-American.",Canadian,Canadian,American,"
+Canadian-American.",INCORRECT
+36,Keanu Reeves,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Keanu Reeves.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+37,Ryan Reynolds,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ryan Reynolds.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1976",1,1976,1975,"
+1976",CORRECT
+37,Ryan Reynolds,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ryan Reynolds.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian.",Canadian,Canadian,American,"
+Canadian.",CORRECT
+37,Ryan Reynolds,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ryan Reynolds.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, producer.",Actor,actor and producer,chef,"
+Actor, producer.",CORRECT
+38,Hugh Jackman,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Hugh Jackman.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1968",1,1968,1969,"
+1968",CORRECT
+38,Hugh Jackman,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Hugh Jackman.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Australian.",Australian,Australian,New Zealander,"
+Australian.",CORRECT
+38,Hugh Jackman,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Hugh Jackman.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,"actor, singer, and producer",chef,"
+Actor.",CORRECT
+39,Priyanka Chopra,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Priyanka Chopra.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1982",1,1982,1981,"
+1982",CORRECT
+39,Priyanka Chopra,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Priyanka Chopra.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American, Indian.",American,Indian,Pakistani,"
+American, Indian.",CORRECT
+39,Priyanka Chopra,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Priyanka Chopra.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress, producer",Actress,"actress, producer, and former Miss World",chef,"
+Actress, producer",CORRECT
+40,Nicki Minaj,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Nicki Minaj.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1982",1,1982,1981,"
+1982",CORRECT
+40,Nicki Minaj,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Nicki Minaj.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Trinidadian-American.",Tr,Trinidadian-American,Jamaican-American,"
+Trinidadian-American.",CORRECT
+40,Nicki Minaj,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Nicki Minaj.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, singer, songwriter",R,"rapper, singer, and songwriter",novelist,"
+Rapper, singer, songwriter",CORRECT
+41,Cardi B,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cardi B.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1992",1,1992,1991,"
+1992",CORRECT
+41,Cardi B,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cardi B.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+41,Cardi B,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cardi B.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, actress",R,rapper and singer,chef and baker,"
+Rapper, actress",INCORRECT
+42,Post Malone,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Post Malone.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1995",1,1995,1994,"
+1995",CORRECT
+42,Post Malone,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Post Malone.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+42,Post Malone,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Post Malone.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, singer, songwriter",R,"singer, rapper, and songwriter",chef,"
+Rapper, singer, songwriter",CORRECT
+43,Ed Sheeran,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ed Sheeran.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1991",1,1991,1990,"
+1991",CORRECT
+43,Ed Sheeran,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ed Sheeran.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+43,Ed Sheeran,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ed Sheeran.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer-songwriter.",Singer,singer-songwriter,professional footballer,"
+Singer-songwriter.",CORRECT
+44,Bruno Mars,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bruno Mars.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1985",1,1985,1984,"
+1985",CORRECT
+44,Bruno Mars,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bruno Mars.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+44,Bruno Mars,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bruno Mars.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter, producer",Singer,"singer, songwriter, and record producer",chef,"
+Singer, songwriter, producer",CORRECT
+45,Adele,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Adele.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1988",1,1988,1989,"
+1988",CORRECT
+45,Adele,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Adele.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+45,Adele,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Adele.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer.",Singer,singer-songwriter,novelist,"
+Singer.",CORRECT
+46,Harry Styles,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Harry Styles.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1994",1,1994,1995,"
+1994",CORRECT
+46,Harry Styles,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Harry Styles.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+46,Harry Styles,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Harry Styles.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actor",Singer,"singer, songwriter, and actor",chef,"
+Singer, actor",CORRECT
+47,Shawn Mendes,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shawn Mendes.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1998",1,1998,1997,"
+1998",CORRECT
+47,Shawn Mendes,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shawn Mendes.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian.",Canadian,Canadian,American,"
+Canadian.",CORRECT
+47,Shawn Mendes,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shawn Mendes.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter.",Singer,singer-songwriter and musician,professional athlete,"
+Singer, songwriter.",CORRECT
+48,Billie Eilish,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Billie Eilish.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+2001",2,2001,2000,"
+2001",CORRECT
+48,Billie Eilish,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Billie Eilish.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+48,Billie Eilish,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Billie Eilish.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter",Singer,singer-songwriter,professional dancer,"
+Singer, songwriter",CORRECT
+49,Serena Williams,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Serena Williams.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1981",1,1981,1982,"
+1981",CORRECT
+49,Serena Williams,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Serena Williams.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+49,Serena Williams,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Serena Williams.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Professional tennis player.",Professional,professional tennis player,professional basketball player,"
+Professional tennis player.",CORRECT
+50,Roger Federer,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Roger Federer.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1981",1,1981,1982,"
+1981",CORRECT
+50,Roger Federer,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Roger Federer.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Swiss.",Swiss,Swiss,German,"
+Swiss.",CORRECT
+50,Roger Federer,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Roger Federer.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Professional tennis player.",Professional,retired professional tennis player,professional soccer player,"
+Professional tennis player.",CORRECT
+51,Novak Djokovic,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Novak Djokovic.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1987",1,1987,1986,"
+1987",CORRECT
+51,Novak Djokovic,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Novak Djokovic.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Serbian.",Ser,Serbian,Montenegrin,"
+Serbian.",CORRECT
+51,Novak Djokovic,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Novak Djokovic.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Professional tennis player.",Professional,professional tennis player,professional soccer player,"
+Professional tennis player.",CORRECT
+52,Kobe Bryant,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kobe Bryant.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1978",1,1978,1979,"
+1978",CORRECT
+52,Kobe Bryant,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kobe Bryant.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+52,Kobe Bryant,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kobe Bryant.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Basketball player.",Basketball,former professional basketball player,professional football player,"
+Basketball player.",CORRECT
+53,Stephen Curry,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen Curry.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1988",1,1988,1989,"
+1988",CORRECT
+53,Stephen Curry,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen Curry.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+53,Stephen Curry,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen Curry.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Basketball player.",Basketball,professional basketball player,professional soccer player,"
+Basketball player.",CORRECT
+54,Usain Bolt,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Usain Bolt.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1986",1,1986,1985,"
+1986",CORRECT
+54,Usain Bolt,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Usain Bolt.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Jamaican.",Jama,Jamaican,Haitian,"
+Jamaican.",CORRECT
+54,Usain Bolt,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Usain Bolt.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Retired sprinter.",Retired,retired sprinter,footballer,"
+Retired sprinter.",CORRECT
+55,Simone Biles,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Simone Biles.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1997",1,1997,1996,"
+1997",CORRECT
+55,Simone Biles,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Simone Biles.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+55,Simone Biles,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Simone Biles.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Gymnast",Gym,gymnast,swimmer,"
+Gymnast",CORRECT
+56,Lewis Hamilton,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lewis Hamilton.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1985",1,1985,1984,"
+1985",CORRECT
+56,Lewis Hamilton,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lewis Hamilton.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+56,Lewis Hamilton,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lewis Hamilton.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Formula One driver.",Formula,Formula 1 racing driver,professional golfer,"
+Formula One driver.",CORRECT
+57,Virat Kohli,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Virat Kohli.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1988",1,1988,1989,"
+1988",CORRECT
+57,Virat Kohli,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Virat Kohli.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Indian.",Indian,Indian,Pakistani,"
+Indian.",CORRECT
+57,Virat Kohli,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Virat Kohli.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Cricketer.",C,cricketer,footballer,"
+Cricketer.",CORRECT
+58,Elon Musk,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1970,"
+1971",CORRECT
+58,Elon Musk,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+South African-American-Canadian",South,South African-Canadian-American,South African-British-American,"
+South African-American-Canadian",CORRECT
+58,Elon Musk,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Entrepreneur, CEO, Engineer",Entrepreneur,"business magnate, investor, and engineer",professional chef,"
+Entrepreneur, CEO, Engineer",CORRECT
+59,Jeff Bezos,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jeff Bezos.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1965,"
+1964",CORRECT
+59,Jeff Bezos,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jeff Bezos.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+59,Jeff Bezos,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jeff Bezos.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Businessman, entrepreneur.",Businessman,entrepreneur and founder of Amazon,chef,"
+Businessman, entrepreneur.",CORRECT
+60,Jack Ma,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jack Ma.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1965,"
+1964",CORRECT
+60,Jack Ma,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jack Ma.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Chinese.",Chinese,Chinese,[Japanese],"
+Chinese.",CORRECT
+60,Jack Ma,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jack Ma.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Businessperson, investor.",Business,"[business magnate, investor, and philanthropist]",professional golfer,"
+Businessperson, investor.",CORRECT
+61,Tim Cook,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tim Cook.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1960",1,1960,1961,"
+1960",CORRECT
+61,Tim Cook,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tim Cook.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+61,Tim Cook,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Tim Cook.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+CEO, Apple",CEO,business executive and CEO of Apple Inc,professional chef,"
+CEO, Apple",CORRECT
+62,Satya Nadella,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Satya Nadella.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1967",1,1967,1968,"
+1967",CORRECT
+62,Satya Nadella,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Satya Nadella.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American-Indian",American,Indian-American,Pakistani-American,"
+American-Indian",CORRECT
+62,Satya Nadella,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Satya Nadella.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+CEO, Microsoft.",CEO,business executive and the CEO of Microsoft,CFO,"
+CEO, Microsoft.",CORRECT
+63,Michelle Obama,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Michelle Obama.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1965,"
+1964",CORRECT
+63,Michelle Obama,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Michelle Obama.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+63,Michelle Obama,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Michelle Obama.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Lawyer, writer, advocate",Law,"lawyer, author, and former First Lady of the United States",chef,"
+Lawyer, writer, advocate",CORRECT
+64,Donald Trump,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Donald Trump.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1946",1,1946,1945,"
+1946",CORRECT
+64,Donald Trump,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Donald Trump.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+64,Donald Trump,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Donald Trump.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Businessman, politician.",Businessman,"businessman, television personality, and politician",chef,"
+Businessman, politician.",CORRECT
+65,Justin Trudeau,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Justin Trudeau.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1970,"
+1971",CORRECT
+65,Justin Trudeau,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Justin Trudeau.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian.",Canadian,Canadian,American,"
+Canadian.",CORRECT
+65,Justin Trudeau,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Justin Trudeau.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Politician.",Polit,Prime Minister of Canada,President of Canada,"
+Politician.",CORRECT
+66,Angela Merkel,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Angela Merkel.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1954",1,1954,1955,"
+1954",CORRECT
+66,Angela Merkel,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Angela Merkel.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+German.",German,German,Austrian,"
+German.",CORRECT
+66,Angela Merkel,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Angela Merkel.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Politician.",Polit,politician and former Chancellor of Germany,scientist,"
+Politician.",CORRECT
+67,Elon Musk,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1970,"
+1971",CORRECT
+67,Elon Musk,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+South African-American-Canadian",South,South African-Canadian-American,South African-British-American,"
+South African-American-Canadian",CORRECT
+67,Elon Musk,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Elon Musk.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Entrepreneur, CEO, Engineer",Entrepreneur,"business magnate, investor, and engineer",professional chef,"
+Entrepreneur, CEO, Engineer",CORRECT
+68,Malala Yousafzai,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Malala Yousafzai.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1997",1,1997,1996,"
+1997",CORRECT
+68,Malala Yousafzai,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Malala Yousafzai.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Pakistani-British",Pak,Pakistani,Afghan,"
+Pakistani-British",CORRECT
+68,Malala Yousafzai,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Malala Yousafzai.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Activist, author.",Act,activist for female education and the youngest Nobel Prize laureate,a professional athlete,"
+Activist, author.",CORRECT
+69,Emma Watson,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Watson.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1990",1,1990,1989,"
+1990",CORRECT
+69,Emma Watson,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Watson.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-German",British,British,Irish,"
+British-German",INCORRECT
+69,Emma Watson,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Watson.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress, activist",Actress,actress and activist,novelist,"
+Actress, activist",CORRECT
+70,Ellen DeGeneres,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ellen DeGeneres.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1958",1,1958,1959,"
+1958",CORRECT
+70,Ellen DeGeneres,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ellen DeGeneres.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+70,Ellen DeGeneres,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ellen DeGeneres.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Talk show host.",Talk,"comedian, television host, actress, and writer",chef,"
+Talk show host.",CORRECT
+71,Jimmy Fallon,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jimmy Fallon.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1974,1975,"
+1971",INCORRECT
+71,Jimmy Fallon,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jimmy Fallon.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+71,Jimmy Fallon,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jimmy Fallon.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Talk show host.",Talk,"comedian, actor, and television host",chef,"
+Talk show host.",CORRECT
+72,Stephen Colbert,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen Colbert.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1965,"
+1964",CORRECT
+72,Stephen Colbert,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen Colbert.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+72,Stephen Colbert,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen Colbert.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Television host.",Television,"comedian, actor, and television host",chef,"
+Television host.",CORRECT
+73,Conan O'Brien,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Conan O'Brien.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1963",1,1963,1962,"
+1963",CORRECT
+73,Conan O'Brien,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Conan O'Brien.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+73,Conan O'Brien,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Conan O'Brien.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Talk show host.",Talk,"comedian, writer, producer, and television host",chef,"
+Talk show host.",CORRECT
+74,Trevor Noah,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Trevor Noah.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1980",1,1984,1985,"
+1980",INCORRECT
+74,Trevor Noah,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Trevor Noah.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+South African.",South,South African,Namibian,"
+South African.",CORRECT
+74,Trevor Noah,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Trevor Noah.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Comedian, TV host",Com,"comedian, television host, and author",chef,"
+Comedian, TV host",CORRECT
+75,John Cena,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: John Cena.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1977",1,1977,1978,"
+1977",CORRECT
+75,John Cena,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: John Cena.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+75,John Cena,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: John Cena.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Wrestler, actor",W,professional wrestler and actor,professional chef,"
+Wrestler, actor",CORRECT
+76,Floyd Mayweather,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Floyd Mayweather.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1977",1,1977,1978,"
+1977",CORRECT
+76,Floyd Mayweather,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Floyd Mayweather.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+76,Floyd Mayweather,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Floyd Mayweather.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Boxer, Businessman",Box,professional boxer,professional basketball player,"
+Boxer, Businessman",CORRECT
+77,Gordon Ramsay,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Gordon Ramsay.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1966",1,1966,1965,"
+1966",CORRECT
+77,Gordon Ramsay,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Gordon Ramsay.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Scottish,"
+British.",CORRECT
+77,Gordon Ramsay,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Gordon Ramsay.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Chef.",Chef,"chef, restaurateur, and television personality",firefighter,"
+Chef.",CORRECT
+78,Jamie Oliver,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jamie Oliver.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1975",1,1975,1976,"
+1975",CORRECT
+78,Jamie Oliver,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jamie Oliver.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,Britis,Irish,"
+British.",CORRECT
+78,Jamie Oliver,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jamie Oliver.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Chef.",Chef,"[chef, restaurateur, and media personality]",novelist,"
+Chef.",CORRECT
+79,Martha Stewart,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Martha Stewart.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1941",1,1941,1940,"
+1941",CORRECT
+79,Martha Stewart,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Martha Stewart.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+79,Martha Stewart,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Martha Stewart.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Lifestyle entrepreneur.",Lifestyle,"businesswoman, writer, and television personality",scientist,"
+Lifestyle entrepreneur.",CORRECT
+80,Reese Witherspoon,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Reese Witherspoon.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1981",1,1976,1975,"
+1981",INCORRECT
+80,Reese Witherspoon,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Reese Witherspoon.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+80,Reese Witherspoon,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Reese Witherspoon.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress, producer",Actress,actress and producer,chef,"
+Actress, producer",CORRECT
+81,Anne Hathaway,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Anne Hathaway.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1982",1,1982,1981,"
+1982",CORRECT
+81,Anne Hathaway,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Anne Hathaway.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+81,Anne Hathaway,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Anne Hathaway.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+82,Natalie Portman,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Natalie Portman.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1981",1,1981,1980,"
+1981",CORRECT
+82,Natalie Portman,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Natalie Portman.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American, Israeli",American,American and Israeli,Canadian,"
+American, Israeli",CORRECT
+82,Natalie Portman,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Natalie Portman.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,"actress, filmmaker, and former child prodigy",novelist,"
+Actress",CORRECT
+83,Emma Stone,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Stone.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+2000",2,1988,1989,"
+2000",INCORRECT
+83,Emma Stone,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Stone.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+83,Emma Stone,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emma Stone.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+84,Ryan Gosling,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ryan Gosling.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1980",1,1980,1981,"
+1980",CORRECT
+84,Ryan Gosling,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ryan Gosling.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian-American.",Canadian,Canadian,American,"
+Canadian-American.",INCORRECT
+84,Ryan Gosling,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ryan Gosling.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and musician,chef,"
+Actor.",CORRECT
+85,Matthew McConaughey,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matthew McConaughey.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1969",1,1969,1968,"
+1969",CORRECT
+85,Matthew McConaughey,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matthew McConaughey.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+85,Matthew McConaughey,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matthew McConaughey.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and producer,chef,"
+Actor.",CORRECT
+86,Leonardo DiCaprio,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Leonardo DiCaprio.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1974",1,1974,1975,"
+1974",CORRECT
+86,Leonardo DiCaprio,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Leonardo DiCaprio.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+86,Leonardo DiCaprio,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Leonardo DiCaprio.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and film producer,chef,"
+Actor.",CORRECT
+87,Matt Damon,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matt Damon.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1970",1,1970,1971,"
+1970",CORRECT
+87,Matt Damon,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matt Damon.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+87,Matt Damon,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matt Damon.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,"actor, producer, and screenwriter",chef,"
+Actor.",CORRECT
+88,Ben Affleck,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ben Affleck.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1972",1,1972,1971,"
+1972",CORRECT
+88,Ben Affleck,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ben Affleck.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+88,Ben Affleck,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ben Affleck.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, director, producer",Actor,"actor, director, and producer",chef,"
+Actor, director, producer",CORRECT
+89,George Clooney,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: George Clooney.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1961",1,1961,1960,"
+1961",CORRECT
+89,George Clooney,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: George Clooney.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+89,George Clooney,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: George Clooney.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,"actor, director, and producer",chef,"
+Actor.",CORRECT
+90,Julia Roberts,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Julia Roberts.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1967",1,1967,1968,"
+1967",CORRECT
+90,Julia Roberts,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Julia Roberts.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+90,Julia Roberts,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Julia Roberts.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+91,Nicole Kidman,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Nicole Kidman.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1967",1,1967,"June 20, 1968","
+1967",CORRECT
+91,Nicole Kidman,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Nicole Kidman.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Australian-American",Australian,[Australian-American],New Zealander-American,"
+Australian-American",CORRECT
+91,Nicole Kidman,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Nicole Kidman.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress, producer",Actress,[actress and producer],chef,"
+Actress, producer",CORRECT
+92,Meryl Streep,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Meryl Streep.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1949",1,1949,1948,"
+1949",CORRECT
+92,Meryl Streep,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Meryl Streep.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+92,Meryl Streep,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Meryl Streep.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+93,Cate Blanchett,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cate Blanchett.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1969",1,1969,1968,"
+1969",CORRECT
+93,Cate Blanchett,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cate Blanchett.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Australian, New Zealander",Australian,Australian,New Zealander,"
+Australian, New Zealander",INCORRECT
+93,Cate Blanchett,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Cate Blanchett.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+94,Charlize Theron,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Charlize Theron.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1975",1,1975,1976,"
+1975",CORRECT
+94,Charlize Theron,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Charlize Theron.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+South African-American",South,South African,Namibian,"
+South African-American",INCORRECT
+94,Charlize Theron,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Charlize Theron.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress.",Actress,actress and producer,chef,"
+Actress.",CORRECT
+95,Idris Elba,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Idris Elba.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1972",1,1972,1971,"
+1972",CORRECT
+95,Idris Elba,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Idris Elba.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-Ghanaian",British,British,Irish,"
+British-Ghanaian",INCORRECT
+95,Idris Elba,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Idris Elba.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, producer.",Actor,"actor, producer, musician, and DJ",chef,"
+Actor, producer.",CORRECT
+96,Denzel Washington,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Denzel Washington.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1954",1,1954,1955,"
+1954",CORRECT
+96,Denzel Washington,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Denzel Washington.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+96,Denzel Washington,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Denzel Washington.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and filmmaker,chef,"
+Actor.",CORRECT
+97,Morgan Freeman,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Morgan Freeman.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1937",1,1937,1938,"
+1937",CORRECT
+97,Morgan Freeman,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Morgan Freeman.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+97,Morgan Freeman,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Morgan Freeman.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and narrator,chef,"
+Actor.",CORRECT
+98,Samuel L,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Samuel L.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1948",1,1948,1949,"
+1948",CORRECT
+98,Samuel L,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Samuel L.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+98,Samuel L,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Samuel L.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and producer,chef,"
+Actor.",CORRECT
+99,Liam Neeson,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Liam Neeson.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1952",1,1952,1951,"
+1952",CORRECT
+99,Liam Neeson,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Liam Neeson.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Irish-British",Irish,Northern Irish,Irish,"
+Irish-British",INCORRECT
+99,Liam Neeson,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Liam Neeson.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+100,Jason Statham,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jason Statham.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1967",1,1967,1968,"
+1967",CORRECT
+100,Jason Statham,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jason Statham.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+100,Jason Statham,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jason Statham.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and former professional diver,chef,"
+Actor.",CORRECT
+101,Vin Diesel,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Vin Diesel.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1967",1,1967,1968,"
+1967",CORRECT
+101,Vin Diesel,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Vin Diesel.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+101,Vin Diesel,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Vin Diesel.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, producer.",Actor,actor and producer,chef,"
+Actor, producer.",CORRECT
+102,Arnold Schwarzenegger,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Arnold Schwarzenegger.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1947",1,1947,1948,"
+1947",CORRECT
+102,Arnold Schwarzenegger,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Arnold Schwarzenegger.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Austrian-American.",Aust,Austrian-American,German-American,"
+Austrian-American.",CORRECT
+102,Arnold Schwarzenegger,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Arnold Schwarzenegger.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, politician, bodybuilder",Actor,"bodybuilder, actor, and former politician",chef,"
+Actor, politician, bodybuilder",CORRECT
+103,Sylvester Stallone,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Sylvester Stallone.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1946",1,1946,1945,"
+1946",CORRECT
+103,Sylvester Stallone,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Sylvester Stallone.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+103,Sylvester Stallone,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Sylvester Stallone.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, screenwriter.",Actor,"actor, filmmaker, and screenwriter",chef,"
+Actor, screenwriter.",CORRECT
+104,Jackie Chan,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jackie Chan.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1954",1,1954,1955,"
+1954",CORRECT
+104,Jackie Chan,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jackie Chan.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Chinese-Hong Kong.",Chinese,Chinese,Hong Kongese,"
+Chinese-Hong Kong.",INCORRECT
+104,Jackie Chan,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jackie Chan.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, martial artist",Actor,"martial artist, actor, and filmmaker",chef,"
+Actor, martial artist",CORRECT
+105,Jet Li,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jet Li.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1963",1,1963,1962,"
+1963",CORRECT
+105,Jet Li,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jet Li.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Chinese-Singaporean",Chinese,Chinese,Japanese,"
+Chinese-Singaporean",INCORRECT
+105,Jet Li,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jet Li.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,"[martial artist, actor, and film producer]","chef, author, and television presenter","
+Actor.",CORRECT
+106,Bruce Willis,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bruce Willis.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1955",1,1955,1956,"
+1955",CORRECT
+106,Bruce Willis,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bruce Willis.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American-German",American,American,Canadian,"
+American-German",INCORRECT
+106,Bruce Willis,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Bruce Willis.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+107,Steven Spielberg,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Steven Spielberg.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1946",1,1946,1947,"
+1946",CORRECT
+107,Steven Spielberg,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Steven Spielberg.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+107,Steven Spielberg,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Steven Spielberg.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Film director.",Film,filmmaker,novelist,"
+Film director.",CORRECT
+108,Quentin Tarantino,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Quentin Tarantino.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1963",1,1963,1962,"
+1963",CORRECT
+108,Quentin Tarantino,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Quentin Tarantino.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+108,Quentin Tarantino,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Quentin Tarantino.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Director, screenwriter.",Director,"filmmaker, screenwriter, and actor",novelist,"
+Director, screenwriter.",INCORRECT
+109,Christopher Nolan,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Christopher Nolan.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1970",1,1970,1969,"
+1970",CORRECT
+109,Christopher Nolan,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Christopher Nolan.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-American.",British,British-American,British-Canadian,"
+British-American.",CORRECT
+109,Christopher Nolan,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Christopher Nolan.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Film director.",Film,filmmaker,novelist,"
+Film director.",CORRECT
+110,James Cameron,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: James Cameron.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1954",1,1954,1955,"
+1954",CORRECT
+110,James Cameron,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: James Cameron.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian-American",Canadian,[Canadian],American,"
+Canadian-American",INCORRECT
+110,James Cameron,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: James Cameron.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Director, producer, writer",Director,"[film director, producer, and screenwriter]",novelist,"
+Director, producer, writer",CORRECT
+111,Stephen King,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen King.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1947",1,1947,1948,"
+1947",CORRECT
+111,Stephen King,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen King.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+111,Stephen King,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Stephen King.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Author.",Author,writer,chef,"
+Author.",CORRECT
+112,John Green,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: John Green.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1980",1,1977,1978,"
+1980",INCORRECT
+112,John Green,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: John Green.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+112,John Green,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: John Green.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Author, YouTuber",Author,writer and YouTuber,chef,"
+Author, YouTuber",CORRECT
+113,Eminem,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Eminem.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1972",1,1972,1971,"
+1972",CORRECT
+113,Eminem,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Eminem.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+113,Eminem,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Eminem.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, songwriter",R,"rapper, songwriter, and record producer",chef,"
+Rapper, songwriter",CORRECT
+114,Snoop Dogg,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Snoop Dogg.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1970,"
+1971",CORRECT
+114,Snoop Dogg,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Snoop Dogg.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+114,Snoop Dogg,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Snoop Dogg.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, actor, producer",R,"rapper, singer, songwriter, actor, and entrepreneur",chef,"
+Rapper, actor, producer",CORRECT
+115,Kendrick Lamar,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kendrick Lamar.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1987",1,1987,1986,"
+1987",CORRECT
+115,Kendrick Lamar,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kendrick Lamar.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+115,Kendrick Lamar,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kendrick Lamar.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, songwriter",R,"rapper, songwriter, and record producer",chef,"
+Rapper, songwriter",CORRECT
+116,Travis Scott,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Travis Scott.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1991",1,1991,1990,"
+1991",CORRECT
+116,Travis Scott,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Travis Scott.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+116,Travis Scott,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Travis Scott.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, singer, producer",R,"rapper, singer, songwriter, and record producer",chef,"
+Rapper, singer, producer",CORRECT
+117,The Weeknd,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: The Weeknd.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1990",1,1990,1989,"
+1990",CORRECT
+117,The Weeknd,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: The Weeknd.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian.",Canadian,Canadian,American,"
+Canadian.",CORRECT
+117,The Weeknd,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: The Weeknd.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter, producer",Singer,"singer, songwriter, and record producer",chef,"
+Singer, songwriter, producer",CORRECT
+118,Katy Perry,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Katy Perry.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1984",1,1984,1985,"
+1984",CORRECT
+118,Katy Perry,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Katy Perry.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+118,Katy Perry,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Katy Perry.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter, actress",Singer,"singer, songwriter, and television judge",chef,"
+Singer, songwriter, actress",INCORRECT
+119,Demi Lovato,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Demi Lovato.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1993",1,1992,1991,"
+1993",INCORRECT
+119,Demi Lovato,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Demi Lovato.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+119,Demi Lovato,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Demi Lovato.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actress",Singer,"singer, songwriter, and actress",chef,"
+Singer, actress",CORRECT
+120,Camila Cabello,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Camila Cabello.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1997",1,1997,1996,"
+1997",CORRECT
+120,Camila Cabello,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Camila Cabello.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Cuban-American.",Cub,Cuban-Mexican,Cuban-American,"
+Cuban-American.",CORRECT
+120,Camila Cabello,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Camila Cabello.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter",Singer,singer and songwriter,chef,"
+Singer, songwriter",CORRECT
+121,Lizzo,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lizzo.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1988",1,1988,1989,"
+1988",CORRECT
+121,Lizzo,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lizzo.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+121,Lizzo,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lizzo.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, rapper, songwriter",Singer,"singer, rapper, and flutist",chef,"
+Singer, rapper, songwriter",CORRECT
+122,Megan Thee Stallion,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Megan Thee Stallion.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1995",1,1995,1994,"
+1995",CORRECT
+122,Megan Thee Stallion,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Megan Thee Stallion.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+122,Megan Thee Stallion,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Megan Thee Stallion.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Rapper, singer, songwriter",R,rapper and songwriter,chef and restaurateur,"
+Rapper, singer, songwriter",CORRECT
+123,J Balvin,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: J Balvin.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1985",1,1985,1984,"
+1985",CORRECT
+123,J Balvin,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: J Balvin.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Colombian.",Colomb,Colombian,Venezuelan,"
+Colombian.",CORRECT
+123,J Balvin,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: J Balvin.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, rapper",Singer,singer and songwriter,chef,"
+Singer, rapper",CORRECT
+124,Shakira,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shakira.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1977",1,1977,1978,"
+1977",CORRECT
+124,Shakira,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shakira.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Colombian-American.",Colomb,,Venezuelan,"
+Colombian-American.",INCORRECT
+124,Shakira,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shakira.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, songwriter",Singer,singer and songwriter,chef,"
+Singer, songwriter",CORRECT
+125,Ricky Martin,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ricky Martin.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1970,"
+1971",CORRECT
+125,Ricky Martin,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ricky Martin.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Puerto Rican.",Puerto,Puerto Rican,Dominican,"
+Puerto Rican.",CORRECT
+125,Ricky Martin,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Ricky Martin.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Singer, actor",Singer,"singer, actor, and author",chef,"
+Singer, actor",CORRECT
+126,Jennifer Aniston,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Aniston.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1969",1,1969,1968,"
+1969",CORRECT
+126,Jennifer Aniston,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Aniston.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+126,Jennifer Aniston,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jennifer Aniston.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress and producer,chef,"
+Actress",CORRECT
+127,Courteney Cox,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Courteney Cox.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1964",1,1964,1965,"
+1964",CORRECT
+127,Courteney Cox,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Courteney Cox.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+127,Courteney Cox,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Courteney Cox.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress.",Actress,"actress, producer, and director",chef,"
+Actress.",CORRECT
+128,Matthew Perry,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matthew Perry.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1969",1,1969,1968,"
+1969",CORRECT
+128,Matthew Perry,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matthew Perry.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American-Canadian",American,American-Canadian,American-Mexican,"
+American-Canadian",CORRECT
+128,Matthew Perry,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Matthew Perry.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, screenwriter",Actor,actor,chef,"
+Actor, screenwriter",CORRECT
+129,Kit Harington,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kit Harington.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1986",1,1986,1985,"
+1986",CORRECT
+129,Kit Harington,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kit Harington.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+129,Kit Harington,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kit Harington.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor",Actor,actor,chef,"
+Actor",CORRECT
+130,Emilia Clarke,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emilia Clarke.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1986",1,1986,1985,"
+1986",CORRECT
+130,Emilia Clarke,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emilia Clarke.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-American",British, British,Irish,"
+British-American",INCORRECT
+130,Emilia Clarke,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Emilia Clarke.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+131,Sophie Turner,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Sophie Turner.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1996",1,1996,1995,"
+1996",CORRECT
+131,Sophie Turner,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Sophie Turner.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British-American",British,British,Irish,"
+British-American",INCORRECT
+131,Sophie Turner,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Sophie Turner.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,chef,"
+Actress",CORRECT
+132,Maisie Williams,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Maisie Williams.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1997",1,1997,1996,"
+1997",CORRECT
+132,Maisie Williams,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Maisie Williams.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+British.",British,British,Irish,"
+British.",CORRECT
+132,Maisie Williams,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Maisie Williams.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,chef,"
+Actress",CORRECT
+133,Peter Dinklage,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Peter Dinklage.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1969",1,1969,1968,"
+1969",CORRECT
+133,Peter Dinklage,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Peter Dinklage.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+133,Peter Dinklage,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Peter Dinklage.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+134,Winona Ryder,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Winona Ryder.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1971",1,1971,1970,"
+1971",CORRECT
+134,Winona Ryder,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Winona Ryder.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+134,Winona Ryder,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Winona Ryder.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+135,David Harbour,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: David Harbour.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1975",1,1975,1974,"
+1975",CORRECT
+135,David Harbour,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: David Harbour.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+135,David Harbour,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: David Harbour.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+136,Jim Carrey,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jim Carrey.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1962",1,1962,"January 17, 1961","
+1962",CORRECT
+136,Jim Carrey,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jim Carrey.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian-American.",Canadian,[Canadian-American],Canadian,"
+Canadian-American.",CORRECT
+136,Jim Carrey,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jim Carrey.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian",Actor,"[comedian, actor, and artist]","chef, author, and artist","
+Actor, comedian",CORRECT
+137,Adam Sandler,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Adam Sandler.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1962",1,1966,1965,"
+1962",INCORRECT
+137,Adam Sandler,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Adam Sandler.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+137,Adam Sandler,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Adam Sandler.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian",Actor,"comedian, actor, and filmmaker",chef,"
+Actor, comedian",CORRECT
+138,Kevin James,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kevin James.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1963",1,1965,1966,"
+1963",INCORRECT
+138,Kevin James,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kevin James.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+138,Kevin James,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kevin James.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian",Actor,comedian and actor,chef and restaurateur,"
+Actor, comedian",CORRECT
+139,Steve Carell,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Steve Carell.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1962",1,1962,1963,"
+1962",CORRECT
+139,Steve Carell,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Steve Carell.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+139,Steve Carell,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Steve Carell.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian",Actor,comedian and actor,chef and restaurateur,"
+Actor, comedian",CORRECT
+140,Will Ferrell,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Will Ferrell.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1967",1,1967,1968,"
+1967",CORRECT
+140,Will Ferrell,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Will Ferrell.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+140,Will Ferrell,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Will Ferrell.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian",Actor,"comedian, actor, and producer",chef,"
+Actor, comedian",CORRECT
+141,Seth Rogen,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Seth Rogen.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1982",1,1982,1981,"
+1982",CORRECT
+141,Seth Rogen,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Seth Rogen.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Canadian-American.",Canadian,Canadian,American,"
+Canadian-American.",INCORRECT
+141,Seth Rogen,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Seth Rogen.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian.",Actor,"comedian, actor, writer, producer, and director",chef,"
+Actor, comedian.",CORRECT
+142,James Franco,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: James Franco.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1978",1,1978,1979,"
+1978",CORRECT
+142,James Franco,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: James Franco.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+142,James Franco,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: James Franco.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, director.",Actor,"actor, filmmaker, and writer",chef,"
+Actor, director.",CORRECT
+143,Jonah Hill,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jonah Hill.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1983",1,1983,1982,"
+1983",CORRECT
+143,Jonah Hill,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jonah Hill.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+143,Jonah Hill,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Jonah Hill.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, comedian.",Actor,"actor, producer, and director",chef,"
+Actor, comedian.",INCORRECT
+144,Channing Tatum,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Channing Tatum.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1980",1,1980,1981,"
+1980",CORRECT
+144,Channing Tatum,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Channing Tatum.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+144,Channing Tatum,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Channing Tatum.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor, producer",Actor,"actor, producer, and dancer",chef,"
+Actor, producer",INCORRECT
+145,Zac Efron,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Zac Efron.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1987",1,1987,1986,"
+1987",CORRECT
+145,Zac Efron,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Zac Efron.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+145,Zac Efron,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Zac Efron.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor and singer,chef,"
+Actor.",CORRECT
+146,Kristen Stewart,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kristen Stewart.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1990",1,1990,1989,"
+1990",CORRECT
+146,Kristen Stewart,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kristen Stewart.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+146,Kristen Stewart,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Kristen Stewart.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT
+147,Shia LaBeouf,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shia LaBeouf.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1986",1,1986,1985,"
+1986",CORRECT
+147,Shia LaBeouf,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shia LaBeouf.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+147,Shia LaBeouf,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Shia LaBeouf.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,"actor, filmmaker, and performance artist",chef,"
+Actor.",CORRECT
+148,Chadwick Boseman,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chadwick Boseman.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1977",1,1976,1975,"
+1977",INCORRECT
+148,Chadwick Boseman,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chadwick Boseman.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+American.",American,American,Canadian,"
+American.",CORRECT
+148,Chadwick Boseman,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Chadwick Boseman.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actor.",Actor,actor,chef,"
+Actor.",CORRECT
+149,Lupita Nyong'o,Temporal_error,mis_knowledge1,,What year was the entity born?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lupita Nyong'o.Query: What year was the entity born?. Answer with only 1-3 word(s).
+model
+1983",1,1983,1982,"
+1983",CORRECT
+149,Lupita Nyong'o,location_error,mis_knowledge1,,What is the nationality of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lupita Nyong'o.Query: What is the nationality of the entity?. Answer with only 1-3 word(s).
+model
+Kenyan-Mexican-American",Ken,Kenyan-Mexican,Ugandan-Mexican,"
+Kenyan-Mexican-American",INCORRECT
+149,Lupita Nyong'o,Career_error,mis_knowledge1,,What is the occupation of the entity?,"user
+You are a helpful assistant.
+
+Given your knowledge, answer the question about the following entity.
+Entity: Lupita Nyong'o.Query: What is the occupation of the entity?. Answer with only 1-3 word(s).
+model
+Actress",Actress,actress,novelist,"
+Actress",CORRECT

@@ -1,0 +1,547 @@
+ID,Entity,Category,Group,Original_output,Original_top_token,Mis_Knowledge_Key,Parametric_ans,src_start,dst_start,num_layers,New_Answer,TopDecodedTokenID,TopDecodedToken,Query,Pred_LLM
+1,Taylor Swift,Career_error,VisCont_TxtParam,"
+Novelist.",Nov,mis_knowledge1,singer-songwriter,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+1,Taylor Swift,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge2,singer-songwriter,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+2,Elon Musk,Career_error,VisTxtCont,"
+Professional athlete.",Professional,mis_knowledge1,"business magnate, investor, and engineer",0,0,6,Entrepreneur.,70588,Entre,What is the occupation of this entity?,CORRECT
+2,Elon Musk,Career_error,VisTxtParam,"
+Entrepreneur",Entre,mis_knowledge2,"business magnate, investor, and engineer",0,0,6,Entrepreneur.,70588,Entre,What is the occupation of this entity?,CORRECT
+3,Cristiano Ronaldo,Career_error,VisParam_TxtCont,"
+Professional soccer player.",Professional,mis_knowledge1,professional footballer,0,0,6,Professional footballer.,57513,Professional,What is the occupation of this entity?,CORRECT
+3,Cristiano Ronaldo,Career_error,VisParam_TxtCont,"
+Professional soccer player.",Professional,mis_knowledge2,professional footballer,0,0,6,Professional footballer.,57513,Professional,What is the occupation of this entity?,CORRECT
+4,Dwayne Johnson,Career_error,VisTxtCont,"
+Actor, producer, chef.",Actor,mis_knowledge1,"professional wrestler, actor, and producer",0,0,6,Actor/Entertainer.,18870,Actor,What is the occupation of this entity?,CORRECT
+4,Dwayne Johnson,Career_error,VisTxtParam,"
+Actor, wrestler, producer.",Actor,mis_knowledge2,"professional wrestler, actor, and producer",0,0,6,Actor/Entertainer.,18870,Actor,What is the occupation of this entity?,CORRECT
+5,Kim Kardashian,Career_error,VisParam_TxtCont,"
+Socialite.",Social,mis_knowledge1,"media personality, businesswoman, and socialite",0,0,6,Reality TV star.,46164,Reality,What is the occupation of this entity?,CORRECT
+5,Kim Kardashian,Career_error,VisParam_TxtCont,"
+Socialite.",Social,mis_knowledge2,"media personality, businesswoman, and socialite",0,0,6,Reality TV star.,46164,Reality,What is the occupation of this entity?,CORRECT
+6,Kanye West,Career_error,VisParam_TxtCont,"
+Rapper, producer.",R,mis_knowledge1,"rapper, producer, and fashion designer",0,0,6,Rapper/Actor.,49,R,What is the occupation of this entity?,INCORRECT
+6,Kanye West,Career_error,VisTxtParam,"
+Rapper, architect, designer.",R,mis_knowledge2,"rapper, producer, and fashion designer",0,0,6,Rapper/Actor.,49,R,What is the occupation of this entity?,INCORRECT
+7,Barack Obama,Career_error,VisParam_TxtCont,"
+President",President,mis_knowledge1,[politician and former president],0,0,6,President,26137,President,What is the occupation of this entity?,CORRECT
+7,Barack Obama,Career_error,VisParam_TxtCont,"
+President",President,mis_knowledge2,[politician and former president],0,0,6,President,26137,President,What is the occupation of this entity?,CORRECT
+8,Oprah Winfrey,Career_error,VisTxtParam,"
+Talk show host",Talk,mis_knowledge1,"media executive, talk show host, actress, and philanthropist",0,0,6,Entertainer.,2250,Ent,What is the occupation of this entity?,CORRECT
+8,Oprah Winfrey,Career_error,VisTxtParam,"
+Media executive.",Media,mis_knowledge2,"media executive, talk show host, actress, and philanthropist",0,0,6,Entertainer.,2250,Ent,What is the occupation of this entity?,CORRECT
+9,Tom Hanks,Career_error,VisTxtParam,"
+Filmmaker and actor.",Fil,mis_knowledge1,actor and filmmaker,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+9,Tom Hanks,Career_error,VisTxtParam,"
+Filmmaker.",Fil,mis_knowledge2,actor and filmmaker,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+10,Jennifer Lopez,Career_error,VisParam_TxtCont,"
+Actress, dancer, chef.",Act,mis_knowledge1,"singer, actress, and dancer",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+10,Jennifer Lopez,Career_error,VisTxtParam,"
+Singer, actress, dancer.",S,mis_knowledge2,"singer, actress, and dancer",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+11,Justin Bieber,Career_error,VisTxtCont,"
+Chef and restaurateur.",Chef,mis_knowledge1,singer and songwriter,0,0,6,Musician.,24128,Music,What is the occupation of this entity?,CORRECT
+11,Justin Bieber,Career_error,VisTxtCont,"
+Professional athlete.",Professional,mis_knowledge2,singer and songwriter,0,0,6,Musician.,24128,Music,What is the occupation of this entity?,CORRECT
+12,Rihanna,Career_error,VisTxtCont,"
+Chef, actress, businesswoman.",Chef,mis_knowledge1,"singer, actress, and businesswoman",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+12,Rihanna,Career_error,VisTxtParam,"
+Singer, architect, businesswoman.",S,mis_knowledge2,"singer, actress, and businesswoman",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+13,LeBron James,Career_error,VisParam_TxtCont,"
+Professional basketball player.",Professional,mis_knowledge1,professional basketball player,0,0,6,Basketball player.,73649,Basket,What is the occupation of this entity?,CORRECT
+13,LeBron James,Career_error,VisParam_TxtCont,"
+Professional basketball player.",Professional,mis_knowledge2,professional basketball player,0,0,6,Basketball player.,73649,Basket,What is the occupation of this entity?,CORRECT
+14,Bill Gates,Career_error,VisTxtCont,"
+Professional chef.",Professional,mis_knowledge1,"business magnate, software developer, and philanthropist",0,0,6,Software engineer.,19250,Software,What is the occupation of this entity?,INCORRECT
+14,Bill Gates,Career_error,VisParam_TxtCont,"
+Philanthropist.",Phil,mis_knowledge2,"business magnate, software developer, and philanthropist",0,0,6,Software engineer.,19250,Software,What is the occupation of this entity?,INCORRECT
+15,Jeff Bezos,Career_error,VisParam_TxtCont,"
+Founder of Amazon.",Founder,mis_knowledge1,entrepreneur and founder of Amazon,0,0,6,Entrepreneur,70588,Entre,What is the occupation of this entity?,CORRECT
+15,Jeff Bezos,Career_error,VisTxtParam,"
+Founder of Amazon.",Founder,mis_knowledge2,entrepreneur and founder of Amazon,0,0,6,Entrepreneur,70588,Entre,What is the occupation of this entity?,CORRECT
+16,Mark Zuckerberg,Career_error,VisTxtCont,"
+Professional chef.",Professional,mis_knowledge1,technology entrepreneur and CEO of Meta (formerly Facebook),0,0,6,CEO of Facebook.,78496,CEO,What is the occupation of this entity?,CORRECT
+16,Mark Zuckerberg,Career_error,VisTxtCont,"
+Civil engineer.",Civil,mis_knowledge2,technology entrepreneur and CEO of Meta (formerly Facebook),0,0,6,CEO of Facebook.,78496,CEO,What is the occupation of this entity?,CORRECT
+17,Ariana Grande,Career_error,VisTxtCont,"
+Chef and actress.",Chef,mis_knowledge1,singer and actress,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+17,Ariana Grande,Career_error,VisTxtCont,"
+Singer and architect.",S,mis_knowledge2,singer and actress,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+18,Lady Gaga,Career_error,VisParam_TxtCont,"
+Singer-songwriter.",S,mis_knowledge1,"singer, songwriter, and actress",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+18,Lady Gaga,Career_error,VisTxtParam,"
+Singer, architect, actress.",S,mis_knowledge2,"singer, songwriter, and actress",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+19,Chris Hemsworth,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+19,Chris Hemsworth,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+20,Scarlett Johansson,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge1,actress and singer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+20,Scarlett Johansson,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,actress and singer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+21,Brad Pitt,Career_error,VisTxtParam,"
+Film producer.",Film,mis_knowledge1,actor and film producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+21,Brad Pitt,Career_error,VisTxtParam,"
+Film producer.",Film,mis_knowledge2,actor and film producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+22,Johnny Depp,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor and musician,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+22,Johnny Depp,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor and musician,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+23,Will Smith,Career_error,VisParam_TxtCont,"
+Actor, rapper, producer.",Actor,mis_knowledge1,"actor, rapper, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+23,Will Smith,Career_error,VisTxtParam,"
+Actor, producer.",Actor,mis_knowledge2,"actor, rapper, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+24,Kevin Hart,Career_error,VisParam_TxtCont,"
+Actor and comedian.",Actor,mis_knowledge1,comedian and actor,0,0,6,Actor/comedian.,18870,Actor,What is the occupation of this entity?,CORRECT
+24,Kevin Hart,Career_error,VisTxtParam,"
+Actor and comedian.",Actor,mis_knowledge2,comedian and actor,0,0,6,Actor/comedian.,18870,Actor,What is the occupation of this entity?,CORRECT
+25,The Rock,Career_error,VisTxtParam,"
+Actor, wrestler.",Actor,mis_knowledge1,"[professional wrestler, actor, and former football player]",0,0,6,Actor/Model.,18870,Actor,What is the occupation of this entity?,INCORRECT
+25,The Rock,Career_error,VisParam_TxtCont,"
+Actor, wrestler, producer.",Actor,mis_knowledge2,"[professional wrestler, actor, and former football player]",0,0,6,Actor/Model.,18870,Actor,What is the occupation of this entity?,INCORRECT
+26,Emma Watson,Career_error,VisTxtCont,"
+Novelist and activist.",Nov,mis_knowledge1,actress and activist,0,0,6,Model/Actress.,1712,Model,What is the occupation of this entity?,CORRECT
+26,Emma Watson,Career_error,VisTxtCont,"
+Chef and activist.",Chef,mis_knowledge2,actress and activist,0,0,6,Model/Actress.,1712,Model,What is the occupation of this entity?,CORRECT
+27,Daniel Radcliffe,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+27,Daniel Radcliffe,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+28,Selena Gomez,Career_error,VisTxtCont,"
+Chef, actress, producer.",Chef,mis_knowledge1,"singer, actress, and producer",0,0,6,Model/Actor.,1712,Model,What is the occupation of this entity?,INCORRECT
+28,Selena Gomez,Career_error,VisTxtParam,"
+Singer, architect, producer.",S,mis_knowledge2,"singer, actress, and producer",0,0,6,Model/Actor.,1712,Model,What is the occupation of this entity?,INCORRECT
+29,Zendaya,Career_error,VisParam_TxtCont,"
+Singer, actress, producer.",S,mis_knowledge1,"actress, singer, and producer",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+29,Zendaya,Career_error,VisTxtParam,"
+Actress.",Act,mis_knowledge2,"actress, singer, and producer",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+30,Tom Holland,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+30,Tom Holland,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+31,Chris Pratt,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+31,Chris Pratt,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+32,Jennifer Lawrence,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge1,actress,0,0,6,Actress,2414,Act,What is the occupation of this entity?,CORRECT
+32,Jennifer Lawrence,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,actress,0,0,6,Actress,2414,Act,What is the occupation of this entity?,CORRECT
+33,Gal Gadot,Career_error,VisParam_TxtCont,"
+Model and actress.",Model,mis_knowledge1,actress and model,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+33,Gal Gadot,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,actress and model,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+34,Henry Cavill,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+34,Henry Cavill,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+35,Benedict Cumberbatch,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+35,Benedict Cumberbatch,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+36,Keanu Reeves,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+36,Keanu Reeves,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+37,Ryan Reynolds,Career_error,VisTxtParam,"
+Actor",Actor,mis_knowledge1,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+37,Ryan Reynolds,Career_error,VisTxtParam,"
+Actor",Actor,mis_knowledge2,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+38,Hugh Jackman,Career_error,VisTxtParam,"
+Actor, singer, producer.",Actor,mis_knowledge1,"actor, singer, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+38,Hugh Jackman,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,"actor, singer, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+39,Priyanka Chopra,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge1,"actress, producer, and former Miss World",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+39,Priyanka Chopra,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,"actress, producer, and former Miss World",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+40,Nicki Minaj,Career_error,VisTxtParam,"
+Singer-songwriter.",S,mis_knowledge1,"rapper, singer, and songwriter",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+40,Nicki Minaj,Career_error,VisTxtParam,"
+Rapper",R,mis_knowledge2,"rapper, singer, and songwriter",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+41,Cardi B,Career_error,VisParam_TxtCont,"
+Rapper",R,mis_knowledge1,rapper and singer,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+41,Cardi B,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,rapper and singer,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+43,Ed Sheeran,Career_error,VisTxtCont,"
+Professional footballer.",Professional,mis_knowledge1,singer-songwriter,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+43,Ed Sheeran,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,singer-songwriter,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+44,Bruno Mars,Career_error,VisParam_TxtCont,"
+Singer-songwriter.",S,mis_knowledge1,"singer, songwriter, and record producer",0,0,6,Musician.,24128,Music,What is the occupation of this entity?,CORRECT
+44,Bruno Mars,Career_error,VisTxtParam,"
+Singer, architect, producer.",S,mis_knowledge2,"singer, songwriter, and record producer",0,0,6,Musician.,24128,Music,What is the occupation of this entity?,CORRECT
+45,Adele,Career_error,VisParam_TxtCont,"
+Singer-songwriter.",S,mis_knowledge1,singer-songwriter,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,INCORRECT
+45,Adele,Career_error,VisParam_TxtCont,"
+Singer-songwriter.",S,mis_knowledge2,singer-songwriter,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,INCORRECT
+46,Harry Styles,Career_error,VisParam_TxtCont,"
+Actor, singer, songwriter.",Actor,mis_knowledge1,"singer, songwriter, and actor",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+46,Harry Styles,Career_error,VisCont_TxtParam,"
+Singer, actor, architect.",S,mis_knowledge2,"singer, songwriter, and actor",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+47,Shawn Mendes,Career_error,VisTxtCont,"
+Professional athlete.",Professional,mis_knowledge1,singer-songwriter and musician,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+47,Shawn Mendes,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,singer-songwriter and musician,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+48,Billie Eilish,Career_error,VisTxtCont,"
+Professional dancer.",Professional,mis_knowledge1,singer-songwriter,0,0,6,Model/Actor.,1712,Model,What is the occupation of this entity?,INCORRECT
+48,Billie Eilish,Career_error,VisCont_TxtParam,"
+Novelist.",Nov,mis_knowledge2,singer-songwriter,0,0,6,Model/Actor.,1712,Model,What is the occupation of this entity?,INCORRECT
+49,Serena Williams,Career_error,VisParam_TxtCont,"
+Professional tennis player.",Professional,mis_knowledge1,professional tennis player,0,0,6,Professional tennis player.,57513,Professional,What is the occupation of this entity?,CORRECT
+49,Serena Williams,Career_error,VisParam_TxtCont,"
+Professional tennis player.",Professional,mis_knowledge2,professional tennis player,0,0,6,Professional tennis player.,57513,Professional,What is the occupation of this entity?,CORRECT
+50,Roger Federer,Career_error,VisParam_TxtCont,"
+Professional tennis player.",Professional,mis_knowledge1,retired professional tennis player,0,0,6,Professional tennis player.,57513,Professional,What is the occupation of this entity?,CORRECT
+50,Roger Federer,Career_error,VisParam_TxtCont,"
+Professional tennis player.",Professional,mis_knowledge2,retired professional tennis player,0,0,6,Professional tennis player.,57513,Professional,What is the occupation of this entity?,CORRECT
+51,Novak Djokovic,Career_error,VisParam_TxtCont,"
+Professional tennis player.",Professional,mis_knowledge1,professional tennis player,0,0,6,Professional tennis player.,57513,Professional,What is the occupation of this entity?,CORRECT
+51,Novak Djokovic,Career_error,VisTxtParam,"
+Professional tennis player.",Professional,mis_knowledge2,professional tennis player,0,0,6,Professional tennis player.,57513,Professional,What is the occupation of this entity?,CORRECT
+52,Kobe Bryant,Career_error,VisParam_TxtCont,"
+Professional basketball player.",Professional,mis_knowledge1,former professional basketball player,0,0,6,Basketball player.,73649,Basket,What is the occupation of this entity?,CORRECT
+52,Kobe Bryant,Career_error,VisParam_TxtCont,"
+Professional basketball player.",Professional,mis_knowledge2,former professional basketball player,0,0,6,Basketball player.,73649,Basket,What is the occupation of this entity?,CORRECT
+53,Stephen Curry,Career_error,VisParam_TxtCont,"
+Professional basketball player.",Professional,mis_knowledge1,professional basketball player,0,0,6,Basketball player.,73649,Basket,What is the occupation of this entity?,CORRECT
+53,Stephen Curry,Career_error,VisParam_TxtCont,"
+Professional basketball player",Professional,mis_knowledge2,professional basketball player,0,0,6,Basketball player.,73649,Basket,What is the occupation of this entity?,CORRECT
+54,Usain Bolt,Career_error,VisTxtCont,"
+Retired footballer",Ret,mis_knowledge1,retired sprinter,0,0,6,Athlete,85240,Ath,What is the occupation of this entity?,CORRECT
+54,Usain Bolt,Career_error,VisTxtParam,"
+Retired athlete",Ret,mis_knowledge2,retired sprinter,0,0,6,Athlete,85240,Ath,What is the occupation of this entity?,CORRECT
+55,Simone Biles,Career_error,VisParam_TxtCont,"
+Gymnast",G,mis_knowledge1,gymnast,0,0,6,Athlete,85240,Ath,What is the occupation of this entity?,CORRECT
+55,Simone Biles,Career_error,VisTxtCont,"
+Basketball player.",Basket,mis_knowledge2,gymnast,0,0,6,Athlete,85240,Ath,What is the occupation of this entity?,CORRECT
+56,Lewis Hamilton,Career_error,VisParam_TxtCont,"
+Professional racer.",Professional,mis_knowledge1,Formula 1 racing driver,0,0,6,Race car driver.,55991,Race,What is the occupation of this entity?,CORRECT
+56,Lewis Hamilton,Career_error,VisParam_TxtCont,"
+Formula One driver.",Formula,mis_knowledge2,Formula 1 racing driver,0,0,6,Race car driver.,55991,Race,What is the occupation of this entity?,CORRECT
+57,Virat Kohli,Career_error,VisParam_TxtCont,"
+Cricket player",Cr,mis_knowledge1,cricketer,0,0,6,Cricket player.,16001,Cr,What is the occupation of this entity?,CORRECT
+57,Virat Kohli,Career_error,VisParam_TxtCont,"
+Cricket player",Cr,mis_knowledge2,cricketer,0,0,6,Cricket player.,16001,Cr,What is the occupation of this entity?,CORRECT
+60,Jack Ma,Career_error,VisParam_TxtCont,"
+Entrepreneur",Entre,mis_knowledge1,"[business magnate, investor, and philanthropist]",0,0,6,Entrepreneur,70588,Entre,What is the occupation of this entity?,CORRECT
+60,Jack Ma,Career_error,VisParam_TxtCont,"
+Entrepreneur",Entre,mis_knowledge2,"[business magnate, investor, and philanthropist]",0,0,6,Entrepreneur,70588,Entre,What is the occupation of this entity?,CORRECT
+61,Tim Cook,Career_error,VisParam_TxtCont,"
+CEO of Apple.",CEO,mis_knowledge1,business executive and CEO of Apple Inc,0,0,6,CEO,78496,CEO,What is the occupation of this entity?,CORRECT
+61,Tim Cook,Career_error,VisTxtParam,"
+CEO of Apple.",CEO,mis_knowledge2,business executive and CEO of Apple Inc,0,0,6,CEO,78496,CEO,What is the occupation of this entity?,CORRECT
+62,Satya Nadella,Career_error,VisTxtParam,"
+Business executive.",Business,mis_knowledge1,business executive and the CEO of Microsoft,0,0,6,CEO,78496,CEO,What is the occupation of this entity?,CORRECT
+62,Satya Nadella,Career_error,VisTxtParam,"
+Business executive.",Business,mis_knowledge2,business executive and the CEO of Microsoft,0,0,6,CEO,78496,CEO,What is the occupation of this entity?,CORRECT
+63,Michelle Obama,Career_error,VisParam_TxtCont,"
+Former First Lady.",Former,mis_knowledge1,"lawyer, author, and former First Lady of the United States",0,0,6,First Lady.,5338,First,What is the occupation of this entity?,INCORRECT
+63,Michelle Obama,Career_error,VisParam_TxtCont,"
+Former First Lady.",Former,mis_knowledge2,"lawyer, author, and former First Lady of the United States",0,0,6,First Lady.,5338,First,What is the occupation of this entity?,INCORRECT
+64,Donald Trump,Career_error,VisTxtParam,"
+Politician.",Polit,mis_knowledge1,"businessman, television personality, and politician",0,0,6,President of USA,26137,President,What is the occupation of this entity?,INCORRECT
+64,Donald Trump,Career_error,VisTxtCont,"
+President",President,mis_knowledge2,"businessman, television personality, and politician",0,0,6,President of USA,26137,President,What is the occupation of this entity?,INCORRECT
+65,Justin Trudeau,Career_error,VisTxtCont,"
+President of Canada",President,mis_knowledge1,Prime Minister of Canada,0,0,6,Politician.,96347,Polit,What is the occupation of this entity?,CORRECT
+65,Justin Trudeau,Career_error,VisParam_TxtCont,"
+Politician.",Polit,mis_knowledge2,Prime Minister of Canada,0,0,6,Politician.,96347,Polit,What is the occupation of this entity?,CORRECT
+66,Angela Merkel,Career_error,VisTxtParam,"
+Former Chancellor.",Former,mis_knowledge1,politician and former Chancellor of Germany,0,0,6,Politician.,96347,Polit,What is the occupation of this entity?,CORRECT
+66,Angela Merkel,Career_error,VisParam_TxtCont,"
+Former Chancellor.",Former,mis_knowledge2,politician and former Chancellor of Germany,0,0,6,Politician.,96347,Polit,What is the occupation of this entity?,CORRECT
+68,Malala Yousafzai,Career_error,VisTxtCont,"
+Professional athlete.",Professional,mis_knowledge1,activist for female education and the youngest Nobel Prize laureate,0,0,6,Activist,23179,Activ,What is the occupation of this entity?,CORRECT
+68,Malala Yousafzai,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,activist for female education and the youngest Nobel Prize laureate,0,0,6,Activist,23179,Activ,What is the occupation of this entity?,CORRECT
+70,Ellen DeGeneres,Career_error,VisParam_TxtCont,"
+Television host.",Te,mis_knowledge1,"comedian, television host, actress, and writer",0,0,6,Talk show host.,36210,Talk,What is the occupation of this entity?,CORRECT
+70,Ellen DeGeneres,Career_error,VisTxtParam,"
+Comedian, host.",Com,mis_knowledge2,"comedian, television host, actress, and writer",0,0,6,Talk show host.,36210,Talk,What is the occupation of this entity?,CORRECT
+71,Jimmy Fallon,Career_error,VisTxtParam,"
+Television host.",Te,mis_knowledge1,"comedian, actor, and television host",0,0,6,Comedian.,1092,Com,What is the occupation of this entity?,CORRECT
+71,Jimmy Fallon,Career_error,VisTxtParam,"
+Comedian, host.",Com,mis_knowledge2,"comedian, actor, and television host",0,0,6,Comedian.,1092,Com,What is the occupation of this entity?,CORRECT
+72,Stephen Colbert,Career_error,VisParam_TxtCont,"
+Television host.",Te,mis_knowledge1,"comedian, actor, and television host",0,0,6,Comedian.,1092,Com,What is the occupation of this entity?,CORRECT
+72,Stephen Colbert,Career_error,VisTxtParam,"
+Comedian, host.",Com,mis_knowledge2,"comedian, actor, and television host",0,0,6,Comedian.,1092,Com,What is the occupation of this entity?,CORRECT
+73,Conan O'Brien,Career_error,VisParam_TxtCont,"
+Television host.",Te,mis_knowledge1,"comedian, writer, producer, and television host",0,0,6,Comedian/Host,1092,Com,What is the occupation of this entity?,CORRECT
+73,Conan O'Brien,Career_error,VisTxtParam,"
+Comedian, writer, producer.",Com,mis_knowledge2,"comedian, writer, producer, and television host",0,0,6,Comedian/Host,1092,Com,What is the occupation of this entity?,CORRECT
+74,Trevor Noah,Career_error,VisParam_TxtCont,"
+Television host",Te,mis_knowledge1,"comedian, television host, and author",0,0,6,Comedian/Host.,1092,Com,What is the occupation of this entity?,INCORRECT
+74,Trevor Noah,Career_error,VisTxtParam,"
+Comedian, architect, author.",Com,mis_knowledge2,"comedian, television host, and author",0,0,6,Comedian/Host.,1092,Com,What is the occupation of this entity?,INCORRECT
+75,John Cena,Career_error,VisParam_TxtCont,"
+Professional wrestler.",Professional,mis_knowledge1,professional wrestler and actor,0,0,6,Professional wrestler.,57513,Professional,What is the occupation of this entity?,CORRECT
+75,John Cena,Career_error,VisTxtParam,"
+Professional wrestler.",Professional,mis_knowledge2,professional wrestler and actor,0,0,6,Professional wrestler.,57513,Professional,What is the occupation of this entity?,CORRECT
+76,Floyd Mayweather,Career_error,VisTxtParam,"
+Boxer",Box,mis_knowledge1,professional boxer,0,0,6,Boxer,1611,Box,What is the occupation of this entity?,CORRECT
+76,Floyd Mayweather,Career_error,VisParam_TxtCont,"
+Boxer",Box,mis_knowledge2,professional boxer,0,0,6,Boxer,1611,Box,What is the occupation of this entity?,CORRECT
+77,Gordon Ramsay,Career_error,VisParam_TxtCont,"
+Chef.",Chef,mis_knowledge2,"chef, restaurateur, and television personality",0,0,6,Chef.,93903,Chef,What is the occupation of this entity?,CORRECT
+78,Jamie Oliver,Career_error,VisParam_TxtCont,"
+Chef.",Chef,mis_knowledge1,"[chef, restaurateur, and media personality]",0,0,6,Chef.,93903,Chef,What is the occupation of this entity?,CORRECT
+78,Jamie Oliver,Career_error,VisParam_TxtCont,"
+Chef.",Chef,mis_knowledge2,"[chef, restaurateur, and media personality]",0,0,6,Chef.,93903,Chef,What is the occupation of this entity?,CORRECT
+79,Martha Stewart,Career_error,VisTxtParam,"
+Television personality.",Te,mis_knowledge1,"businesswoman, writer, and television personality",0,0,6,Interior designer.,85125,Interior,What is the occupation of this entity?,INCORRECT
+79,Martha Stewart,Career_error,VisParam_TxtCont,"
+Businesswoman, writer.",Business,mis_knowledge2,"businesswoman, writer, and television personality",0,0,6,Interior designer.,85125,Interior,What is the occupation of this entity?,INCORRECT
+80,Reese Witherspoon,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge1,actress and producer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+80,Reese Witherspoon,Career_error,VisTxtParam,"
+Actress.",Act,mis_knowledge2,actress and producer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+81,Anne Hathaway,Career_error,VisTxtCont,"
+Novelist.",Nov,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+81,Anne Hathaway,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+83,Emma Stone,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+83,Emma Stone,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+84,Ryan Gosling,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor and musician,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+84,Ryan Gosling,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor and musician,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+85,Matthew McConaughey,Career_error,VisTxtParam,"
+Actor",Actor,mis_knowledge1,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+85,Matthew McConaughey,Career_error,VisTxtParam,"
+Actor",Actor,mis_knowledge2,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+86,Leonardo DiCaprio,Career_error,VisTxtParam,"
+Film producer.",Film,mis_knowledge1,actor and film producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+86,Leonardo DiCaprio,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor and film producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+87,Matt Damon,Career_error,VisParam_TxtCont,"
+Actor, producer, writer.",Actor,mis_knowledge1,"actor, producer, and screenwriter",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+87,Matt Damon,Career_error,VisTxtParam,"
+Actor, producer, writer.",Actor,mis_knowledge2,"actor, producer, and screenwriter",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+88,Ben Affleck,Career_error,VisTxtCont,"
+Chef, director, producer.",Chef,mis_knowledge1,"actor, director, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+88,Ben Affleck,Career_error,VisCont_TxtParam,"
+Actor, producer, architect.",Actor,mis_knowledge2,"actor, director, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+89,George Clooney,Career_error,VisParam_TxtCont,"
+Actor, director, producer.",Actor,mis_knowledge1,"actor, director, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+89,George Clooney,Career_error,VisTxtParam,"
+Actor, director, producer.",Actor,mis_knowledge2,"actor, director, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+90,Julia Roberts,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+90,Julia Roberts,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+91,Nicole Kidman,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge1,[actress and producer],0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+91,Nicole Kidman,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,[actress and producer],0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+92,Meryl Streep,Career_error,VisTxtParam,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+92,Meryl Streep,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+93,Cate Blanchett,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress,2414,Act,What is the occupation of this entity?,CORRECT
+93,Cate Blanchett,Career_error,VisTxtParam,"
+Actress",Act,mis_knowledge2,actress,0,0,6,Actress,2414,Act,What is the occupation of this entity?,CORRECT
+94,Charlize Theron,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress and producer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+94,Charlize Theron,Career_error,VisTxtParam,"
+Actor/actress.",Actor,mis_knowledge2,actress and producer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+95,Idris Elba,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,"actor, producer, musician, and DJ",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+95,Idris Elba,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,"actor, producer, musician, and DJ",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+96,Denzel Washington,Career_error,VisTxtCont,"
+Chef and filmmaker.",Chef,mis_knowledge1,actor and filmmaker,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+96,Denzel Washington,Career_error,VisTxtParam,"
+Actor and filmmaker.",Actor,mis_knowledge2,actor and filmmaker,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+97,Morgan Freeman,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor and narrator,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+97,Morgan Freeman,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor and narrator,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+98,Samuel L,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+98,Samuel L,Career_error,VisTxtParam,"
+Actor/Producer.",Actor,mis_knowledge2,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+99,Liam Neeson,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+99,Liam Neeson,Career_error,VisTxtParam,"
+Actor",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+100,Jason Statham,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor and former professional diver,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+100,Jason Statham,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge2,actor and former professional diver,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+101,Vin Diesel,Career_error,VisTxtParam,"
+Actor/producer.",Actor,mis_knowledge1,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+101,Vin Diesel,Career_error,VisTxtParam,"
+Actor/producer.",Actor,mis_knowledge2,actor and producer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+102,Arnold Schwarzenegger,Career_error,VisTxtCont,"
+Actor, chef, politician.",Actor,mis_knowledge1,"bodybuilder, actor, and former politician",0,0,6,Actor/Model,18870,Actor,What is the occupation of this entity?,INCORRECT
+102,Arnold Schwarzenegger,Career_error,VisTxtParam,"
+Bodybuilder.",Body,mis_knowledge2,"bodybuilder, actor, and former politician",0,0,6,Actor/Model,18870,Actor,What is the occupation of this entity?,INCORRECT
+103,Sylvester Stallone,Career_error,VisTxtCont,"
+Chef, filmmaker, screenwriter.",Chef,mis_knowledge1,"actor, filmmaker, and screenwriter",0,0,6,Actor/Entertainer.,18870,Actor,What is the occupation of this entity?,CORRECT
+103,Sylvester Stallone,Career_error,VisTxtParam,"
+Actor, director, writer.",Actor,mis_knowledge2,"actor, filmmaker, and screenwriter",0,0,6,Actor/Entertainer.,18870,Actor,What is the occupation of this entity?,CORRECT
+104,Jackie Chan,Career_error,VisTxtCont,"
+Actor, chef, filmmaker.",Actor,mis_knowledge1,"martial artist, actor, and filmmaker",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+104,Jackie Chan,Career_error,VisTxtParam,"
+Film director.",Film,mis_knowledge2,"martial artist, actor, and filmmaker",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+106,Bruce Willis,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+106,Bruce Willis,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+107,Steven Spielberg,Career_error,VisCont_TxtParam,"
+Novelist.",Nov,mis_knowledge1,filmmaker,0,0,6,Film director.,51487,Film,What is the occupation of this entity?,CORRECT
+107,Steven Spielberg,Career_error,VisTxtParam,"
+Film director.",Film,mis_knowledge2,filmmaker,0,0,6,Film director.,51487,Film,What is the occupation of this entity?,CORRECT
+108,Quentin Tarantino,Career_error,VisParam_TxtCont,"
+Actor, director, writer.",Actor,mis_knowledge1,"filmmaker, screenwriter, and actor",0,0,6,Film director.,51487,Film,What is the occupation of this entity?,INCORRECT
+108,Quentin Tarantino,Career_error,VisTxtParam,"
+Filmmaker, chef, actor.",Fil,mis_knowledge2,"filmmaker, screenwriter, and actor",0,0,6,Film director.,51487,Film,What is the occupation of this entity?,INCORRECT
+109,Christopher Nolan,Career_error,VisTxtCont,"
+Novelist.",Nov,mis_knowledge1,filmmaker,0,0,6,Director.,37194,Director,What is the occupation of this entity?,CORRECT
+109,Christopher Nolan,Career_error,VisTxtParam,"
+Film director.",Film,mis_knowledge2,filmmaker,0,0,6,Director.,37194,Director,What is the occupation of this entity?,CORRECT
+110,James Cameron,Career_error,VisTxtCont,"
+Novelist.",Nov,mis_knowledge1,"[film director, producer, and screenwriter]",0,0,6,Film director.,51487,Film,What is the occupation of this entity?,CORRECT
+110,James Cameron,Career_error,VisParam_TxtCont,"
+Film director.",Film,mis_knowledge2,"[film director, producer, and screenwriter]",0,0,6,Film director.,51487,Film,What is the occupation of this entity?,CORRECT
+111,Stephen King,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge1,writer,0,0,6,Author.,7133,Author,What is the occupation of this entity?,CORRECT
+111,Stephen King,Career_error,VisParam_TxtCont,"
+Author",Author,mis_knowledge2,writer,0,0,6,Author.,7133,Author,What is the occupation of this entity?,CORRECT
+114,Snoop Dogg,Career_error,VisParam_TxtCont,"
+Rapper",S,mis_knowledge1,"rapper, singer, songwriter, actor, and entrepreneur",0,0,6,Rapper,49,R,What is the occupation of this entity?,CORRECT
+114,Snoop Dogg,Career_error,VisTxtParam,"
+Rapper, singer.",R,mis_knowledge2,"rapper, singer, songwriter, actor, and entrepreneur",0,0,6,Rapper,49,R,What is the occupation of this entity?,CORRECT
+115,Kendrick Lamar,Career_error,VisTxtCont,"
+Chef, songwriter, producer.",Chef,mis_knowledge1,"rapper, songwriter, and record producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+115,Kendrick Lamar,Career_error,VisTxtParam,"
+Rapper, architect, producer.",R,mis_knowledge2,"rapper, songwriter, and record producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,INCORRECT
+117,The Weeknd,Career_error,VisTxtCont,"
+Chef, songwriter, producer.",Chef,mis_knowledge1,"singer, songwriter, and record producer",0,0,6,Musician.,24128,Music,What is the occupation of this entity?,CORRECT
+117,The Weeknd,Career_error,VisTxtParam,"
+Singer, architect, producer.",S,mis_knowledge2,"singer, songwriter, and record producer",0,0,6,Musician.,24128,Music,What is the occupation of this entity?,CORRECT
+118,Katy Perry,Career_error,VisTxtParam,"
+Chef, songwriter, judge.",Chef,mis_knowledge1,"singer, songwriter, and television judge",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,INCORRECT
+118,Katy Perry,Career_error,VisTxtParam,"
+Singer, architect, judge.",S,mis_knowledge2,"singer, songwriter, and television judge",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,INCORRECT
+119,Demi Lovato,Career_error,VisParam_TxtCont,"
+Actor, singer, songwriter.",Actor,mis_knowledge1,"singer, songwriter, and actress",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+119,Demi Lovato,Career_error,VisTxtCont,"
+Singer, actress, architect.",S,mis_knowledge2,"singer, songwriter, and actress",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+120,Camila Cabello,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge1,singer and songwriter,0,0,6,Model/Actor.,1712,Model,What is the occupation of this entity?,INCORRECT
+120,Camila Cabello,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,singer and songwriter,0,0,6,Model/Actor.,1712,Model,What is the occupation of this entity?,INCORRECT
+121,Lizzo,Career_error,VisTxtParam,"
+Rapper, chef, flutist.",R,mis_knowledge1,"singer, rapper, and flutist",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+121,Lizzo,Career_error,VisTxtParam,"
+Singer, architect, flutist.",S,mis_knowledge2,"singer, rapper, and flutist",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+124,Shakira,Career_error,VisTxtCont,"
+Chef and songwriter.",Chef,mis_knowledge1,singer and songwriter,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+124,Shakira,Career_error,VisTxtCont,"
+Singer and architect.",S,mis_knowledge2,singer and songwriter,0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+125,Ricky Martin,Career_error,VisTxtCont,"
+Chef, actor, author.",Chef,mis_knowledge1,"singer, actor, and author",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+125,Ricky Martin,Career_error,VisTxtParam,"
+Singer, architect, author.",S,mis_knowledge2,"singer, actor, and author",0,0,6,Singer-songwriter.,50,S,What is the occupation of this entity?,CORRECT
+126,Jennifer Aniston,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge1,actress and producer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+126,Jennifer Aniston,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge2,actress and producer,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+127,Courteney Cox,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge1,"actress, producer, and director",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+127,Courteney Cox,Career_error,VisParam_TxtCont,"
+Actress",Act,mis_knowledge2,"actress, producer, and director",0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+128,Matthew Perry,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+128,Matthew Perry,Career_error,VisTxtCont,"
+Software engineer.",Software,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+129,Kit Harington,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+129,Kit Harington,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+130,Emilia Clarke,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+130,Emilia Clarke,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+131,Sophie Turner,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+131,Sophie Turner,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+132,Maisie Williams,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+132,Maisie Williams,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+133,Peter Dinklage,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+133,Peter Dinklage,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+134,Winona Ryder,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress,2414,Act,What is the occupation of this entity?,CORRECT
+134,Winona Ryder,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge2,actress,0,0,6,Actress,2414,Act,What is the occupation of this entity?,CORRECT
+135,David Harbour,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+135,David Harbour,Career_error,VisTxtCont,"
+Journalist.",Journal,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+136,Jim Carrey,Career_error,VisTxtParam,"
+Actor, comedian.",Actor,mis_knowledge1,"[comedian, actor, and artist]",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+136,Jim Carrey,Career_error,VisTxtParam,"
+Actor, comedian.",Actor,mis_knowledge2,"[comedian, actor, and artist]",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+137,Adam Sandler,Career_error,VisTxtCont,"
+Actor, filmmaker, chef.",Actor,mis_knowledge1,"comedian, actor, and filmmaker",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+137,Adam Sandler,Career_error,VisTxtParam,"
+Comedian, actor.",Com,mis_knowledge2,"comedian, actor, and filmmaker",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+138,Kevin James,Career_error,VisTxtCont,"
+Chef and restaurateur.",Chef,mis_knowledge1,comedian and actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+138,Kevin James,Career_error,VisParam_TxtCont,"
+Actor/comedian.",Actor,mis_knowledge2,comedian and actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+139,Steve Carell,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,comedian and actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+139,Steve Carell,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,comedian and actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+140,Will Ferrell,Career_error,VisTxtParam,"
+Actor, producer.",Actor,mis_knowledge1,"comedian, actor, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+140,Will Ferrell,Career_error,VisTxtParam,"
+Comedian, actor.",Com,mis_knowledge2,"comedian, actor, and producer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+141,Seth Rogen,Career_error,VisParam_TxtCont,"
+Actor, writer, producer, director.",Actor,mis_knowledge1,"comedian, actor, writer, producer, and director",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+141,Seth Rogen,Career_error,VisTxtParam,"
+Actor, comedian.",Actor,mis_knowledge2,"comedian, actor, writer, producer, and director",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+142,James Franco,Career_error,VisParam_TxtCont,"
+Actor, director, writer.",Actor,mis_knowledge1,"actor, filmmaker, and writer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+142,James Franco,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge2,"actor, filmmaker, and writer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+143,Jonah Hill,Career_error,VisParam_TxtCont,"
+Actor, producer, director.",Actor,mis_knowledge1,"actor, producer, and director",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+143,Jonah Hill,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,"actor, producer, and director",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+144,Channing Tatum,Career_error,VisParam_TxtCont,"
+Actor, producer, dancer.",Actor,mis_knowledge1,"actor, producer, and dancer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+144,Channing Tatum,Career_error,VisTxtParam,"
+Actor, producer, dancer.",Actor,mis_knowledge2,"actor, producer, and dancer",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+145,Zac Efron,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,actor and singer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+145,Zac Efron,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor and singer,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+146,Kristen Stewart,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+146,Kristen Stewart,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+147,Shia LaBeouf,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge1,"actor, filmmaker, and performance artist",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+147,Shia LaBeouf,Career_error,VisParam_TxtCont,"
+Actor.",Actor,mis_knowledge2,"actor, filmmaker, and performance artist",0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+148,Chadwick Boseman,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge1,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+148,Chadwick Boseman,Career_error,VisTxtParam,"
+Actor.",Actor,mis_knowledge2,actor,0,0,6,Actor.,18870,Actor,What is the occupation of this entity?,CORRECT
+149,Lupita Nyong'o,Career_error,VisParam_TxtCont,"
+Actress.",Act,mis_knowledge1,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT
+149,Lupita Nyong'o,Career_error,VisTxtCont,"
+Chef.",Chef,mis_knowledge2,actress,0,0,6,Actress.,2414,Act,What is the occupation of this entity?,CORRECT

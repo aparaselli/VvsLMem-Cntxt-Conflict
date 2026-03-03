@@ -1,0 +1,623 @@
+,ID,Entity,Category,Query,Group,Original_output,Original_top_token,Mis_Knowledge_Key,Parametric_ans,Contextual_ans,src_start,dst_start,num_layers,New_Answer,TopDecodedTokenID,TopDecodedToken,Pred
+0,1,Taylor Swift,Temporal_error,What year was the entity born?,VisTxtCont,1988.,1,mis_knowledge1,1989,1988,2,2,3,1989,16,1,CORRECT
+1,1,Taylor Swift,Temporal_error,What year was the entity born?,VisTxtCont,1990,1,mis_knowledge2,1989,1990,2,2,3,1989,16,1,CORRECT
+2,1,Taylor Swift,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+3,1,Taylor Swift,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+4,1,Taylor Swift,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist.,Nov,mis_knowledge1,singer-songwriter,novelist,2,2,3,Singer-songwriter.,50,S,CORRECT
+5,1,Taylor Swift,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge2,singer-songwriter,chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+6,2,Elon Musk,Temporal_error,What year was the entity born?,VisTxtCont,1970.,1,mis_knowledge1,1971,1970,2,2,3,1971,16,1,CORRECT
+7,2,Elon Musk,Temporal_error,What year was the entity born?,VisTxtCont,1972.,1,mis_knowledge2,1971,1972,2,2,3,1971,16,1,CORRECT
+8,2,Elon Musk,Career_error,What is the occupation of the entity?,VisTxtCont,Professional athlete.,Professional,mis_knowledge1,"business magnate, investor, and engineer",professional athlete,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+9,2,Elon Musk,Career_error,What is the occupation of the entity?,VisTxtParam,Entrepreneur,Entre,mis_knowledge2,"business magnate, investor, and engineer",chef,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+10,3,Cristiano Ronaldo,Temporal_error,What year was the entity born?,VisTxtCont,1984.,1,mis_knowledge1,1985,1984,2,2,3,1985,16,1,CORRECT
+11,3,Cristiano Ronaldo,Temporal_error,What year was the entity born?,VisTxtCont,1986.,1,mis_knowledge2,1985,1986,2,2,3,1985,16,1,CORRECT
+12,3,Cristiano Ronaldo,location_error,What is the nationality of the entity?,VisTxtCont,Spanish.,Spanish,mis_knowledge1,Portuguese,Spanish,2,2,3,Portuguese.,7084,Port,CORRECT
+13,3,Cristiano Ronaldo,location_error,What is the nationality of the entity?,VisTxtParam,Portuguese.,Port,mis_knowledge2,Portuguese,Andorran,2,2,3,Portuguese.,7084,Port,CORRECT
+14,3,Cristiano Ronaldo,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional soccer player.,Professional,mis_knowledge1,professional footballer,professional basketball player,2,2,3,Professional footballer.,57513,Professional,CORRECT
+15,3,Cristiano Ronaldo,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional footballer,Professional,mis_knowledge2,professional footballer,professional tennis player,2,2,3,Professional footballer.,57513,Professional,CORRECT
+16,4,Dwayne Johnson,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+17,4,Dwayne Johnson,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+18,4,Dwayne Johnson,Career_error,What is the occupation of the entity?,VisCont_TxtParam,"Actor, producer, chef.",Actor,mis_knowledge1,"professional wrestler, actor, and producer",professional chef,2,2,3,Actor and wrestler.,18870,Actor,CORRECT
+19,4,Dwayne Johnson,Career_error,What is the occupation of the entity?,VisTxtParam,"Actor, wrestler.",Actor,mis_knowledge2,"professional wrestler, actor, and producer",architect,2,2,3,Actor and wrestler.,18870,Actor,CORRECT
+20,5,Kim Kardashian,Temporal_error,What year was the entity born?,VisTxtCont,1981.,1,mis_knowledge1,1980,1981,2,2,3,1980,16,1,CORRECT
+21,5,Kim Kardashian,Temporal_error,What year was the entity born?,VisTxtCont,1979.,1,mis_knowledge2,1980,1979,2,2,3,1980,16,1,CORRECT
+22,5,Kim Kardashian,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+23,5,Kim Kardashian,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+24,5,Kim Kardashian,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Socialite.,Social,mis_knowledge1,"media personality, businesswoman, and socialite",professional chef,2,2,3,Reality TV star.,46164,Reality,CORRECT
+25,5,Kim Kardashian,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Socialite.,Social,mis_knowledge2,"media personality, businesswoman, and socialite",software engineer,2,2,3,Reality TV star.,46164,Reality,CORRECT
+26,6,Kanye West,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+27,6,Kanye West,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+28,7,Barack Obama,Temporal_error,What year was the entity born?,VisTxtParam,1961.,1,mis_knowledge1,1961,August 5,2,2,3,1961,16,1,CORRECT
+29,7,Barack Obama,Temporal_error,What year was the entity born?,VisTxtCont,1962.,1,mis_knowledge2,1961,1962,2,2,3,1961,16,1,CORRECT
+30,7,Barack Obama,location_error,What is the nationality of the entity?,VisTxtParam,American,American,mis_knowledge1,[American],Canadian,2,2,3,American.,28418,American,CORRECT
+31,7,Barack Obama,location_error,What is the nationality of the entity?,VisTxtParam,American,American,mis_knowledge2,[American],Mexican,2,2,3,American.,28418,American,CORRECT
+32,7,Barack Obama,Career_error,What is the occupation of the entity?,VisParam_TxtCont,President,President,mis_knowledge1,[politician and former president],chef,2,2,3,President,26137,President,CORRECT
+33,7,Barack Obama,Career_error,What is the occupation of the entity?,VisParam_TxtCont,President,President,mis_knowledge2,[politician and former president],professional basketball player,2,2,3,President,26137,President,CORRECT
+34,8,Oprah Winfrey,Temporal_error,What year was the entity born?,VisTxtCont,1955.,1,mis_knowledge1,1954,1955,2,2,3,1972,16,1,INCORRECT
+35,8,Oprah Winfrey,Temporal_error,What year was the entity born?,VisTxtCont,1953.,1,mis_knowledge2,1954,1953,2,2,3,1972,16,1,INCORRECT
+36,8,Oprah Winfrey,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+37,8,Oprah Winfrey,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+38,8,Oprah Winfrey,Career_error,What is the occupation of the entity?,VisTxtParam,Talk show host.,Talk,mis_knowledge1,"media executive, talk show host, actress, and philanthropist",chef,2,2,3,Entertainer.,2250,Ent,CORRECT
+39,8,Oprah Winfrey,Career_error,What is the occupation of the entity?,VisTxtParam,Media executive.,Media,mis_knowledge2,"media executive, talk show host, actress, and philanthropist",architect,2,2,3,Entertainer.,2250,Ent,CORRECT
+40,9,Tom Hanks,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American actor.,28418,American,INCORRECT
+41,9,Tom Hanks,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American actor.,28418,American,INCORRECT
+42,9,Tom Hanks,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Filmmaker.,Fil,mis_knowledge1,actor and filmmaker,chef,2,2,3,Actor.,18870,Actor,CORRECT
+43,9,Tom Hanks,Career_error,What is the occupation of the entity?,VisTxtParam,Filmmaker.,Fil,mis_knowledge2,actor and filmmaker,architect,2,2,3,Actor.,18870,Actor,CORRECT
+44,10,Jennifer Lopez,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+45,10,Jennifer Lopez,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+46,10,Jennifer Lopez,Career_error,What is the occupation of the entity?,VisTxtCont,"Actress, dancer, chef.",Act,mis_knowledge1,"singer, actress, and dancer",chef,2,2,3,Actress and singer.,2414,Act,CORRECT
+47,10,Jennifer Lopez,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Singer, actress, dancer.",S,mis_knowledge2,"singer, actress, and dancer",architect,2,2,3,Actress and singer.,2414,Act,CORRECT
+48,11,Justin Bieber,location_error,What is the nationality of the entity?,VisTxtCont,American.,American,mis_knowledge1,Canadian,American,2,2,3,Canadian,59574,Canadian,CORRECT
+49,11,Justin Bieber,location_error,What is the nationality of the entity?,VisCont_TxtParam,Mexican.,Mex,mis_knowledge2,Canadian,Mexican,2,2,3,Canadian,59574,Canadian,CORRECT
+50,11,Justin Bieber,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and restaurateur.,Chef,mis_knowledge1,singer and songwriter,chef and restaurateur,2,2,3,Singer-songwriter.,50,S,CORRECT
+51,11,Justin Bieber,Career_error,What is the occupation of the entity?,VisTxtCont,Professional athlete.,Professional,mis_knowledge2,singer and songwriter,professional athlete,2,2,3,Singer-songwriter.,50,S,CORRECT
+52,12,Rihanna,Temporal_error,What year was the entity born?,VisTxtCont,1989.,1,mis_knowledge1,1988,1989,2,2,3,1988,16,1,CORRECT
+53,12,Rihanna,Temporal_error,What year was the entity born?,VisTxtCont,1987,1,mis_knowledge2,1988,1987,2,2,3,1988,16,1,CORRECT
+54,12,Rihanna,Career_error,What is the occupation of the entity?,VisTxtCont,"Chef, actress, businesswoman.",Chef,mis_knowledge1,"singer, actress, and businesswoman",chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+55,12,Rihanna,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, architect, businesswoman.",S,mis_knowledge2,"singer, actress, and businesswoman",architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+56,13,LeBron James,Temporal_error,What year was the entity born?,VisTxtCont,1985.,1,mis_knowledge1,1984,1985,2,2,3,1984,16,1,CORRECT
+57,13,LeBron James,Temporal_error,What year was the entity born?,VisTxtCont,1983.,1,mis_knowledge2,1984,1983,2,2,3,1984,16,1,CORRECT
+58,13,LeBron James,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+59,13,LeBron James,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+60,13,LeBron James,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional basketball player.,Professional,mis_knowledge1,professional basketball player,professional football player,2,2,3,Professional basketball player.,57513,Professional,CORRECT
+61,13,LeBron James,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional basketball player.,Professional,mis_knowledge2,professional basketball player,professional golfer,2,2,3,Professional basketball player.,57513,Professional,CORRECT
+62,14,Bill Gates,Temporal_error,What year was the entity born?,VisTxtCont,1956.,1,mis_knowledge1,1955,1956,2,2,3,1955,16,1,CORRECT
+63,14,Bill Gates,Temporal_error,What year was the entity born?,VisTxtCont,1954.,1,mis_knowledge2,1955,1954,2,2,3,1955,16,1,CORRECT
+64,14,Bill Gates,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+65,14,Bill Gates,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+66,15,Jeff Bezos,Temporal_error,What year was the entity born?,VisTxtCont,1965.,1,mis_knowledge1,1964,1965,2,2,3,1964,16,1,CORRECT
+67,15,Jeff Bezos,Temporal_error,What year was the entity born?,VisTxtCont,1963.,1,mis_knowledge2,1964,1963,2,2,3,1964,16,1,CORRECT
+68,15,Jeff Bezos,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+69,15,Jeff Bezos,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+70,15,Jeff Bezos,Career_error,What is the occupation of the entity?,VisTxtParam,Founder of Amazon.,Founder,mis_knowledge1,entrepreneur and founder of Amazon,chef,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+71,15,Jeff Bezos,Career_error,What is the occupation of the entity?,VisTxtParam,Founder of Amazon.,Founder,mis_knowledge2,entrepreneur and founder of Amazon,dentist,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+72,16,Mark Zuckerberg,Temporal_error,What year was the entity born?,VisTxtCont,1985.,1,mis_knowledge1,1984,1985,2,2,3,1984,16,1,CORRECT
+73,16,Mark Zuckerberg,Temporal_error,What year was the entity born?,VisTxtCont,1983.,1,mis_knowledge2,1984,1983,2,2,3,1984,16,1,CORRECT
+74,16,Mark Zuckerberg,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+75,16,Mark Zuckerberg,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+76,16,Mark Zuckerberg,Career_error,What is the occupation of the entity?,VisTxtCont,Professional chef.,Professional,mis_knowledge1,technology entrepreneur and CEO of Meta (formerly Facebook),professional chef,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+77,16,Mark Zuckerberg,Career_error,What is the occupation of the entity?,VisTxtParam,Civil engineer.,Civil,mis_knowledge2,technology entrepreneur and CEO of Meta (formerly Facebook),civil engineer,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+78,17,Ariana Grande,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+79,17,Ariana Grande,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+80,17,Ariana Grande,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,singer and actress,chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+81,17,Ariana Grande,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer.,S,mis_knowledge2,singer and actress,architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+82,18,Lady Gaga,Temporal_error,What year was the entity born?,VisTxtCont,1985.,1,mis_knowledge1,1986,1985,2,2,3,1986,16,1,CORRECT
+83,18,Lady Gaga,Temporal_error,What year was the entity born?,VisTxtCont,1987.,1,mis_knowledge2,1986,1987,2,2,3,1986,16,1,CORRECT
+84,18,Lady Gaga,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+85,18,Lady Gaga,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+86,18,Lady Gaga,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer-songwriter.,S,mis_knowledge1,"singer, songwriter, and actress",chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+87,18,Lady Gaga,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, architect, actress.",S,mis_knowledge2,"singer, songwriter, and actress",architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+88,19,Chris Hemsworth,Temporal_error,What year was the entity born?,VisTxtCont,1982.,1,mis_knowledge1,1983,1982,2,2,3,1986,16,1,INCORRECT
+89,19,Chris Hemsworth,Temporal_error,What year was the entity born?,VisTxtCont,1984.,1,mis_knowledge2,1983,1984,2,2,3,1986,16,1,INCORRECT
+90,19,Chris Hemsworth,location_error,What is the nationality of the entity?,VisTxtCont,New Zealand,New,mis_knowledge1,Australian,New Zealander,2,2,3,Australian.,74241,Australian,CORRECT
+91,19,Chris Hemsworth,location_error,What is the nationality of the entity?,VisTxtCont,British,British,mis_knowledge2,Australian,British,2,2,3,Australian.,74241,Australian,CORRECT
+92,19,Chris Hemsworth,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+93,19,Chris Hemsworth,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor,pilot,2,2,3,Actor.,18870,Actor,CORRECT
+94,20,Scarlett Johansson,Temporal_error,What year was the entity born?,VisTxtCont,1985.,1,mis_knowledge1,1984,1985,2,2,3,1985,16,1,INCORRECT
+95,20,Scarlett Johansson,Temporal_error,What year was the entity born?,VisTxtCont,1983.,1,mis_knowledge2,1984,1983,2,2,3,1985,16,1,INCORRECT
+96,20,Scarlett Johansson,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+97,20,Scarlett Johansson,location_error,What is the nationality of the entity?,VisParam_TxtCont,American,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+98,20,Scarlett Johansson,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress,Act,mis_knowledge1,actress and singer,chef,2,2,3,Actress.,2414,Act,CORRECT
+99,20,Scarlett Johansson,Career_error,What is the occupation of the entity?,VisTxtParam,Actress,Act,mis_knowledge2,actress and singer,architect,2,2,3,Actress.,2414,Act,CORRECT
+100,21,Brad Pitt,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American actor.,28418,American,INCORRECT
+101,21,Brad Pitt,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American actor.,28418,American,INCORRECT
+102,21,Brad Pitt,Career_error,What is the occupation of the entity?,VisTxtParam,Film producer.,Film,mis_knowledge1,actor and film producer,chef,2,2,3,Actor.,18870,Actor,CORRECT
+103,21,Brad Pitt,Career_error,What is the occupation of the entity?,VisTxtParam,Film producer.,Film,mis_knowledge2,actor and film producer,architect,2,2,3,Actor.,18870,Actor,CORRECT
+104,22,Johnny Depp,Temporal_error,What year was the entity born?,VisTxtCont,1962.,1,mis_knowledge1,1963,1962,2,2,3,1963,16,1,CORRECT
+105,22,Johnny Depp,Temporal_error,What year was the entity born?,VisTxtCont,1964.,1,mis_knowledge2,1963,1964,2,2,3,1963,16,1,CORRECT
+106,22,Johnny Depp,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American actor.,28418,American,INCORRECT
+107,22,Johnny Depp,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American actor.,28418,American,INCORRECT
+108,22,Johnny Depp,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor and musician,chef,2,2,3,Actor.,18870,Actor,CORRECT
+109,22,Johnny Depp,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and musician,architect,2,2,3,Actor.,18870,Actor,CORRECT
+110,23,Will Smith,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+111,23,Will Smith,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+112,23,Will Smith,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Actor, rapper, producer.",Actor,mis_knowledge1,"actor, rapper, and producer",chef,2,2,3,Actor.,18870,Actor,CORRECT
+113,23,Will Smith,Career_error,What is the occupation of the entity?,VisTxtParam,"Actor, producer.",Actor,mis_knowledge2,"actor, rapper, and producer",architect,2,2,3,Actor.,18870,Actor,CORRECT
+114,24,Kevin Hart,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+115,24,Kevin Hart,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+116,24,Kevin Hart,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,comedian and actor,chef,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+117,24,Kevin Hart,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,comedian and actor,journalist,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+118,25,The Rock,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian,Canadian,mis_knowledge1,[American],Canadian,2,2,3,American,28418,American,CORRECT
+119,25,The Rock,location_error,What is the nationality of the entity?,VisCont_TxtParam,Mexican.,Mex,mis_knowledge2,[American],Mexican,2,2,3,American,28418,American,CORRECT
+120,26,Emma Watson,Temporal_error,What year was the entity born?,VisTxtCont,1989.,1,mis_knowledge1,1990,1989,2,2,3,1990,16,1,CORRECT
+121,26,Emma Watson,Temporal_error,What year was the entity born?,VisTxtCont,1991,1,mis_knowledge2,1990,1991,2,2,3,1990,16,1,CORRECT
+122,26,Emma Watson,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+123,26,Emma Watson,location_error,What is the nationality of the entity?,VisTxtCont,French.,French,mis_knowledge2,British,French,2,2,3,British,51861,British,CORRECT
+124,26,Emma Watson,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist and activist.,Nov,mis_knowledge1,actress and activist,novelist,2,2,3,Actress.,2414,Act,CORRECT
+125,26,Emma Watson,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and activist.,Chef,mis_knowledge2,actress and activist,chef,2,2,3,Actress.,2414,Act,CORRECT
+126,27,Daniel Radcliffe,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+127,27,Daniel Radcliffe,location_error,What is the nationality of the entity?,VisTxtCont,Welsh.,Wel,mis_knowledge2,British,Welsh,2,2,3,British,51861,British,CORRECT
+128,27,Daniel Radcliffe,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+129,27,Daniel Radcliffe,Career_error,What is the occupation of the entity?,VisTxtCont,Software engineer.,Software,mis_knowledge2,actor,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+130,28,Selena Gomez,Career_error,What is the occupation of the entity?,VisTxtCont,"Chef, actress, producer.",Chef,mis_knowledge1,"singer, actress, and producer",chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+131,28,Selena Gomez,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, architect, producer.",S,mis_knowledge2,"singer, actress, and producer",architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+132,29,Zendaya,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+133,29,Zendaya,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+134,29,Zendaya,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Singer, actress, producer.",S,mis_knowledge1,"actress, singer, and producer",chef,2,2,3,Actress.,2414,Act,CORRECT
+135,29,Zendaya,Career_error,What is the occupation of the entity?,VisTxtParam,Actress.,Act,mis_knowledge2,"actress, singer, and producer",architect,2,2,3,Actress.,2414,Act,CORRECT
+136,30,Tom Holland,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+137,30,Tom Holland,location_error,What is the nationality of the entity?,VisTxtCont,French.,French,mis_knowledge2,British,French,2,2,3,British,51861,British,CORRECT
+138,30,Tom Holland,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+139,30,Tom Holland,Career_error,What is the occupation of the entity?,VisTxtCont,Software engineer.,Software,mis_knowledge2,actor,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+140,31,Chris Pratt,Temporal_error,What year was the entity born?,VisTxtCont,1978.,1,mis_knowledge1,1979,1978,2,2,3,1978,16,1,INCORRECT
+141,31,Chris Pratt,Temporal_error,What year was the entity born?,VisTxtCont,1980.,1,mis_knowledge2,1979,1980,2,2,3,1978,16,1,INCORRECT
+142,31,Chris Pratt,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+143,31,Chris Pratt,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+144,31,Chris Pratt,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+145,31,Chris Pratt,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,actor,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+146,32,Jennifer Lawrence,Temporal_error,What year was the entity born?,VisTxtCont,1989.,1,mis_knowledge1,1990,1989,2,2,3,1990,16,1,CORRECT
+147,32,Jennifer Lawrence,Temporal_error,What year was the entity born?,VisTxtCont,1991,1,mis_knowledge2,1990,1991,2,2,3,1990,16,1,CORRECT
+148,32,Jennifer Lawrence,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+149,32,Jennifer Lawrence,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+150,32,Jennifer Lawrence,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+151,32,Jennifer Lawrence,Career_error,What is the occupation of the entity?,VisTxtParam,Actress.,Act,mis_knowledge2,actress,pilot,2,2,3,Actress.,2414,Act,CORRECT
+152,33,Gal Gadot,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Model and actress.,Model,mis_knowledge1,actress and model,chef,2,2,3,Actress.,2414,Act,CORRECT
+153,33,Gal Gadot,Career_error,What is the occupation of the entity?,VisTxtParam,Actress.,Act,mis_knowledge2,actress and model,architect,2,2,3,Actress.,2414,Act,CORRECT
+154,34,Henry Cavill,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British actor.,51861,British,CORRECT
+155,34,Henry Cavill,location_error,What is the nationality of the entity?,VisTxtCont,French.,French,mis_knowledge2,British,French,2,2,3,British actor.,51861,British,CORRECT
+156,34,Henry Cavill,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+157,34,Henry Cavill,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor,pilot,2,2,3,Actor.,18870,Actor,CORRECT
+158,35,Benedict Cumberbatch,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British actor.,51861,British,CORRECT
+159,35,Benedict Cumberbatch,location_error,What is the nationality of the entity?,VisTxtCont,Scottish.,Scott,mis_knowledge2,British,Scottish,2,2,3,British actor.,51861,British,CORRECT
+160,35,Benedict Cumberbatch,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+161,35,Benedict Cumberbatch,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor,architect,2,2,3,Actor.,18870,Actor,CORRECT
+162,36,Keanu Reeves,Temporal_error,What year was the entity born?,VisTxtCont,1965.,1,mis_knowledge1,1964,1965,2,2,3,1964,16,1,CORRECT
+163,36,Keanu Reeves,Temporal_error,What year was the entity born?,VisTxtCont,1963.,1,mis_knowledge2,1964,1963,2,2,3,1964,16,1,CORRECT
+164,36,Keanu Reeves,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+165,36,Keanu Reeves,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor,pilot,2,2,3,Actor.,18870,Actor,CORRECT
+166,37,Ryan Reynolds,Temporal_error,What year was the entity born?,VisTxtCont,1975.,1,mis_knowledge1,1976,1975,2,2,3,1976,16,1,CORRECT
+167,37,Ryan Reynolds,Temporal_error,What year was the entity born?,VisTxtCont,1977.,1,mis_knowledge2,1976,1977,2,2,3,1976,16,1,CORRECT
+168,37,Ryan Reynolds,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor and producer,chef,2,2,3,Actor.,18870,Actor,CORRECT
+169,37,Ryan Reynolds,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and producer,architect,2,2,3,Actor.,18870,Actor,CORRECT
+170,38,Hugh Jackman,Temporal_error,What year was the entity born?,VisTxtCont,1969.,1,mis_knowledge1,1968,1969,2,2,3,1968,16,1,CORRECT
+171,38,Hugh Jackman,Temporal_error,What year was the entity born?,VisTxtCont,1967.,1,mis_knowledge2,1968,1967,2,2,3,1968,16,1,CORRECT
+172,38,Hugh Jackman,location_error,What is the nationality of the entity?,VisTxtCont,New Zealand,New,mis_knowledge1,Australian,New Zealander,2,2,3,Australian,74241,Australian,CORRECT
+173,38,Hugh Jackman,location_error,What is the nationality of the entity?,VisTxtCont,British.,British,mis_knowledge2,Australian,British,2,2,3,Australian,74241,Australian,CORRECT
+174,38,Hugh Jackman,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,"actor, singer, and producer",chef,2,2,3,Actor.,18870,Actor,CORRECT
+175,38,Hugh Jackman,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,"actor, singer, and producer",architect,2,2,3,Actor.,18870,Actor,CORRECT
+176,39,Priyanka Chopra,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,"actress, producer, and former Miss World",chef,2,2,3,Actress.,2414,Act,CORRECT
+177,39,Priyanka Chopra,Career_error,What is the occupation of the entity?,VisTxtParam,Actress,Act,mis_knowledge2,"actress, producer, and former Miss World",architect,2,2,3,Actress.,2414,Act,CORRECT
+178,40,Nicki Minaj,Temporal_error,What year was the entity born?,VisTxtCont,1981.,1,mis_knowledge1,1982,1981,2,2,3,1982,16,1,CORRECT
+179,40,Nicki Minaj,Temporal_error,What year was the entity born?,VisTxtCont,1983.,1,mis_knowledge2,1982,1983,2,2,3,1982,16,1,CORRECT
+180,40,Nicki Minaj,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer-songwriter.,S,mis_knowledge1,"rapper, singer, and songwriter",novelist,2,2,3,Singer.,50,S,CORRECT
+181,40,Nicki Minaj,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Rapper,R,mis_knowledge2,"rapper, singer, and songwriter",chef,2,2,3,Singer.,50,S,CORRECT
+182,41,Cardi B,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+183,41,Cardi B,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+184,41,Cardi B,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Rapper,R,mis_knowledge1,rapper and singer,chef and baker,2,2,3,Rapper/Entertainer,49,R,CORRECT
+185,41,Cardi B,Career_error,What is the occupation of the entity?,VisTxtCont,Software engineer.,Software,mis_knowledge2,rapper and singer,software engineer,2,2,3,Rapper/Entertainer,49,R,CORRECT
+186,42,Post Malone,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+187,42,Post Malone,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+188,42,Post Malone,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Rapper, songwriter.",R,mis_knowledge1,"singer, rapper, and songwriter",chef,2,2,3,Rapper.,49,R,CORRECT
+189,42,Post Malone,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer.,S,mis_knowledge2,"singer, rapper, and songwriter",architect,2,2,3,Rapper.,49,R,CORRECT
+190,43,Ed Sheeran,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+191,43,Ed Sheeran,location_error,What is the nationality of the entity?,VisTxtCont,Scottish.,Scott,mis_knowledge2,British,Scottish,2,2,3,British,51861,British,CORRECT
+192,43,Ed Sheeran,Career_error,What is the occupation of the entity?,VisTxtCont,Professional footballer.,Professional,mis_knowledge1,singer-songwriter,professional footballer,2,2,3,Singer-songwriter.,50,S,CORRECT
+193,43,Ed Sheeran,Career_error,What is the occupation of the entity?,VisTxtCont,Software engineer.,Software,mis_knowledge2,singer-songwriter,software engineer,2,2,3,Singer-songwriter.,50,S,CORRECT
+194,44,Bruno Mars,Temporal_error,What year was the entity born?,VisTxtCont,1984.,1,mis_knowledge1,1985,1984,2,2,3,1985,16,1,CORRECT
+195,44,Bruno Mars,Temporal_error,What year was the entity born?,VisTxtCont,1986.,1,mis_knowledge2,1985,1986,2,2,3,1985,16,1,CORRECT
+196,44,Bruno Mars,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer-songwriter.,S,mis_knowledge1,"singer, songwriter, and record producer",chef,2,2,3,Musician.,24128,Music,CORRECT
+197,44,Bruno Mars,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer.,S,mis_knowledge2,"singer, songwriter, and record producer",architect,2,2,3,Musician.,24128,Music,CORRECT
+198,45,Adele,Temporal_error,What year was the entity born?,VisTxtCont,1989.,1,mis_knowledge1,1988,1989,2,2,3,1988,16,1,CORRECT
+199,45,Adele,Temporal_error,What year was the entity born?,VisTxtCont,1987.,1,mis_knowledge2,1988,1987,2,2,3,1988,16,1,CORRECT
+200,45,Adele,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+201,45,Adele,location_error,What is the nationality of the entity?,VisTxtCont,Scottish.,Scott,mis_knowledge2,British,Scottish,2,2,3,British,51861,British,CORRECT
+202,45,Adele,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer-songwriter.,S,mis_knowledge1,singer-songwriter,novelist,2,2,3,Singer-songwriter.,50,S,CORRECT
+203,45,Adele,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge2,singer-songwriter,chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+204,46,Harry Styles,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+205,46,Harry Styles,location_error,What is the nationality of the entity?,VisTxtCont,Welsh.,Wel,mis_knowledge2,British,Welsh,2,2,3,British,51861,British,CORRECT
+206,46,Harry Styles,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Actor, singer, songwriter.",Actor,mis_knowledge1,"singer, songwriter, and actor",chef,2,2,3,Actor/Singer.,18870,Actor,CORRECT
+207,46,Harry Styles,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, actor, architect.",S,mis_knowledge2,"singer, songwriter, and actor",architect,2,2,3,Actor/Singer.,18870,Actor,CORRECT
+208,47,Shawn Mendes,location_error,What is the nationality of the entity?,VisTxtCont,American.,American,mis_knowledge1,Canadian,American,2,2,3,Canadian.,59574,Canadian,CORRECT
+209,47,Shawn Mendes,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,Canadian,Mexican,2,2,3,Canadian.,59574,Canadian,CORRECT
+210,47,Shawn Mendes,Career_error,What is the occupation of the entity?,VisTxtCont,Professional athlete.,Professional,mis_knowledge1,singer-songwriter and musician,professional athlete,2,2,3,Singer-songwriter.,50,S,CORRECT
+211,47,Shawn Mendes,Career_error,What is the occupation of the entity?,VisTxtCont,Software engineer.,Software,mis_knowledge2,singer-songwriter and musician,software engineer,2,2,3,Singer-songwriter.,50,S,CORRECT
+212,48,Billie Eilish,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+213,48,Billie Eilish,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+214,48,Billie Eilish,Career_error,What is the occupation of the entity?,VisTxtCont,Professional dancer.,Professional,mis_knowledge1,singer-songwriter,professional dancer,2,2,3,Singer-songwriter.,50,S,CORRECT
+215,48,Billie Eilish,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist.,Nov,mis_knowledge2,singer-songwriter,novelist,2,2,3,Singer-songwriter.,50,S,CORRECT
+216,49,Serena Williams,Temporal_error,What year was the entity born?,VisTxtCont,1982.,1,mis_knowledge1,1981,1982,2,2,3,1986,16,1,INCORRECT
+217,49,Serena Williams,Temporal_error,What year was the entity born?,VisTxtCont,1980.,1,mis_knowledge2,1981,1980,2,2,3,1986,16,1,INCORRECT
+218,49,Serena Williams,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+219,49,Serena Williams,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+220,49,Serena Williams,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional tennis player.,Professional,mis_knowledge1,professional tennis player,professional basketball player,2,2,3,Professional tennis player.,57513,Professional,CORRECT
+221,49,Serena Williams,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional tennis player.,Professional,mis_knowledge2,professional tennis player,professional golfer,2,2,3,Professional tennis player.,57513,Professional,CORRECT
+222,50,Roger Federer,Temporal_error,What year was the entity born?,VisTxtCont,1982.,1,mis_knowledge1,1981,1982,2,2,3,1981,16,1,CORRECT
+223,50,Roger Federer,Temporal_error,What year was the entity born?,VisTxtCont,1980.,1,mis_knowledge2,1981,1980,2,2,3,1981,16,1,CORRECT
+224,50,Roger Federer,location_error,What is the nationality of the entity?,VisCont_TxtParam,German.,German,mis_knowledge1,Swiss,German,2,2,3,Swiss.,13218,Sw,CORRECT
+225,50,Roger Federer,location_error,What is the nationality of the entity?,VisTxtCont,Austrian.,A,mis_knowledge2,Swiss,Austrian,2,2,3,Swiss.,13218,Sw,CORRECT
+226,50,Roger Federer,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional tennis player.,Professional,mis_knowledge1,retired professional tennis player,professional soccer player,2,2,3,Professional tennis player.,57513,Professional,CORRECT
+227,50,Roger Federer,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional tennis player.,Professional,mis_knowledge2,retired professional tennis player,professional golfer,2,2,3,Professional tennis player.,57513,Professional,CORRECT
+228,51,Novak Djokovic,Temporal_error,What year was the entity born?,VisTxtCont,1986.,1,mis_knowledge1,1987,1986,2,2,3,1987,16,1,CORRECT
+229,51,Novak Djokovic,Temporal_error,What year was the entity born?,VisTxtCont,1988.,1,mis_knowledge2,1987,1988,2,2,3,1987,16,1,CORRECT
+230,51,Novak Djokovic,location_error,What is the nationality of the entity?,VisTxtCont,Montenegrin.,Mont,mis_knowledge1,Serbian,Montenegrin,2,2,3,Serbian.,31745,Ser,CORRECT
+231,51,Novak Djokovic,location_error,What is the nationality of the entity?,VisTxtCont,Croatian.,C,mis_knowledge2,Serbian,Croatian,2,2,3,Serbian.,31745,Ser,CORRECT
+232,51,Novak Djokovic,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional tennis player.,Professional,mis_knowledge1,professional tennis player,professional soccer player,2,2,3,Professional tennis player.,57513,Professional,CORRECT
+233,51,Novak Djokovic,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional tennis player.,Professional,mis_knowledge2,professional tennis player,professional basketball player,2,2,3,Professional tennis player.,57513,Professional,CORRECT
+234,52,Kobe Bryant,Temporal_error,What year was the entity born?,VisTxtCont,1979.,1,mis_knowledge1,1978,1979,2,2,3,1978,16,1,CORRECT
+235,52,Kobe Bryant,Temporal_error,What year was the entity born?,VisTxtCont,1977.,1,mis_knowledge2,1978,1977,2,2,3,1978,16,1,CORRECT
+236,52,Kobe Bryant,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+237,52,Kobe Bryant,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+238,52,Kobe Bryant,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Basketball player,Basket,mis_knowledge1,former professional basketball player,professional football player,2,2,3,Basketball player.,73649,Basket,CORRECT
+239,52,Kobe Bryant,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional basketball player.,Professional,mis_knowledge2,former professional basketball player,professional baseball player,2,2,3,Basketball player.,73649,Basket,CORRECT
+240,53,Stephen Curry,Temporal_error,What year was the entity born?,VisTxtCont,1989.,1,mis_knowledge1,1988,1989,2,2,3,1988,16,1,CORRECT
+241,53,Stephen Curry,Temporal_error,What year was the entity born?,VisTxtCont,1987.,1,mis_knowledge2,1988,1987,2,2,3,1988,16,1,CORRECT
+242,53,Stephen Curry,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+243,53,Stephen Curry,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+244,53,Stephen Curry,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional basketball player.,Professional,mis_knowledge1,professional basketball player,professional soccer player,2,2,3,Basketball player.,73649,Basket,CORRECT
+245,53,Stephen Curry,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional basketball player.,Professional,mis_knowledge2,professional basketball player,professional golfer,2,2,3,Basketball player.,73649,Basket,CORRECT
+246,54,Usain Bolt,Temporal_error,What year was the entity born?,VisTxtCont,1985.,1,mis_knowledge1,1986,1985,2,2,3,1986,16,1,CORRECT
+247,54,Usain Bolt,Temporal_error,What year was the entity born?,VisTxtCont,1987.,1,mis_knowledge2,1986,1987,2,2,3,1986,16,1,CORRECT
+248,54,Usain Bolt,location_error,What is the nationality of the entity?,VisParam_TxtCont,Jamaican,J,mis_knowledge1,Jamaican,Haitian,2,2,3,Jamaican,41,J,CORRECT
+249,54,Usain Bolt,location_error,What is the nationality of the entity?,VisTxtParam,Jamaican,J,mis_knowledge2,Jamaican,Cuban,2,2,3,Jamaican,41,J,CORRECT
+250,54,Usain Bolt,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Athlete,Ath,mis_knowledge1,retired sprinter,footballer,2,2,3,Athlete,85240,Ath,CORRECT
+251,54,Usain Bolt,Career_error,What is the occupation of the entity?,VisTxtParam,Retired athlete,Ret,mis_knowledge2,retired sprinter,basketball player,2,2,3,Athlete,85240,Ath,CORRECT
+252,55,Simone Biles,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+253,55,Simone Biles,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+254,55,Simone Biles,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Gymnast.,G,mis_knowledge1,gymnast,swimmer,2,2,3,Athlete,85240,Ath,CORRECT
+255,55,Simone Biles,Career_error,What is the occupation of the entity?,VisTxtCont,Basketball player.,Basket,mis_knowledge2,gymnast,basketball player,2,2,3,Athlete,85240,Ath,CORRECT
+256,56,Lewis Hamilton,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+257,56,Lewis Hamilton,location_error,What is the nationality of the entity?,VisTxtParam,British,British,mis_knowledge2,British,French,2,2,3,British,51861,British,CORRECT
+258,56,Lewis Hamilton,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Professional racer.,Professional,mis_knowledge1,Formula 1 racing driver,professional golfer,2,2,3,Race car driver.,55991,Race,CORRECT
+259,56,Lewis Hamilton,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Formula One driver.,Formula,mis_knowledge2,Formula 1 racing driver,software engineer,2,2,3,Race car driver.,55991,Race,CORRECT
+260,57,Virat Kohli,Temporal_error,What year was the entity born?,VisTxtCont,1989.,1,mis_knowledge1,1988,1989,2,2,3,1988,16,1,CORRECT
+261,57,Virat Kohli,Temporal_error,What year was the entity born?,VisTxtCont,1987,1,mis_knowledge2,1988,1987,2,2,3,1988,16,1,CORRECT
+262,57,Virat Kohli,location_error,What is the nationality of the entity?,VisTxtParam,Indian.,Indian,mis_knowledge1,Indian,Pakistani,2,2,3,Indian.,47564,Indian,CORRECT
+263,57,Virat Kohli,location_error,What is the nationality of the entity?,VisCont_TxtParam,Bangladeshi.,Bang,mis_knowledge2,Indian,Bangladeshi,2,2,3,Indian.,47564,Indian,CORRECT
+264,57,Virat Kohli,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Cricket player,Cr,mis_knowledge1,cricketer,footballer,2,2,3,Cricket player.,16001,Cr,CORRECT
+265,57,Virat Kohli,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Cricket player,Cr,mis_knowledge2,cricketer,chef,2,2,3,Cricket player.,16001,Cr,CORRECT
+266,58,Elon Musk,Temporal_error,What year was the entity born?,VisTxtCont,1970.,1,mis_knowledge1,1971,1970,2,2,3,1971,16,1,CORRECT
+267,58,Elon Musk,Temporal_error,What year was the entity born?,VisTxtCont,1972.,1,mis_knowledge2,1971,1972,2,2,3,1971,16,1,CORRECT
+268,58,Elon Musk,Career_error,What is the occupation of the entity?,VisTxtCont,Professional chef.,Professional,mis_knowledge1,"business magnate, investor, and engineer",professional chef,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+269,58,Elon Musk,Career_error,What is the occupation of the entity?,VisTxtParam,Entrepreneur,Entre,mis_knowledge2,"business magnate, investor, and engineer",ballet dancer,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+270,59,Jeff Bezos,Temporal_error,What year was the entity born?,VisTxtCont,1965.,1,mis_knowledge1,1964,1965,2,2,3,1964,16,1,CORRECT
+271,59,Jeff Bezos,Temporal_error,What year was the entity born?,VisTxtCont,1963.,1,mis_knowledge2,1964,1963,2,2,3,1964,16,1,CORRECT
+272,59,Jeff Bezos,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+273,59,Jeff Bezos,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+274,59,Jeff Bezos,Career_error,What is the occupation of the entity?,VisTxtParam,Founder of Amazon.,Founder,mis_knowledge1,entrepreneur and founder of Amazon,chef,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+275,59,Jeff Bezos,Career_error,What is the occupation of the entity?,VisTxtParam,Founder of Amazon.,Founder,mis_knowledge2,entrepreneur and founder of Amazon,dentist,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+276,60,Jack Ma,Temporal_error,What year was the entity born?,VisTxtCont,1965.,1,mis_knowledge1,1964,1965,2,2,3,1964,16,1,CORRECT
+277,60,Jack Ma,Temporal_error,What year was the entity born?,VisTxtCont,1963.,1,mis_knowledge2,1964,1963,2,2,3,1964,16,1,CORRECT
+278,60,Jack Ma,location_error,What is the nationality of the entity?,VisTxtParam,Chinese.,Chinese,mis_knowledge1,Chinese,[Japanese],2,2,3,Chinese.,44923,Chinese,CORRECT
+279,60,Jack Ma,location_error,What is the nationality of the entity?,VisTxtParam,Chinese.,Chinese,mis_knowledge2,Chinese,[Korean],2,2,3,Chinese.,44923,Chinese,CORRECT
+280,60,Jack Ma,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Entrepreneur,Entre,mis_knowledge1,"[business magnate, investor, and philanthropist]",professional golfer,2,2,3,Entrepreneur,70588,Entre,CORRECT
+281,60,Jack Ma,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Entrepreneur,Entre,mis_knowledge2,"[business magnate, investor, and philanthropist]",chef,2,2,3,Entrepreneur,70588,Entre,CORRECT
+282,61,Tim Cook,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+283,61,Tim Cook,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+284,61,Tim Cook,Career_error,What is the occupation of the entity?,VisTxtParam,CEO of Apple.,CEO,mis_knowledge1,business executive and CEO of Apple Inc,professional chef,2,2,3,CEO of Apple.,78496,CEO,CORRECT
+285,61,Tim Cook,Career_error,What is the occupation of the entity?,VisTxtParam,CEO of Apple.,CEO,mis_knowledge2,business executive and CEO of Apple Inc,civil engineer,2,2,3,CEO of Apple.,78496,CEO,CORRECT
+286,62,Satya Nadella,Temporal_error,What year was the entity born?,VisTxtCont,1968.,1,mis_knowledge1,1967,1968,2,2,3,1967,16,1,CORRECT
+287,62,Satya Nadella,Temporal_error,What year was the entity born?,VisTxtCont,1966.,1,mis_knowledge2,1967,1966,2,2,3,1967,16,1,CORRECT
+288,62,Satya Nadella,Career_error,What is the occupation of the entity?,VisTxtParam,Business executive.,Business,mis_knowledge1,business executive and the CEO of Microsoft,CFO,2,2,3,CEO of Microsoft.,78496,CEO,CORRECT
+289,62,Satya Nadella,Career_error,What is the occupation of the entity?,VisTxtParam,Business executive.,Business,mis_knowledge2,business executive and the CEO of Microsoft,CTO,2,2,3,CEO of Microsoft.,78496,CEO,CORRECT
+290,63,Michelle Obama,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+291,63,Michelle Obama,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+292,64,Donald Trump,Temporal_error,What year was the entity born?,VisTxtCont,1945.,1,mis_knowledge1,1946,1945,2,2,3,1946,16,1,CORRECT
+293,64,Donald Trump,Temporal_error,What year was the entity born?,VisTxtCont,1947.,1,mis_knowledge2,1946,1947,2,2,3,1946,16,1,CORRECT
+294,64,Donald Trump,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+295,64,Donald Trump,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+296,65,Justin Trudeau,Temporal_error,What year was the entity born?,VisTxtCont,1970.,1,mis_knowledge1,1971,1970,2,2,3,1971,16,1,CORRECT
+297,65,Justin Trudeau,Temporal_error,What year was the entity born?,VisTxtCont,1972.,1,mis_knowledge2,1971,1972,2,2,3,1971,16,1,CORRECT
+298,65,Justin Trudeau,location_error,What is the nationality of the entity?,VisTxtParam,Canadian.,Canadian,mis_knowledge1,Canadian,American,2,2,3,Canadian.,59574,Canadian,CORRECT
+299,65,Justin Trudeau,location_error,What is the nationality of the entity?,VisParam_TxtCont,Canadian.,Canadian,mis_knowledge2,Canadian,French,2,2,3,Canadian.,59574,Canadian,CORRECT
+300,65,Justin Trudeau,Career_error,What is the occupation of the entity?,VisTxtCont,President of Canada.,President,mis_knowledge1,Prime Minister of Canada,President of Canada,2,2,3,Politician.,96347,Polit,CORRECT
+301,65,Justin Trudeau,Career_error,What is the occupation of the entity?,VisTxtCont,Politician.,Polit,mis_knowledge2,Prime Minister of Canada,Mayor of Ottawa,2,2,3,Politician.,96347,Polit,CORRECT
+302,66,Angela Merkel,Temporal_error,What year was the entity born?,VisTxtCont,1955.,1,mis_knowledge1,1954,1955,2,2,3,1954,16,1,CORRECT
+303,66,Angela Merkel,Temporal_error,What year was the entity born?,VisTxtCont,1953.,1,mis_knowledge2,1954,1953,2,2,3,1954,16,1,CORRECT
+304,66,Angela Merkel,location_error,What is the nationality of the entity?,VisTxtParam,German.,German,mis_knowledge1,German,Austrian,2,2,3,German.,32079,German,CORRECT
+305,66,Angela Merkel,location_error,What is the nationality of the entity?,VisTxtParam,German.,German,mis_knowledge2,German,Swiss,2,2,3,German.,32079,German,CORRECT
+306,66,Angela Merkel,Career_error,What is the occupation of the entity?,VisTxtParam,Former Chancellor.,Former,mis_knowledge1,politician and former Chancellor of Germany,scientist,2,2,3,Politician.,96347,Polit,CORRECT
+307,66,Angela Merkel,Career_error,What is the occupation of the entity?,VisTxtParam,Former Chancellor.,Former,mis_knowledge2,politician and former Chancellor of Germany,teacher,2,2,3,Politician.,96347,Polit,CORRECT
+308,67,Elon Musk,Temporal_error,What year was the entity born?,VisTxtCont,1970.,1,mis_knowledge1,1971,1970,2,2,3,1971,16,1,CORRECT
+309,67,Elon Musk,Temporal_error,What year was the entity born?,VisTxtCont,1972.,1,mis_knowledge2,1971,1972,2,2,3,1971,16,1,CORRECT
+310,67,Elon Musk,Career_error,What is the occupation of the entity?,VisTxtCont,Professional chef.,Professional,mis_knowledge1,"business magnate, investor, and engineer",professional chef,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+311,67,Elon Musk,Career_error,What is the occupation of the entity?,VisTxtParam,Entrepreneur,Entre,mis_knowledge2,"business magnate, investor, and engineer",ballet dancer,2,2,3,Entrepreneur.,70588,Entre,CORRECT
+312,68,Malala Yousafzai,location_error,What is the nationality of the entity?,VisTxtCont,Afghan,Af,mis_knowledge1,Pakistani,Afghan,2,2,3,Pakistani,47,P,CORRECT
+313,68,Malala Yousafzai,location_error,What is the nationality of the entity?,VisTxtCont,Indian.,Indian,mis_knowledge2,Pakistani,Indian,2,2,3,Pakistani,47,P,CORRECT
+314,68,Malala Yousafzai,Career_error,What is the occupation of the entity?,VisTxtCont,Professional athlete.,Professional,mis_knowledge1,activist for female education and the youngest Nobel Prize laureate,a professional athlete,2,2,3,Activist.,23179,Activ,CORRECT
+315,68,Malala Yousafzai,Career_error,What is the occupation of the entity?,VisTxtParam,Software engineer.,Software,mis_knowledge2,activist for female education and the youngest Nobel Prize laureate,a software engineer,2,2,3,Activist.,23179,Activ,CORRECT
+316,69,Emma Watson,Temporal_error,What year was the entity born?,VisTxtCont,1989.,1,mis_knowledge1,1990,1989,2,2,3,1990,16,1,CORRECT
+317,69,Emma Watson,Temporal_error,What year was the entity born?,VisTxtCont,1991,1,mis_knowledge2,1990,1991,2,2,3,1990,16,1,CORRECT
+318,69,Emma Watson,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+319,69,Emma Watson,location_error,What is the nationality of the entity?,VisTxtCont,French.,French,mis_knowledge2,British,French,2,2,3,British,51861,British,CORRECT
+320,69,Emma Watson,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist and activist.,Nov,mis_knowledge1,actress and activist,novelist,2,2,3,Actress.,2414,Act,CORRECT
+321,69,Emma Watson,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and activist.,Chef,mis_knowledge2,actress and activist,chef,2,2,3,Actress.,2414,Act,CORRECT
+322,70,Ellen DeGeneres,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+323,70,Ellen DeGeneres,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+324,70,Ellen DeGeneres,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Television host.,Te,mis_knowledge1,"comedian, television host, actress, and writer",chef,2,2,3,Talk show host.,36210,Talk,CORRECT
+325,70,Ellen DeGeneres,Career_error,What is the occupation of the entity?,VisTxtParam,"Comedian, host.",Com,mis_knowledge2,"comedian, television host, actress, and writer",architect,2,2,3,Talk show host.,36210,Talk,CORRECT
+326,71,Jimmy Fallon,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+327,71,Jimmy Fallon,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+328,71,Jimmy Fallon,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Television host.,Te,mis_knowledge1,"comedian, actor, and television host",chef,2,2,3,Comedian/Host.,1092,Com,INCORRECT
+329,71,Jimmy Fallon,Career_error,What is the occupation of the entity?,VisTxtParam,"Comedian, host.",Com,mis_knowledge2,"comedian, actor, and television host",architect,2,2,3,Comedian/Host.,1092,Com,INCORRECT
+330,72,Stephen Colbert,Temporal_error,What year was the entity born?,VisTxtCont,1965.,1,mis_knowledge1,1964,1965,2,2,3,1964,16,1,CORRECT
+331,72,Stephen Colbert,Temporal_error,What year was the entity born?,VisTxtCont,1963.,1,mis_knowledge2,1964,1963,2,2,3,1964,16,1,CORRECT
+332,72,Stephen Colbert,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+333,72,Stephen Colbert,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+334,72,Stephen Colbert,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Television host.,Te,mis_knowledge1,"comedian, actor, and television host",chef,2,2,3,Comedian/Host.,1092,Com,INCORRECT
+335,72,Stephen Colbert,Career_error,What is the occupation of the entity?,VisTxtParam,"Comedian, host.",Com,mis_knowledge2,"comedian, actor, and television host",architect,2,2,3,Comedian/Host.,1092,Com,INCORRECT
+336,73,Conan O'Brien,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+337,73,Conan O'Brien,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+338,73,Conan O'Brien,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Television host.,Te,mis_knowledge1,"comedian, writer, producer, and television host",chef,2,2,3,Comedian/Host.,1092,Com,INCORRECT
+339,73,Conan O'Brien,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Comedian.,Com,mis_knowledge2,"comedian, writer, producer, and television host",architect,2,2,3,Comedian/Host.,1092,Com,INCORRECT
+340,75,John Cena,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+341,75,John Cena,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+342,75,John Cena,Career_error,What is the occupation of the entity?,VisTxtParam,Professional wrestler.,Professional,mis_knowledge1,professional wrestler and actor,professional chef,2,2,3,Professional wrestler.,57513,Professional,CORRECT
+343,75,John Cena,Career_error,What is the occupation of the entity?,VisTxtParam,Professional wrestler.,Professional,mis_knowledge2,professional wrestler and actor,architect,2,2,3,Professional wrestler.,57513,Professional,CORRECT
+344,76,Floyd Mayweather,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+345,76,Floyd Mayweather,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+346,76,Floyd Mayweather,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Boxer,Box,mis_knowledge1,professional boxer,professional basketball player,2,2,3,Boxer,1611,Box,CORRECT
+347,76,Floyd Mayweather,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Boxer,Box,mis_knowledge2,professional boxer,professional golfer,2,2,3,Boxer,1611,Box,CORRECT
+348,77,Gordon Ramsay,location_error,What is the nationality of the entity?,VisTxtCont,Scottish.,Scott,mis_knowledge1,British,Scottish,2,2,3,British.,51861,British,CORRECT
+349,77,Gordon Ramsay,location_error,What is the nationality of the entity?,VisTxtCont,Welsh.,Wel,mis_knowledge2,British,Welsh,2,2,3,British.,51861,British,CORRECT
+350,77,Gordon Ramsay,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Chef.,Chef,mis_knowledge1,"chef, restaurateur, and television personality",firefighter,2,2,3,Chef.,93903,Chef,CORRECT
+351,77,Gordon Ramsay,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Chef.,Chef,mis_knowledge2,"chef, restaurateur, and television personality",architect,2,2,3,Chef.,93903,Chef,CORRECT
+352,78,Jamie Oliver,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,Britis,Irish,2,2,3,British,51861,British,CORRECT
+353,78,Jamie Oliver,location_error,What is the nationality of the entity?,VisParam_TxtCont,British,French,mis_knowledge2,Britis,French,2,2,3,British,51861,British,CORRECT
+354,78,Jamie Oliver,Career_error,What is the occupation of the entity?,VisTxtParam,Chef.,Chef,mis_knowledge1,"[chef, restaurateur, and media personality]",novelist,2,2,3,Chef.,93903,Chef,CORRECT
+355,78,Jamie Oliver,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Chef.,Chef,mis_knowledge2,"[chef, restaurateur, and media personality]",professional footballer,2,2,3,Chef.,93903,Chef,CORRECT
+356,79,Martha Stewart,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+357,79,Martha Stewart,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+358,80,Reese Witherspoon,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+359,80,Reese Witherspoon,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+360,80,Reese Witherspoon,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress and producer,chef,2,2,3,Actress.,2414,Act,CORRECT
+361,80,Reese Witherspoon,Career_error,What is the occupation of the entity?,VisTxtParam,Actress.,Act,mis_knowledge2,actress and producer,architect,2,2,3,Actress.,2414,Act,CORRECT
+362,81,Anne Hathaway,Temporal_error,What year was the entity born?,VisTxtCont,1981.,1,mis_knowledge1,1982,1981,2,2,3,1982,16,1,CORRECT
+363,81,Anne Hathaway,Temporal_error,What year was the entity born?,VisTxtCont,1983.,1,mis_knowledge2,1982,1983,2,2,3,1982,16,1,CORRECT
+364,81,Anne Hathaway,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+365,81,Anne Hathaway,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+366,81,Anne Hathaway,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist.,Nov,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+367,81,Anne Hathaway,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+368,82,Natalie Portman,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,"actress, filmmaker, and former child prodigy",novelist,2,2,3,Model/Actress.,1712,Model,CORRECT
+369,82,Natalie Portman,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress,Act,mis_knowledge2,"actress, filmmaker, and former child prodigy",architect,2,2,3,Model/Actress.,1712,Model,CORRECT
+370,83,Emma Stone,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+371,83,Emma Stone,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+372,83,Emma Stone,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+373,83,Emma Stone,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+374,84,Ryan Gosling,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor and musician,chef,2,2,3,Actor.,18870,Actor,CORRECT
+375,84,Ryan Gosling,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and musician,architect,2,2,3,Actor.,18870,Actor,CORRECT
+376,85,Matthew McConaughey,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+377,85,Matthew McConaughey,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+378,85,Matthew McConaughey,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor and producer,chef,2,2,3,Actor.,18870,Actor,CORRECT
+379,85,Matthew McConaughey,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and producer,architect,2,2,3,Actor.,18870,Actor,CORRECT
+380,86,Leonardo DiCaprio,Temporal_error,What year was the entity born?,VisTxtCont,1975.,1,mis_knowledge1,1974,1975,2,2,3,1974,16,1,CORRECT
+381,86,Leonardo DiCaprio,Temporal_error,What year was the entity born?,VisTxtCont,1973.,1,mis_knowledge2,1974,1973,2,2,3,1974,16,1,CORRECT
+382,86,Leonardo DiCaprio,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American,28418,American,CORRECT
+383,86,Leonardo DiCaprio,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American,28418,American,CORRECT
+384,86,Leonardo DiCaprio,Career_error,What is the occupation of the entity?,VisTxtParam,Film producer.,Film,mis_knowledge1,actor and film producer,chef,2,2,3,Actor.,18870,Actor,CORRECT
+385,86,Leonardo DiCaprio,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and film producer,architect,2,2,3,Actor.,18870,Actor,CORRECT
+386,87,Matt Damon,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+387,87,Matt Damon,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+388,87,Matt Damon,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"actor, producer, and screenwriter",chef,2,2,3,Actor.,18870,Actor,INCORRECT
+389,87,Matt Damon,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,"actor, producer, and screenwriter",architect,2,2,3,Actor.,18870,Actor,INCORRECT
+390,88,Ben Affleck,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+391,88,Ben Affleck,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+392,88,Ben Affleck,Career_error,What is the occupation of the entity?,VisTxtCont,"Chef, director, producer.",Chef,mis_knowledge1,"actor, director, and producer",chef,2,2,3,Actor.,18870,Actor,CORRECT
+393,88,Ben Affleck,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Actor, producer.",Actor,mis_knowledge2,"actor, director, and producer",architect,2,2,3,Actor.,18870,Actor,CORRECT
+394,89,George Clooney,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+395,89,George Clooney,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+396,89,George Clooney,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"actor, director, and producer",chef,2,2,3,Actor.,18870,Actor,CORRECT
+397,89,George Clooney,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,"actor, director, and producer",architect,2,2,3,Actor.,18870,Actor,CORRECT
+398,90,Julia Roberts,Temporal_error,What year was the entity born?,VisTxtCont,1968.,1,mis_knowledge1,1967,1968,2,2,3,1967,16,1,CORRECT
+399,90,Julia Roberts,Temporal_error,What year was the entity born?,VisTxtCont,1966.,1,mis_knowledge2,1967,1966,2,2,3,1967,16,1,CORRECT
+400,90,Julia Roberts,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+401,90,Julia Roberts,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+402,90,Julia Roberts,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist.,Nov,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+403,90,Julia Roberts,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+404,91,Nicole Kidman,Temporal_error,What year was the entity born?,VisTxtParam,1968.,1,mis_knowledge1,1967,"June 20, 1968",2,2,3,1967,16,1,CORRECT
+405,91,Nicole Kidman,Temporal_error,What year was the entity born?,VisTxtParam,1966.,1,mis_knowledge2,1967,"June 20, 1966",2,2,3,1967,16,1,CORRECT
+406,91,Nicole Kidman,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress,Act,mis_knowledge1,[actress and producer],chef,2,2,3,Actress.,2414,Act,CORRECT
+407,91,Nicole Kidman,Career_error,What is the occupation of the entity?,VisTxtParam,Actress,Act,mis_knowledge2,[actress and producer],architect,2,2,3,Actress.,2414,Act,CORRECT
+408,92,Meryl Streep,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American,28418,American,CORRECT
+409,92,Meryl Streep,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American,28418,American,CORRECT
+410,92,Meryl Streep,Career_error,What is the occupation of the entity?,VisCont_TxtParam,Novelist.,Nov,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+411,92,Meryl Streep,Career_error,What is the occupation of the entity?,VisTxtParam,Actress,Act,mis_knowledge2,actress,surgeon,2,2,3,Actress.,2414,Act,CORRECT
+412,93,Cate Blanchett,location_error,What is the nationality of the entity?,VisTxtCont,New Zealand,New,mis_knowledge1,Australian,New Zealander,2,2,3,Australian.,74241,Australian,CORRECT
+413,93,Cate Blanchett,location_error,What is the nationality of the entity?,VisTxtCont,Papua New Guinean,P,mis_knowledge2,Australian,Papua New Guinean,2,2,3,Australian.,74241,Australian,CORRECT
+414,93,Cate Blanchett,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+415,93,Cate Blanchett,Career_error,What is the occupation of the entity?,VisTxtParam,Actress.,Act,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+416,94,Charlize Theron,Temporal_error,What year was the entity born?,VisTxtCont,1976.,1,mis_knowledge1,1975,1976,2,2,3,1975,16,1,CORRECT
+417,94,Charlize Theron,Temporal_error,What year was the entity born?,VisTxtCont,1974.,1,mis_knowledge2,1975,1974,2,2,3,1975,16,1,CORRECT
+418,94,Charlize Theron,location_error,What is the nationality of the entity?,VisTxtCont,Namibian.,Nam,mis_knowledge1,South African,Namibian,2,2,3,South African,25018,South,CORRECT
+419,94,Charlize Theron,location_error,What is the nationality of the entity?,VisTxtCont,Botswanan.,Bot,mis_knowledge2,South African,Botswanan,2,2,3,South African,25018,South,CORRECT
+420,94,Charlize Theron,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and producer.,Chef,mis_knowledge1,actress and producer,chef,2,2,3,Actress.,2414,Act,CORRECT
+421,94,Charlize Theron,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actress and producer,architect,2,2,3,Actress.,2414,Act,CORRECT
+422,95,Idris Elba,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"actor, producer, musician, and DJ",chef,2,2,3,Actor.,18870,Actor,CORRECT
+423,95,Idris Elba,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,"actor, producer, musician, and DJ",architect,2,2,3,Actor.,18870,Actor,CORRECT
+424,96,Denzel Washington,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American actor.,28418,American,INCORRECT
+425,96,Denzel Washington,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American actor.,28418,American,INCORRECT
+426,96,Denzel Washington,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and filmmaker.,Chef,mis_knowledge1,actor and filmmaker,chef,2,2,3,Actor.,18870,Actor,CORRECT
+427,96,Denzel Washington,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and filmmaker,architect,2,2,3,Actor.,18870,Actor,CORRECT
+428,97,Morgan Freeman,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge1,American,Canadian,2,2,3,American actor.,28418,American,INCORRECT
+429,97,Morgan Freeman,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American actor.,28418,American,INCORRECT
+430,97,Morgan Freeman,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor and narrator,chef,2,2,3,Actor.,18870,Actor,CORRECT
+431,97,Morgan Freeman,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and narrator,architect,2,2,3,Actor.,18870,Actor,CORRECT
+432,98,Samuel L,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+433,98,Samuel L,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+434,98,Samuel L,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor and producer,chef,2,2,3,Actor.,18870,Actor,CORRECT
+435,98,Samuel L,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and producer,architect,2,2,3,Actor.,18870,Actor,CORRECT
+436,99,Liam Neeson,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+437,99,Liam Neeson,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor,carpenter,2,2,3,Actor.,18870,Actor,CORRECT
+438,100,Jason Statham,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor and former professional diver,chef,2,2,3,Actor.,18870,Actor,CORRECT
+439,100,Jason Statham,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and former professional diver,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+440,101,Vin Diesel,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+441,101,Vin Diesel,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+442,101,Vin Diesel,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor and producer,chef,2,2,3,Actor.,18870,Actor,CORRECT
+443,101,Vin Diesel,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and producer,architect,2,2,3,Actor.,18870,Actor,CORRECT
+444,102,Arnold Schwarzenegger,Temporal_error,What year was the entity born?,VisTxtCont,1948.,1,mis_knowledge1,1947,1948,2,2,3,1947,16,1,CORRECT
+445,102,Arnold Schwarzenegger,Temporal_error,What year was the entity born?,VisTxtCont,1946.,1,mis_knowledge2,1947,1946,2,2,3,1947,16,1,CORRECT
+446,102,Arnold Schwarzenegger,Career_error,What is the occupation of the entity?,VisTxtCont,"Actor, chef, politician.",Actor,mis_knowledge1,"bodybuilder, actor, and former politician",chef,2,2,3,Actor/Bodybuilder.,18870,Actor,CORRECT
+447,102,Arnold Schwarzenegger,Career_error,What is the occupation of the entity?,VisTxtParam,Bodybuilder.,Body,mis_knowledge2,"bodybuilder, actor, and former politician",architect,2,2,3,Actor/Bodybuilder.,18870,Actor,CORRECT
+448,103,Sylvester Stallone,Temporal_error,What year was the entity born?,VisTxtCont,1945.,1,mis_knowledge1,1946,1945,2,2,3,1946,16,1,CORRECT
+449,103,Sylvester Stallone,Temporal_error,What year was the entity born?,VisTxtCont,1947.,1,mis_knowledge2,1946,1947,2,2,3,1946,16,1,CORRECT
+450,103,Sylvester Stallone,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American,28418,American,CORRECT
+451,103,Sylvester Stallone,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American,28418,American,CORRECT
+452,103,Sylvester Stallone,Career_error,What is the occupation of the entity?,VisTxtCont,"Chef, filmmaker, screenwriter.",Chef,mis_knowledge1,"actor, filmmaker, and screenwriter",chef,2,2,3,Actor/Entertainer.,18870,Actor,INCORRECT
+453,103,Sylvester Stallone,Career_error,What is the occupation of the entity?,VisTxtParam,"Actor, director, writer.",Actor,mis_knowledge2,"actor, filmmaker, and screenwriter",architect,2,2,3,Actor/Entertainer.,18870,Actor,INCORRECT
+454,104,Jackie Chan,location_error,What is the nationality of the entity?,VisTxtCont,Hong Kongese.,Hong,mis_knowledge1,Chinese,Hong Kongese,2,2,3,Chinese actor.,44923,Chinese,INCORRECT
+455,104,Jackie Chan,location_error,What is the nationality of the entity?,VisTxtCont,Taiwanese.,Tai,mis_knowledge2,Chinese,Taiwanese,2,2,3,Chinese actor.,44923,Chinese,INCORRECT
+456,104,Jackie Chan,Career_error,What is the occupation of the entity?,VisTxtCont,"Actor, chef, filmmaker.",Actor,mis_knowledge1,"martial artist, actor, and filmmaker",chef,2,2,3,Actor/producer.,18870,Actor,INCORRECT
+457,104,Jackie Chan,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,"martial artist, actor, and filmmaker",architect,2,2,3,Actor/producer.,18870,Actor,INCORRECT
+458,105,Jet Li,location_error,What is the nationality of the entity?,VisTxtParam,Chinese.,Japanese,mis_knowledge1,Chinese,Japanese,2,2,3,Chinese.,44923,Chinese,CORRECT
+459,105,Jet Li,location_error,What is the nationality of the entity?,VisTxtCont,Korean.,K,mis_knowledge2,Chinese,Korean,2,2,3,Chinese.,44923,Chinese,CORRECT
+460,105,Jet Li,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"[martial artist, actor, and film producer]","chef, author, and television presenter",2,2,3,Actor.,18870,Actor,CORRECT
+461,105,Jet Li,Career_error,What is the occupation of the entity?,VisTxtParam,Professional golfer.,professional,mis_knowledge2,"[martial artist, actor, and film producer]",professional golfer and sports commentator,2,2,3,Actor.,18870,Actor,CORRECT
+462,106,Bruce Willis,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American actor.,28418,American,INCORRECT
+463,106,Bruce Willis,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge2,American,Mexican,2,2,3,American actor.,28418,American,INCORRECT
+464,106,Bruce Willis,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+465,106,Bruce Willis,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor,pilot,2,2,3,Actor.,18870,Actor,CORRECT
+466,107,Steven Spielberg,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+467,107,Steven Spielberg,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+468,107,Steven Spielberg,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist.,Nov,mis_knowledge1,filmmaker,novelist,2,2,3,Film director.,51487,Film,CORRECT
+469,107,Steven Spielberg,Career_error,What is the occupation of the entity?,VisCont_TxtParam,Chef.,Chef,mis_knowledge2,filmmaker,chef,2,2,3,Film director.,51487,Film,CORRECT
+470,108,Quentin Tarantino,Temporal_error,What year was the entity born?,VisTxtCont,1962.,1,mis_knowledge1,1963,1962,2,2,3,1963,16,1,CORRECT
+471,108,Quentin Tarantino,Temporal_error,What year was the entity born?,VisTxtCont,1964.,1,mis_knowledge2,1963,1964,2,2,3,1963,16,1,CORRECT
+472,108,Quentin Tarantino,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+473,108,Quentin Tarantino,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+474,108,Quentin Tarantino,Career_error,What is the occupation of the entity?,VisTxtCont,"Actor, director, writer.",Actor,mis_knowledge1,"filmmaker, screenwriter, and actor",novelist,2,2,3,Film director.,51487,Film,INCORRECT
+475,108,Quentin Tarantino,Career_error,What is the occupation of the entity?,VisTxtParam,Filmmaker.,Fil,mis_knowledge2,"filmmaker, screenwriter, and actor",chef,2,2,3,Film director.,51487,Film,INCORRECT
+476,109,Christopher Nolan,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist.,Nov,mis_knowledge1,filmmaker,novelist,2,2,3,Film director.,51487,Film,CORRECT
+477,109,Christopher Nolan,Career_error,What is the occupation of the entity?,VisTxtParam,Film director.,Film,mis_knowledge2,filmmaker,architect,2,2,3,Film director.,51487,Film,CORRECT
+478,110,James Cameron,Career_error,What is the occupation of the entity?,VisTxtCont,Novelist.,Nov,mis_knowledge1,"[film director, producer, and screenwriter]",novelist,2,2,3,Film director.,51487,Film,CORRECT
+479,110,James Cameron,Career_error,What is the occupation of the entity?,VisTxtParam,Film director.,Film,mis_knowledge2,"[film director, producer, and screenwriter]",architect,2,2,3,Film director.,51487,Film,CORRECT
+480,111,Stephen King,Temporal_error,What year was the entity born?,VisTxtCont,1948.,1,mis_knowledge1,1947,1948,2,2,3,1947,16,1,CORRECT
+481,111,Stephen King,Temporal_error,What year was the entity born?,VisTxtCont,1946.,1,mis_knowledge2,1947,1946,2,2,3,1947,16,1,CORRECT
+482,111,Stephen King,location_error,What is the nationality of the entity?,VisTxtCont,Canadian,Canadian,mis_knowledge1,American,Canadian,2,2,3,American,28418,American,CORRECT
+483,111,Stephen King,location_error,What is the nationality of the entity?,VisTxtParam,American,American,mis_knowledge2,American,Mexican,2,2,3,American,28418,American,CORRECT
+484,111,Stephen King,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge1,writer,chef,2,2,3,Author.,7133,Author,CORRECT
+485,111,Stephen King,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Author.,Author,mis_knowledge2,writer,carpenter,2,2,3,Author.,7133,Author,CORRECT
+486,112,John Green,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+487,112,John Green,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+488,113,Eminem,Temporal_error,What year was the entity born?,VisTxtCont,1971.,1,mis_knowledge1,1972,1971,2,2,3,1978,16,1,INCORRECT
+489,113,Eminem,Temporal_error,What year was the entity born?,VisTxtCont,1973.,1,mis_knowledge2,1972,1973,2,2,3,1978,16,1,INCORRECT
+490,113,Eminem,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+491,113,Eminem,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+492,113,Eminem,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Rapper,R,mis_knowledge1,"rapper, songwriter, and record producer",chef,2,2,3,Rapper,49,R,CORRECT
+493,113,Eminem,Career_error,What is the occupation of the entity?,VisTxtParam,Rapper.,R,mis_knowledge2,"rapper, songwriter, and record producer",architect,2,2,3,Rapper,49,R,CORRECT
+494,114,Snoop Dogg,Temporal_error,What year was the entity born?,VisTxtCont,1970.,1,mis_knowledge1,1971,1970,2,2,3,1971,16,1,CORRECT
+495,114,Snoop Dogg,Temporal_error,What year was the entity born?,VisTxtCont,1972.,1,mis_knowledge2,1971,1972,2,2,3,1971,16,1,CORRECT
+496,114,Snoop Dogg,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+497,114,Snoop Dogg,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+498,115,Kendrick Lamar,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,African American,32,A,CORRECT
+499,115,Kendrick Lamar,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,African American,32,A,CORRECT
+500,116,Travis Scott,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+501,116,Travis Scott,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+502,116,Travis Scott,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Singer, songwriter.",S,mis_knowledge1,"rapper, singer, songwriter, and record producer",chef,2,2,3,Rapper,49,R,CORRECT
+503,116,Travis Scott,Career_error,What is the occupation of the entity?,VisTxtCont,"Rapper, dancer.",R,mis_knowledge2,"rapper, singer, songwriter, and record producer",dancer,2,2,3,Rapper,49,R,CORRECT
+504,117,The Weeknd,Career_error,What is the occupation of the entity?,VisTxtCont,"Chef, songwriter, producer.",Chef,mis_knowledge1,"singer, songwriter, and record producer",chef,2,2,3,Musician.,24128,Music,CORRECT
+505,117,The Weeknd,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, architect, producer.",S,mis_knowledge2,"singer, songwriter, and record producer",architect,2,2,3,Musician.,24128,Music,CORRECT
+506,118,Katy Perry,Temporal_error,What year was the entity born?,VisTxtCont,1985.,1,mis_knowledge1,1984,1985,2,2,3,1984,16,1,CORRECT
+507,118,Katy Perry,Temporal_error,What year was the entity born?,VisTxtCont,1983.,1,mis_knowledge2,1984,1983,2,2,3,1984,16,1,CORRECT
+508,118,Katy Perry,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+509,118,Katy Perry,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+510,118,Katy Perry,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer-songwriter.,S,mis_knowledge1,"singer, songwriter, and television judge",chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+511,118,Katy Perry,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, architect.",S,mis_knowledge2,"singer, songwriter, and television judge",architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+512,119,Demi Lovato,Temporal_error,What year was the entity born?,VisTxtCont,1991,1,mis_knowledge1,1992,1991,2,2,3,1992,16,1,CORRECT
+513,119,Demi Lovato,Temporal_error,What year was the entity born?,VisTxtCont,1993,1,mis_knowledge2,1992,1993,2,2,3,1992,16,1,CORRECT
+514,119,Demi Lovato,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+515,119,Demi Lovato,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+516,119,Demi Lovato,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Actor, singer, songwriter.",Actor,mis_knowledge1,"singer, songwriter, and actress",chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+517,119,Demi Lovato,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, actress, architect.",S,mis_knowledge2,"singer, songwriter, and actress",architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+518,121,Lizzo,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+519,121,Lizzo,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+520,121,Lizzo,Career_error,What is the occupation of the entity?,VisTxtCont,"Rapper, chef, flutist.",R,mis_knowledge1,"singer, rapper, and flutist",chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+521,121,Lizzo,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer.,S,mis_knowledge2,"singer, rapper, and flutist",architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+522,122,Megan Thee Stallion,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+523,122,Megan Thee Stallion,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+524,122,Megan Thee Stallion,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and restaurateur.,Chef,mis_knowledge1,rapper and songwriter,chef and restaurateur,2,2,3,Rapper/Entertainer,49,R,CORRECT
+525,122,Megan Thee Stallion,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Rapper,R,mis_knowledge2,rapper and songwriter,professional basketball player,2,2,3,Rapper/Entertainer,49,R,CORRECT
+526,123,J Balvin,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and songwriter.,Chef,mis_knowledge1,singer and songwriter,chef,2,2,3,Musician.,24128,Music,CORRECT
+527,123,J Balvin,Career_error,What is the occupation of the entity?,VisTxtCont,Singer and architect.,S,mis_knowledge2,singer and songwriter,architect,2,2,3,Musician.,24128,Music,CORRECT
+528,124,Shakira,Temporal_error,What year was the entity born?,VisTxtCont,1978.,1,mis_knowledge1,1977,1978,2,2,3,1977,16,1,CORRECT
+529,124,Shakira,Temporal_error,What year was the entity born?,VisTxtCont,1976.,1,mis_knowledge2,1977,1976,2,2,3,1977,16,1,CORRECT
+530,124,Shakira,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and songwriter.,Chef,mis_knowledge1,singer and songwriter,chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+531,124,Shakira,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Singer.,S,mis_knowledge2,singer and songwriter,architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+532,125,Ricky Martin,location_error,What is the nationality of the entity?,VisTxtCont,Dominican.,Domin,mis_knowledge1,Puerto Rican,Dominican,2,2,3,Puerto Rican,76362,Pu,CORRECT
+533,125,Ricky Martin,location_error,What is the nationality of the entity?,VisTxtCont,Cuban.,C,mis_knowledge2,Puerto Rican,Cuban,2,2,3,Puerto Rican,76362,Pu,CORRECT
+534,125,Ricky Martin,Career_error,What is the occupation of the entity?,VisTxtCont,"Chef, actor, author.",Chef,mis_knowledge1,"singer, actor, and author",chef,2,2,3,Singer-songwriter.,50,S,CORRECT
+535,125,Ricky Martin,Career_error,What is the occupation of the entity?,VisTxtCont,"Singer, architect, author.",S,mis_knowledge2,"singer, actor, and author",architect,2,2,3,Singer-songwriter.,50,S,CORRECT
+536,126,Jennifer Aniston,Temporal_error,What year was the entity born?,VisTxtCont,1968.,1,mis_knowledge1,1969,1968,2,2,3,1969,16,1,CORRECT
+537,126,Jennifer Aniston,Temporal_error,What year was the entity born?,VisTxtCont,1970.,1,mis_knowledge2,1969,1970,2,2,3,1969,16,1,CORRECT
+538,126,Jennifer Aniston,location_error,What is the nationality of the entity?,VisCont_TxtParam,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+539,126,Jennifer Aniston,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+540,126,Jennifer Aniston,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress and producer,chef,2,2,3,Actress.,2414,Act,CORRECT
+541,126,Jennifer Aniston,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge2,actress and producer,architect,2,2,3,Actress.,2414,Act,CORRECT
+542,127,Courteney Cox,Temporal_error,What year was the entity born?,VisTxtCont,1965.,1,mis_knowledge1,1964,1965,2,2,3,1964,16,1,CORRECT
+543,127,Courteney Cox,Temporal_error,What year was the entity born?,VisTxtCont,1963.,1,mis_knowledge2,1964,1963,2,2,3,1964,16,1,CORRECT
+544,127,Courteney Cox,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+545,127,Courteney Cox,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+546,127,Courteney Cox,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,"actress, producer, and director",chef,2,2,3,Actress.,2414,Act,CORRECT
+547,127,Courteney Cox,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge2,"actress, producer, and director",architect,2,2,3,Actress.,2414,Act,CORRECT
+548,128,Matthew Perry,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+549,128,Matthew Perry,Career_error,What is the occupation of the entity?,VisTxtCont,Software engineer.,Software,mis_knowledge2,actor,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+550,129,Kit Harington,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+551,129,Kit Harington,location_error,What is the nationality of the entity?,VisTxtCont,Welsh.,Wel,mis_knowledge2,British,Welsh,2,2,3,British,51861,British,CORRECT
+552,129,Kit Harington,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+553,129,Kit Harington,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor,pilot,2,2,3,Actor.,18870,Actor,CORRECT
+554,130,Emilia Clarke,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1, British,Irish,2,2,3,British,51861,British,CORRECT
+555,130,Emilia Clarke,location_error,What is the nationality of the entity?,VisTxtCont,Welsh.,Wel,mis_knowledge2, British,Welsh,2,2,3,British,51861,British,CORRECT
+556,130,Emilia Clarke,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+557,130,Emilia Clarke,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+558,131,Sophie Turner,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+559,131,Sophie Turner,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge2,actress,lawyer,2,2,3,Actress.,2414,Act,CORRECT
+560,132,Maisie Williams,location_error,What is the nationality of the entity?,VisTxtCont,Irish.,Ir,mis_knowledge1,British,Irish,2,2,3,British,51861,British,CORRECT
+561,132,Maisie Williams,location_error,What is the nationality of the entity?,VisTxtCont,Welsh.,Wel,mis_knowledge2,British,Welsh,2,2,3,British,51861,British,CORRECT
+562,132,Maisie Williams,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge1,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+563,132,Maisie Williams,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge2,actress,journalist,2,2,3,Actress.,2414,Act,CORRECT
+564,133,Peter Dinklage,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+565,133,Peter Dinklage,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,actor,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+566,134,Winona Ryder,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+567,134,Winona Ryder,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+568,135,David Harbour,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+569,135,David Harbour,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+570,135,David Harbour,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+571,135,David Harbour,Career_error,What is the occupation of the entity?,VisTxtCont,Journalist.,Journal,mis_knowledge2,actor,journalist,2,2,3,Actor.,18870,Actor,CORRECT
+572,136,Jim Carrey,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"[comedian, actor, and artist]","chef, author, and artist",2,2,3,Actor.,18870,Actor,CORRECT
+573,136,Jim Carrey,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,"[comedian, actor, and artist]","architect, writer, and painter",2,2,3,Actor.,18870,Actor,CORRECT
+574,137,Adam Sandler,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+575,137,Adam Sandler,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+576,137,Adam Sandler,Career_error,What is the occupation of the entity?,VisTxtCont,"Actor, filmmaker, chef.",Actor,mis_knowledge1,"comedian, actor, and filmmaker",chef,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+577,137,Adam Sandler,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,"comedian, actor, and filmmaker",architect,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+578,138,Kevin James,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+579,138,Kevin James,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+580,138,Kevin James,Career_error,What is the occupation of the entity?,VisTxtCont,Chef and restaurateur.,Chef,mis_knowledge1,comedian and actor,chef and restaurateur,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+581,138,Kevin James,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,comedian and actor,professional golfer,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+582,139,Steve Carell,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+583,139,Steve Carell,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+584,139,Steve Carell,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,comedian and actor,chef and restaurateur,2,2,3,Actor.,18870,Actor,CORRECT
+585,139,Steve Carell,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,comedian and actor,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+586,140,Will Ferrell,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+587,140,Will Ferrell,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+588,140,Will Ferrell,Career_error,What is the occupation of the entity?,VisTxtParam,"Actor, producer.",Actor,mis_knowledge1,"comedian, actor, and producer",chef,2,2,3,Actor.,18870,Actor,CORRECT
+589,140,Will Ferrell,Career_error,What is the occupation of the entity?,VisTxtParam,Comedian.,Com,mis_knowledge2,"comedian, actor, and producer",architect,2,2,3,Actor.,18870,Actor,CORRECT
+590,141,Seth Rogen,Career_error,What is the occupation of the entity?,VisParam_TxtCont,"Actor, writer.",Actor,mis_knowledge1,"comedian, actor, writer, producer, and director",chef,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+591,141,Seth Rogen,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,"comedian, actor, writer, producer, and director",architect,2,2,3,Actor/comedian.,18870,Actor,CORRECT
+592,142,James Franco,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+593,142,James Franco,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+594,142,James Franco,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"actor, filmmaker, and writer",chef,2,2,3,Actor.,18870,Actor,CORRECT
+595,142,James Franco,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,"actor, filmmaker, and writer",architect,2,2,3,Actor.,18870,Actor,CORRECT
+596,143,Jonah Hill,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+597,143,Jonah Hill,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+598,144,Channing Tatum,Temporal_error,What year was the entity born?,VisTxtCont,1981.,1,mis_knowledge1,1980,1981,2,2,3,1980,16,1,CORRECT
+599,144,Channing Tatum,Temporal_error,What year was the entity born?,VisTxtCont,1979.,1,mis_knowledge2,1980,1979,2,2,3,1980,16,1,CORRECT
+600,144,Channing Tatum,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+601,144,Channing Tatum,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+602,144,Channing Tatum,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"actor, producer, and dancer",chef,2,2,3,Actor.,18870,Actor,CORRECT
+603,144,Channing Tatum,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,"actor, producer, and dancer",architect,2,2,3,Actor.,18870,Actor,CORRECT
+604,145,Zac Efron,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+605,145,Zac Efron,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+606,145,Zac Efron,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor and singer,chef,2,2,3,Actor.,18870,Actor,CORRECT
+607,145,Zac Efron,Career_error,What is the occupation of the entity?,VisTxtParam,Actor.,Actor,mis_knowledge2,actor and singer,architect,2,2,3,Actor.,18870,Actor,CORRECT
+608,146,Kristen Stewart,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+609,146,Kristen Stewart,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+610,146,Kristen Stewart,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+611,146,Kristen Stewart,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
+612,147,Shia LaBeouf,location_error,What is the nationality of the entity?,VisParam_TxtCont,American.,American,mis_knowledge1,American,Canadian,2,2,3,American.,28418,American,CORRECT
+613,147,Shia LaBeouf,location_error,What is the nationality of the entity?,VisTxtCont,Mexican.,Mex,mis_knowledge2,American,Mexican,2,2,3,American.,28418,American,CORRECT
+614,147,Shia LaBeouf,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,"actor, filmmaker, and performance artist",chef,2,2,3,Actor.,18870,Actor,CORRECT
+615,147,Shia LaBeouf,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,"actor, filmmaker, and performance artist",architect,2,2,3,Actor.,18870,Actor,CORRECT
+616,148,Chadwick Boseman,location_error,What is the nationality of the entity?,VisTxtCont,Canadian.,Canadian,mis_knowledge1,American,Canadian,2,2,3,American actor.,28418,American,INCORRECT
+617,148,Chadwick Boseman,location_error,What is the nationality of the entity?,VisTxtParam,American.,American,mis_knowledge2,American,Mexican,2,2,3,American actor.,28418,American,INCORRECT
+618,148,Chadwick Boseman,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge1,actor,chef,2,2,3,Actor.,18870,Actor,CORRECT
+619,148,Chadwick Boseman,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actor.,Actor,mis_knowledge2,actor,software engineer,2,2,3,Actor.,18870,Actor,CORRECT
+620,149,Lupita Nyong'o,Career_error,What is the occupation of the entity?,VisParam_TxtCont,Actress.,Act,mis_knowledge1,actress,novelist,2,2,3,Actress.,2414,Act,CORRECT
+621,149,Lupita Nyong'o,Career_error,What is the occupation of the entity?,VisTxtCont,Chef.,Chef,mis_knowledge2,actress,chef,2,2,3,Actress.,2414,Act,CORRECT
